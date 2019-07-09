@@ -1,0 +1,12 @@
+Source: matrixio-odas
+Section: embedded
+Priority: optional
+Maintainer: MATRIX Labs <info@matrix.one>
+Build-Depends: debhelper (>= 9), cmake, libmatrixio-odas-dev, libmatrixio-creator-hal-dev, libzmq3-dev, libmatrixio-protos-dev
+Standards-Version: 3.9.5
+Homepage: https://github.com/matrix-io/odas
+
+Package: matrixio-odas
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends},matrixio-creator-init,libmatrixio-creator-hal,matrixio-kernel-modules
+Description: ODAS stands for Open embeddeD Audition System. This is a library dedicated to perform sound source localization, tracking, separation and post-filtering. ODAS is coded entirely in C, for more portability, and is optimized to run easily on low-cost embedded hardware. ODAS is free and open source.
