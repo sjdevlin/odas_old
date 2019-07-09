@@ -231,6 +231,7 @@ target_link_libraries(odasserver
     odas
 )
 
-install(TARGETS odas DESTINATION lib)
-
-
+install(TARGETS odas        DESTINATION lib)
+install(TARGETS matrix-odas DESTINATION bin)
+install(TARGETS odasserver  DESTINATION bin)
+install(TARGETS odaslive    DESTINATION bin)
