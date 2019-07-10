@@ -4,7 +4,6 @@ pipeline:
       branch: master
       event: [ push, pull_request, tag ]
     image: gcr.io/admobilize-testing/creator-builder-${ARCHITECTURE}-${DISTRIBUTION}-${CODENAME}:${IMAGE_TAG}
-    privileged: true
     commands:
       - curl https://apt.matrix.one/doc/apt-key.gpg | apt-key add -
       - export COMPONENT=$([ "${DRONE_BUILD_EVENT}" = "tag" ] && echo "main" || echo "unstable")
@@ -41,7 +40,7 @@ pipeline:
         --secret-access-key $${AWS_SECRET_ACCESS_KEY}
         --sign info@matrix.one 
         --gpg-options="--batch --passphrase-fd 0"
-        matrixio-malos_${DISTRIBUTION}-${CODENAME}-$${PKG_VER}-$${COMPONENT}_armhf.deb
+        matrixio-odas_${DISTRIBUTION}-${CODENAME}-$${PKG_VER}-$${COMPONENT}_armhf.deb
 
       # Render the notification template for the notify-slack step
       - j2 --var-delimiter '%%' .drone/slack.tpl > notification.tpl
@@ -71,7 +70,7 @@ pipeline:
       branch: master
       event: [ push, tag ]
     template: |
-      :loudspeaker: #{{truncate build.commit 8}} was uploaded to matrixio-malos
+      :loudspeaker: #{{truncate build.commit 8}} was uploaded to matrixio-odas
 
 matrix:
   include: 
