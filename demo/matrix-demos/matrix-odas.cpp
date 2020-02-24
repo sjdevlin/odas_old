@@ -101,8 +101,7 @@ void json_parse(json_object *jobj) {
         } else if (!strcmp(key, "E")) {
           E = json_object_get_double(val);
         }
-        increase_pots();
-        count++;
+        if (++count==4) increase_pots();
         break;
       case json_type_int:
         break;
