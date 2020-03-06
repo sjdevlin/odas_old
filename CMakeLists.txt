@@ -181,6 +181,7 @@ set(SRC
     src/module/mod_sst.c
     src/module/mod_stft.c
     src/module/mod_volume.c
+    src/module/mod_ledpie.c
     src/sink/snk_categories.c
     src/sink/snk_hops.c
     src/sink/snk_pots.c
@@ -224,14 +225,7 @@ target_link_libraries(matrix-odas
     ${MATRIX_CREATOR_HAL}
 )
 
-add_executable(odasserver
-    demo/odasserver/main.c
-)
-target_link_libraries(odasserver
-    odas
-)
 
 install(TARGETS odas        DESTINATION lib)
 install(TARGETS matrix-odas DESTINATION bin)
-install(TARGETS odasserver  DESTINATION bin)
 install(TARGETS odaslive    DESTINATION bin)

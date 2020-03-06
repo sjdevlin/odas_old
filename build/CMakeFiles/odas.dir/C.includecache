@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/pi/odas/src/module/mod_ledpie.c
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+math.h
+-
+stdbool.h
+-
+

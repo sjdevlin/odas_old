@@ -1,0 +1,16 @@
+/home/pi/odas/build/CMakeFiles/install/strip.dir
+/home/pi/odas/build/CMakeFiles/install/local.dir
+/home/pi/odas/build/CMakeFiles/install.dir
+/home/pi/odas/build/CMakeFiles/odas.dir
+/home/pi/odas/build/CMakeFiles/matrix-odas.dir
+/home/pi/odas/build/CMakeFiles/edit_cache.dir
+/home/pi/odas/build/CMakeFiles/odaslive.dir
+/home/pi/odas/build/CMakeFiles/rebuild_cache.dir
+/home/pi/odas/build/CMakeFiles/list_install_components.dir
+/home/pi/odas/build/include/CMakeFiles/install/strip.dir
+/home/pi/odas/build/include/CMakeFiles/edit_cache.dir
+/home/pi/odas/build/include/CMakeFiles/odas_headers.dir
+/home/pi/odas/build/include/CMakeFiles/rebuild_cache.dir
+/home/pi/odas/build/include/CMakeFiles/list_install_components.dir
+/home/pi/odas/build/include/CMakeFiles/install.dir
+/home/pi/odas/build/include/CMakeFiles/install/local.dir
