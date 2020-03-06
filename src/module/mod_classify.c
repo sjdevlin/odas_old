@@ -1,4 +1,4 @@
-
+ 
    /**
     * \file     mod_classify.c
     * \author   François Grondin <francois.grondin2@usherbrooke.ca>
@@ -22,6 +22,10 @@
     */
     
     #include <module/mod_classify.h>
+
+    //sd need to put this in a header file evntually
+     void update_meeting_data (float *, float *, float *, float*);
+    //
 
     mod_classify_obj * mod_classify_construct(const mod_classify_cfg * mod_classify_config, const msg_hops_cfg * msg_hops_config, const msg_tracks_cfg * msg_tracks_config, const msg_categories_cfg * msg_categories_config) {
 
@@ -92,6 +96,7 @@
     int mod_classify_process(mod_classify_obj * obj) {
 
         int rtnValue;
+        unsigned int iTrack;
 
         if (obj->in1->timeStamp != obj->in2->timeStamp) {
             printf("Time stamp mismatch.\n");
@@ -106,7 +111,15 @@
                 frame2freq_process(obj->frame2freq, obj->frames, obj->freqs);
                 freq2acorr_process(obj->freq2acorr, obj->freqs, obj->acorrs);
                 acorr2pitch_process(obj->acorr2pitch, obj->acorrs, obj->pitches);
-                pitch2category_process(obj->pitch2category, obj->pitches, obj->in2->tracks, obj->out->categories);
+
+                for (iTrack=0;iTrack < obj->in2->tracks->nTracks;iTrack++){
+                    if(obj->in2->tracks->ids[iTrack] != 0)  update_meeting_data(
+                    &obj->in2->tracks->array[iTrack+0],
+                    &obj->in2->tracks->array[iTrack+0],
+                    &obj->pitches[iTrack],
+                    &obj->in2->tracks->activity[iTrack]);
+                }
+//sd                pitch2category_process(obj->pitch2category, obj->pitches, obj->in2->tracks, obj->out->categories);
 
             }
             else {
