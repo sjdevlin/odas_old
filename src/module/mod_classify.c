@@ -115,8 +115,8 @@
                 for (iTrack=0;iTrack < obj->in2->tracks->nTracks;iTrack++){
                     if(obj->in2->tracks->ids[iTrack] != 0)  update_meeting_data(
                     &obj->in2->tracks->array[iTrack+0],
-                    &obj->in2->tracks->array[iTrack+0],
-                    &obj->pitches[iTrack],
+                    &obj->in2->tracks->array[iTrack+1],
+                    &obj->pitches->array[iTrack],
                     &obj->in2->tracks->activity[iTrack]);
                 }
 //sd                pitch2category_process(obj->pitch2category, obj->pitches, obj->in2->tracks, obj->out->categories);
