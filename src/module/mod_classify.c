@@ -21,6 +21,9 @@
     *
     */
     
+    #define ANGLE_SPREAD 15  // Gives 30 degree window for each speaker
+    #define MAX_PARTICIPANTS 6
+
     #include <module/mod_classify.h>
 
     //sd need to put this in a header file evntually
@@ -95,8 +98,18 @@
 
     int mod_classify_process(mod_classify_obj * obj) {
 
+
+        static struct meeting_member participant [MAX_PARTICIPANTS];
+        static int num_participants;
+
+        unsigned int i;
+        unsigned int num_matches=0;
+        int person_speaking=-1;
+        int angle_xy, matched_angle_diff, angle_diff;
+
         int rtnValue;
         unsigned int iTrack;
+
 
         if (obj->in1->timeStamp != obj->in2->timeStamp) {
             printf("Time stamp mismatch.\n");
@@ -112,14 +125,81 @@
                 freq2acorr_process(obj->freq2acorr, obj->freqs, obj->acorrs);
                 acorr2pitch_process(obj->acorr2pitch, obj->acorrs, obj->pitches);
 
-                for (iTrack=0;iTrack < obj->in2->tracks->nTracks;iTrack++){
-                    if(obj->in2->tracks->ids[iTrack] != 0)  update_meeting_data(
-                    &obj->in2->tracks->array[iTrack+0],
-                    &obj->in2->tracks->array[iTrack+1],
-                    &obj->pitches->array[iTrack],
-                    &obj->in2->tracks->activity[iTrack]);
+                // store value about last state for each participant and then set all to not talking
+                for (i=0;i<num_participants;i++) {
+
+                     participant[i].wastalking = participant[i].talking;
+                     participant[i].talking = false ;  
+
                 }
-//sd                pitch2category_process(obj->pitch2category, obj->pitches, obj->in2->tracks, obj->out->categories);
+
+                for (iTrack=0;iTrack < obj->in2->tracks->nTracks;iTrack++){
+
+                    if (obj->in2->tracks->ids[iTrack] != 0) {  
+
+                        angle_xy = (atan2 ( obj->in2->tracks->array[iTrack+0] , obj->in2->tracks->array[iTrack+1]  ) * 180.0) / M_PI ;
+
+                        //check is angle already recorded
+
+                        for (i=0;i<num_participants;i++) {
+ 
+                            // check how far away it is from a known source - minimum angle
+                             angle_diff =  angle_xy - participant[i].angle;
+                             angle_diff += (angle_diff>180) ? -360 : (angle_diff<-180) ? 360 : 0;
+
+                             if (abs(angle_diff) < ANGLE_SPREAD) {
+ 
+                                 ++num_matches;
+                                 person_speaking = i;
+                                 matched_angle_diff = angle_diff;
+                             }      
+
+                        }
+
+
+                       if (num_matches == 0) {
+                           //then its a new participant
+
+                           participant[num_participants].angle = angle_xy;
+                           participant[num_participants].led_num = (180-angle_xy)/20;
+                           participant[num_participants].talking = true;
+                           participant[num_participants].num_turns = 1;
+                           participant[num_participants].total_talk_time = 0;
+                           printf ("new member %d at %3d degrees.   LED number: %d \n", num_participants,angle_xy, participant[num_participants].led_num);
+                       
+                           if (num_participants<MAX_PARTICIPANTS-1) {
+                               // error processing here..
+
+                               ++num_participants;
+                           }
+                       }
+
+                       else if (num_matches == 1) {
+
+                                participant[person_speaking].talking = true;
+
+                               if (!participant[person_speaking].was_talking) {
+
+                                   ++participant[person_speaking].num_turns;
+                                   participant[person_speaking].angle += matched_angle_diff / 2 ;
+
+                                   if (participant[person_speaking].total_talk_time % 50 == 0) 
+                                       printf ("Angle diff = %d.  Person %d is now at %d and they talked for %ld at %3.2f\n", matched_angle_diff, 
+                                       person_speaking, participant[person_speaking].angle, participant[person_speaking].total_talk_time,
+                                       participant[person_speaking].freq);
+                               }
+
+                               ++participant[person_speaking].total_talk_time;
+                          
+                               if (obj->pitches->array[iTrack] > 0.0) participant[person_speaking].freq +=  
+                                  (obj->pitches->array[iTrack] - participant[person_speaking].freq)/participant[person_speaking].total_talk_time;
+        
+                       }
+
+// use this somewhere !!    &obj->in2->tracks->activity[iTrack]);
+
+                }
+//sd            pitch2category_process(obj->pitch2category, obj->pitches, obj->in2->tracks, obj->out->categories);
 
             }
             else {
