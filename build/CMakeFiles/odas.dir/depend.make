@@ -700,8 +700,6 @@ CMakeFiles/odas.dir/src/module/mod_istft.o: ../include/odas/utils/fft.h
 CMakeFiles/odas.dir/src/module/mod_istft.o: ../include/odas/utils/fifo.h
 CMakeFiles/odas.dir/src/module/mod_istft.o: ../src/module/mod_istft.c
 
-CMakeFiles/odas.dir/src/module/mod_ledpie.o: ../src/module/mod_ledpie.c
-
 CMakeFiles/odas.dir/src/module/mod_mapping.o: ../include/odas/general/link.h
 CMakeFiles/odas.dir/src/module/mod_mapping.o: ../include/odas/message/msg_hops.h
 CMakeFiles/odas.dir/src/module/mod_mapping.o: ../include/odas/message/msg_spectra.h

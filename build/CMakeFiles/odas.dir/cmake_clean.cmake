@@ -144,7 +144,6 @@ file(REMOVE_RECURSE
   "CMakeFiles/odas.dir/src/module/mod_sst.o"
   "CMakeFiles/odas.dir/src/module/mod_stft.o"
   "CMakeFiles/odas.dir/src/module/mod_volume.o"
-  "CMakeFiles/odas.dir/src/module/mod_ledpie.o"
   "CMakeFiles/odas.dir/src/sink/snk_categories.o"
   "CMakeFiles/odas.dir/src/sink/snk_hops.o"
   "CMakeFiles/odas.dir/src/sink/snk_pots.o"

@@ -181,7 +181,6 @@ set(SRC
     src/module/mod_sst.c
     src/module/mod_stft.c
     src/module/mod_volume.c
-    src/module/mod_ledpie.c
     src/sink/snk_categories.c
     src/sink/snk_hops.c
     src/sink/snk_pots.c

@@ -1289,21 +1289,6 @@ src/module/mod_istft.s:
 .PHONY : src/module/mod_istft.s
 
 # target to build an object file
-src/module/mod_ledpie.o:
-	$(MAKE) -f CMakeFiles/odas.dir/build.make CMakeFiles/odas.dir/src/module/mod_ledpie.o
-.PHONY : src/module/mod_ledpie.o
-
-# target to preprocess a source file
-src/module/mod_ledpie.i:
-	$(MAKE) -f CMakeFiles/odas.dir/build.make CMakeFiles/odas.dir/src/module/mod_ledpie.i
-.PHONY : src/module/mod_ledpie.i
-
-# target to generate assembly for a file
-src/module/mod_ledpie.s:
-	$(MAKE) -f CMakeFiles/odas.dir/build.make CMakeFiles/odas.dir/src/module/mod_ledpie.s
-.PHONY : src/module/mod_ledpie.s
-
-# target to build an object file
 src/module/mod_mapping.o:
 	$(MAKE) -f CMakeFiles/odas.dir/build.make CMakeFiles/odas.dir/src/module/mod_mapping.o
 .PHONY : src/module/mod_mapping.o
@@ -2840,9 +2825,6 @@ help:
 	@echo "... src/module/mod_istft.o"
 	@echo "... src/module/mod_istft.i"
 	@echo "... src/module/mod_istft.s"
-	@echo "... src/module/mod_ledpie.o"
-	@echo "... src/module/mod_ledpie.i"
-	@echo "... src/module/mod_ledpie.s"
 	@echo "... src/module/mod_mapping.o"
 	@echo "... src/module/mod_mapping.i"
 	@echo "... src/module/mod_mapping.s"

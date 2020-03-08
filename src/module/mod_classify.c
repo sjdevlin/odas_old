@@ -26,9 +26,6 @@
 
     #include <module/mod_classify.h>
 
-    //sd need to put this in a header file evntually
-     void update_meeting_data (float *, float *, float *, float*);
-    //
 
     mod_classify_obj * mod_classify_construct(const mod_classify_cfg * mod_classify_config, const msg_hops_cfg * msg_hops_config, const msg_tracks_cfg * msg_tracks_config, const msg_categories_cfg * msg_categories_config) {
 
@@ -111,6 +108,8 @@
         unsigned int iTrack;
 
 
+
+
         if (obj->in1->timeStamp != obj->in2->timeStamp) {
             printf("Time stamp mismatch.\n");
             exit(EXIT_FAILURE);
@@ -126,82 +125,89 @@
                 acorr2pitch_process(obj->acorr2pitch, obj->acorrs, obj->pitches);
 
                 // store value about last state for each participant and then set all to not talking
-                for (i=0;i<num_participants;i++) {
-
-                     participant[i].wastalking = participant[i].talking;
-                     participant[i].talking = false ;  
-
-                }
 
                 for (iTrack=0;iTrack < obj->in2->tracks->nTracks;iTrack++){
 
-                    if (obj->in2->tracks->ids[iTrack] != 0) {  
+                     if (obj->in2->tracks->ids[iTrack] != 0) {  
 
-                        angle_xy = (atan2 ( obj->in2->tracks->array[iTrack+0] , obj->in2->tracks->array[iTrack+1]  ) * 180.0) / M_PI ;
+                         angle_xy = (atan2 ( obj->in2->tracks->array[iTrack+0] , obj->in2->tracks->array[iTrack+1]  ) * 180.0) / M_PI ;
 
                         //check is angle already recorded
 
-                        for (i=0;i<num_participants;i++) {
+                         for (i=0;i<num_participants;i++) {
  
                             // check how far away it is from a known source - minimum angle
-                             angle_diff =  angle_xy - participant[i].angle;
-                             angle_diff += (angle_diff>180) ? -360 : (angle_diff<-180) ? 360 : 0;
+                              angle_diff =  angle_xy - participant[i].angle;
+                              angle_diff += (angle_diff>180) ? -360 : (angle_diff<-180) ? 360 : 0;
 
-                             if (abs(angle_diff) < ANGLE_SPREAD) {
+                              if (abs(angle_diff) < ANGLE_SPREAD) {
  
-                                 ++num_matches;
-                                 person_speaking = i;
-                                 matched_angle_diff = angle_diff;
-                             }      
+                                  ++num_matches;
+                                  person_speaking = i;
+                                  matched_angle_diff = angle_diff;
+                              }      
 
-                        }
+                         }
 
 
-                       if (num_matches == 0) {
+                         if ( num_matches == 0 && obj->in2->tracks->activity[iTrack] > 0.8) {
                            //then its a new participant
 
-                           participant[num_participants].angle = angle_xy;
-                           participant[num_participants].led_num = (180-angle_xy)/20;
-                           participant[num_participants].talking = true;
-                           participant[num_participants].num_turns = 1;
-                           participant[num_participants].total_talk_time = 0;
-                           printf ("new member %d at %3d degrees.   LED number: %d \n", num_participants,angle_xy, participant[num_participants].led_num);
+                             participant[num_participants].angle = angle_xy;
+                             participant[num_participants].led_num = (180-angle_xy)/20;
+                             participant[num_participants].talking = 0x01;
+                             participant[num_participants].num_turns = 1;
+                             participant[num_participants].total_talk_time = 0;
+                             printf ("new member %d at %3d degrees.   LED number: %d \n", num_participants,angle_xy, participant[num_participants].led_num);
                        
-                           if (num_participants<MAX_PARTICIPANTS-1) {
-                               // error processing here..
+                             if (num_participants<MAX_PARTICIPANTS-1) {
+                                 // error processing here..
+                                ++num_participants;
+                             }
+                         }
 
-                               ++num_participants;
-                           }
-                       }
+                         else if (num_matches == 1) {
 
-                       else if (num_matches == 1) {
+                                     if (obj->in2->tracks->activity[iTrack] > 0.8) {
 
-                                participant[person_speaking].talking = true;
+                                      participant[person_speaking].talking = 0x01;
+                                      ++participant[person_speaking].total_talk_time;
+                           
+                                      if (obj->pitches->array[iTrack] > 0.0) participant[person_speaking].freq +=  
+                                         (obj->pitches->array[iTrack] - participant[person_speaking].freq)/participant[person_speaking].total_talk_time;
 
-                               if (!participant[person_speaking].was_talking) {
+                                      if (participant[person_speaking].was_talking == 0x00)  {
 
-                                   ++participant[person_speaking].num_turns;
-                                   participant[person_speaking].angle += matched_angle_diff / 2 ;
+                                          participant[person_speaking].was_talking = 0x01;
+                                          ++participant[person_speaking].num_turns;
+                                          participant[person_speaking].angle += matched_angle_diff / 2 ;
 
-                                   if (participant[person_speaking].total_talk_time % 50 == 0) 
-                                       printf ("Angle diff = %d.  Person %d is now at %d and they talked for %ld at %3.2f\n", matched_angle_diff, 
-                                       person_speaking, participant[person_speaking].angle, participant[person_speaking].total_talk_time,
-                                       participant[person_speaking].freq);
-                               }
 
-                               ++participant[person_speaking].total_talk_time;
-                          
-                               if (obj->pitches->array[iTrack] > 0.0) participant[person_speaking].freq +=  
-                                  (obj->pitches->array[iTrack] - participant[person_speaking].freq)/participant[person_speaking].total_talk_time;
+                                          printf ("Angle diff = %d.  Person %d is now at %d and they talked for %ld at %3.2f\n", matched_angle_diff, 
+                                          person_speaking, participant[person_speaking].angle, participant[person_speaking].total_talk_time,
+                                          participant[person_speaking].freq);
+                                      }
+                                  }
+                                  else
+                                  {
+                                      if (++participant[person_speaking].silent_time>300) {
+                                          participant[person_speaking].silent_time = 0;
+                                          printf("stopped\n");
+				          participant[person_speaking].was_talking = 0x00;
+                                      }
+                                  }
         
-                       }
-
-// use this somewhere !!    &obj->in2->tracks->activity[iTrack]);
+                         }
+  
+// use this somewhere !!    &;
+                     }
 
                 }
+
 //sd            pitch2category_process(obj->pitch2category, obj->pitches, obj->in2->tracks, obj->out->categories);
 
             }
+
             else {
 
                 categories_zero(obj->out->categories);
@@ -213,6 +219,7 @@
             rtnValue = 0;
 
         }
+
         else {
 
             msg_categories_zero(obj->out);
