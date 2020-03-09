@@ -669,6 +669,7 @@ CMakeFiles/odas.dir/src/module/mod_classify.o: ../include/odas/message/msg_categ
 CMakeFiles/odas.dir/src/module/mod_classify.o: ../include/odas/message/msg_hops.h
 CMakeFiles/odas.dir/src/module/mod_classify.o: ../include/odas/message/msg_tracks.h
 CMakeFiles/odas.dir/src/module/mod_classify.o: ../include/odas/module/mod_classify.h
+CMakeFiles/odas.dir/src/module/mod_classify.o: ../include/odas/module/update_led.h
 CMakeFiles/odas.dir/src/module/mod_classify.o: ../include/odas/signal/acorr.h
 CMakeFiles/odas.dir/src/module/mod_classify.o: ../include/odas/signal/category.h
 CMakeFiles/odas.dir/src/module/mod_classify.o: ../include/odas/signal/frame.h
@@ -1289,4 +1290,7 @@ CMakeFiles/odas.dir/src/utils/random.o: ../src/utils/random.c
 
 CMakeFiles/odas.dir/src/utils/transcendental.o: ../include/odas/utils/transcendental.h
 CMakeFiles/odas.dir/src/utils/transcendental.o: ../src/utils/transcendental.c
+
+CMakeFiles/odas.dir/src/module/update_led.o: ../include/odas/module/update_led.h
+CMakeFiles/odas.dir/src/module/update_led.o: ../src/module/update_led.cpp
 

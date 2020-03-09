@@ -49,7 +49,6 @@ set(CMAKE_MAKEFILE_PRODUCTS
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/odas.dir/DependInfo.cmake"
-  "CMakeFiles/matrix-odas.dir/DependInfo.cmake"
   "CMakeFiles/odaslive.dir/DependInfo.cmake"
   "include/CMakeFiles/odas_headers.dir/DependInfo.cmake"
   )

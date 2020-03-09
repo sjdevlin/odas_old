@@ -155,6 +155,7 @@ odaslive_EXTERNAL_OBJECTS =
 ../bin/odaslive: CMakeFiles/odaslive.dir/demo/odaslive/threads.o
 ../bin/odaslive: CMakeFiles/odaslive.dir/build.make
 ../bin/odaslive: ../lib/libodas.so
+../bin/odaslive: /usr/lib/libmatrix_creator_hal.so
 ../bin/odaslive: CMakeFiles/odaslive.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/pi/odas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking C executable ../bin/odaslive"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/odaslive.dir/link.txt --verbose=$(VERBOSE)

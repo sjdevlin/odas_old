@@ -1825,9 +1825,22 @@ CMakeFiles/odas.dir/src/module/mod_classify.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/odas.dir/src/module/mod_classify.s"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/odas/src/module/mod_classify.c -o CMakeFiles/odas.dir/src/module/mod_classify.s
 
+CMakeFiles/odas.dir/src/module/update_led.o: CMakeFiles/odas.dir/flags.make
+CMakeFiles/odas.dir/src/module/update_led.o: ../src/module/update_led.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/odas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_137) "Building CXX object CMakeFiles/odas.dir/src/module/update_led.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/odas.dir/src/module/update_led.o -c /home/pi/odas/src/module/update_led.cpp
+
+CMakeFiles/odas.dir/src/module/update_led.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/odas.dir/src/module/update_led.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/odas/src/module/update_led.cpp > CMakeFiles/odas.dir/src/module/update_led.i
+
+CMakeFiles/odas.dir/src/module/update_led.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/odas.dir/src/module/update_led.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/odas/src/module/update_led.cpp -o CMakeFiles/odas.dir/src/module/update_led.s
+
 CMakeFiles/odas.dir/src/module/mod_istft.o: CMakeFiles/odas.dir/flags.make
 CMakeFiles/odas.dir/src/module/mod_istft.o: ../src/module/mod_istft.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/odas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_137) "Building C object CMakeFiles/odas.dir/src/module/mod_istft.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/odas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_138) "Building C object CMakeFiles/odas.dir/src/module/mod_istft.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/odas.dir/src/module/mod_istft.o   -c /home/pi/odas/src/module/mod_istft.c
 
 CMakeFiles/odas.dir/src/module/mod_istft.i: cmake_force
@@ -1840,7 +1853,7 @@ CMakeFiles/odas.dir/src/module/mod_istft.s: cmake_force
 
 CMakeFiles/odas.dir/src/module/mod_mapping.o: CMakeFiles/odas.dir/flags.make
 CMakeFiles/odas.dir/src/module/mod_mapping.o: ../src/module/mod_mapping.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/odas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_138) "Building C object CMakeFiles/odas.dir/src/module/mod_mapping.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/odas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_139) "Building C object CMakeFiles/odas.dir/src/module/mod_mapping.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/odas.dir/src/module/mod_mapping.o   -c /home/pi/odas/src/module/mod_mapping.c
 
 CMakeFiles/odas.dir/src/module/mod_mapping.i: cmake_force
@@ -1853,7 +1866,7 @@ CMakeFiles/odas.dir/src/module/mod_mapping.s: cmake_force
 
 CMakeFiles/odas.dir/src/module/mod_noise.o: CMakeFiles/odas.dir/flags.make
 CMakeFiles/odas.dir/src/module/mod_noise.o: ../src/module/mod_noise.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/odas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_139) "Building C object CMakeFiles/odas.dir/src/module/mod_noise.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/odas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_140) "Building C object CMakeFiles/odas.dir/src/module/mod_noise.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/odas.dir/src/module/mod_noise.o   -c /home/pi/odas/src/module/mod_noise.c
 
 CMakeFiles/odas.dir/src/module/mod_noise.i: cmake_force
@@ -1866,7 +1879,7 @@ CMakeFiles/odas.dir/src/module/mod_noise.s: cmake_force
 
 CMakeFiles/odas.dir/src/module/mod_resample.o: CMakeFiles/odas.dir/flags.make
 CMakeFiles/odas.dir/src/module/mod_resample.o: ../src/module/mod_resample.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/odas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_140) "Building C object CMakeFiles/odas.dir/src/module/mod_resample.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/odas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_141) "Building C object CMakeFiles/odas.dir/src/module/mod_resample.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/odas.dir/src/module/mod_resample.o   -c /home/pi/odas/src/module/mod_resample.c
 
 CMakeFiles/odas.dir/src/module/mod_resample.i: cmake_force
@@ -1879,7 +1892,7 @@ CMakeFiles/odas.dir/src/module/mod_resample.s: cmake_force
 
 CMakeFiles/odas.dir/src/module/mod_ssl.o: CMakeFiles/odas.dir/flags.make
 CMakeFiles/odas.dir/src/module/mod_ssl.o: ../src/module/mod_ssl.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/odas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_141) "Building C object CMakeFiles/odas.dir/src/module/mod_ssl.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/odas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_142) "Building C object CMakeFiles/odas.dir/src/module/mod_ssl.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/odas.dir/src/module/mod_ssl.o   -c /home/pi/odas/src/module/mod_ssl.c
 
 CMakeFiles/odas.dir/src/module/mod_ssl.i: cmake_force
@@ -1892,7 +1905,7 @@ CMakeFiles/odas.dir/src/module/mod_ssl.s: cmake_force
 
 CMakeFiles/odas.dir/src/module/mod_sss.o: CMakeFiles/odas.dir/flags.make
 CMakeFiles/odas.dir/src/module/mod_sss.o: ../src/module/mod_sss.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/odas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_142) "Building C object CMakeFiles/odas.dir/src/module/mod_sss.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/odas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_143) "Building C object CMakeFiles/odas.dir/src/module/mod_sss.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/odas.dir/src/module/mod_sss.o   -c /home/pi/odas/src/module/mod_sss.c
 
 CMakeFiles/odas.dir/src/module/mod_sss.i: cmake_force
@@ -1905,7 +1918,7 @@ CMakeFiles/odas.dir/src/module/mod_sss.s: cmake_force
 
 CMakeFiles/odas.dir/src/module/mod_sst.o: CMakeFiles/odas.dir/flags.make
 CMakeFiles/odas.dir/src/module/mod_sst.o: ../src/module/mod_sst.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/odas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_143) "Building C object CMakeFiles/odas.dir/src/module/mod_sst.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/odas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_144) "Building C object CMakeFiles/odas.dir/src/module/mod_sst.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/odas.dir/src/module/mod_sst.o   -c /home/pi/odas/src/module/mod_sst.c
 
 CMakeFiles/odas.dir/src/module/mod_sst.i: cmake_force
@@ -1918,7 +1931,7 @@ CMakeFiles/odas.dir/src/module/mod_sst.s: cmake_force
 
 CMakeFiles/odas.dir/src/module/mod_stft.o: CMakeFiles/odas.dir/flags.make
 CMakeFiles/odas.dir/src/module/mod_stft.o: ../src/module/mod_stft.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/odas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_144) "Building C object CMakeFiles/odas.dir/src/module/mod_stft.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/odas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_145) "Building C object CMakeFiles/odas.dir/src/module/mod_stft.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/odas.dir/src/module/mod_stft.o   -c /home/pi/odas/src/module/mod_stft.c
 
 CMakeFiles/odas.dir/src/module/mod_stft.i: cmake_force
@@ -1931,7 +1944,7 @@ CMakeFiles/odas.dir/src/module/mod_stft.s: cmake_force
 
 CMakeFiles/odas.dir/src/module/mod_volume.o: CMakeFiles/odas.dir/flags.make
 CMakeFiles/odas.dir/src/module/mod_volume.o: ../src/module/mod_volume.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/odas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_145) "Building C object CMakeFiles/odas.dir/src/module/mod_volume.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/odas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_146) "Building C object CMakeFiles/odas.dir/src/module/mod_volume.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/odas.dir/src/module/mod_volume.o   -c /home/pi/odas/src/module/mod_volume.c
 
 CMakeFiles/odas.dir/src/module/mod_volume.i: cmake_force
@@ -1944,7 +1957,7 @@ CMakeFiles/odas.dir/src/module/mod_volume.s: cmake_force
 
 CMakeFiles/odas.dir/src/sink/snk_categories.o: CMakeFiles/odas.dir/flags.make
 CMakeFiles/odas.dir/src/sink/snk_categories.o: ../src/sink/snk_categories.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/odas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_146) "Building C object CMakeFiles/odas.dir/src/sink/snk_categories.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/odas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_147) "Building C object CMakeFiles/odas.dir/src/sink/snk_categories.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/odas.dir/src/sink/snk_categories.o   -c /home/pi/odas/src/sink/snk_categories.c
 
 CMakeFiles/odas.dir/src/sink/snk_categories.i: cmake_force
@@ -1957,7 +1970,7 @@ CMakeFiles/odas.dir/src/sink/snk_categories.s: cmake_force
 
 CMakeFiles/odas.dir/src/sink/snk_hops.o: CMakeFiles/odas.dir/flags.make
 CMakeFiles/odas.dir/src/sink/snk_hops.o: ../src/sink/snk_hops.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/odas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_147) "Building C object CMakeFiles/odas.dir/src/sink/snk_hops.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/odas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_148) "Building C object CMakeFiles/odas.dir/src/sink/snk_hops.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/odas.dir/src/sink/snk_hops.o   -c /home/pi/odas/src/sink/snk_hops.c
 
 CMakeFiles/odas.dir/src/sink/snk_hops.i: cmake_force
@@ -1970,7 +1983,7 @@ CMakeFiles/odas.dir/src/sink/snk_hops.s: cmake_force
 
 CMakeFiles/odas.dir/src/sink/snk_pots.o: CMakeFiles/odas.dir/flags.make
 CMakeFiles/odas.dir/src/sink/snk_pots.o: ../src/sink/snk_pots.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/odas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_148) "Building C object CMakeFiles/odas.dir/src/sink/snk_pots.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/odas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_149) "Building C object CMakeFiles/odas.dir/src/sink/snk_pots.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/odas.dir/src/sink/snk_pots.o   -c /home/pi/odas/src/sink/snk_pots.c
 
 CMakeFiles/odas.dir/src/sink/snk_pots.i: cmake_force
@@ -1983,7 +1996,7 @@ CMakeFiles/odas.dir/src/sink/snk_pots.s: cmake_force
 
 CMakeFiles/odas.dir/src/sink/snk_powers.o: CMakeFiles/odas.dir/flags.make
 CMakeFiles/odas.dir/src/sink/snk_powers.o: ../src/sink/snk_powers.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/odas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_149) "Building C object CMakeFiles/odas.dir/src/sink/snk_powers.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/odas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_150) "Building C object CMakeFiles/odas.dir/src/sink/snk_powers.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/odas.dir/src/sink/snk_powers.o   -c /home/pi/odas/src/sink/snk_powers.c
 
 CMakeFiles/odas.dir/src/sink/snk_powers.i: cmake_force
@@ -1996,7 +2009,7 @@ CMakeFiles/odas.dir/src/sink/snk_powers.s: cmake_force
 
 CMakeFiles/odas.dir/src/sink/snk_spectra.o: CMakeFiles/odas.dir/flags.make
 CMakeFiles/odas.dir/src/sink/snk_spectra.o: ../src/sink/snk_spectra.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/odas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_150) "Building C object CMakeFiles/odas.dir/src/sink/snk_spectra.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/odas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_151) "Building C object CMakeFiles/odas.dir/src/sink/snk_spectra.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/odas.dir/src/sink/snk_spectra.o   -c /home/pi/odas/src/sink/snk_spectra.c
 
 CMakeFiles/odas.dir/src/sink/snk_spectra.i: cmake_force
@@ -2009,7 +2022,7 @@ CMakeFiles/odas.dir/src/sink/snk_spectra.s: cmake_force
 
 CMakeFiles/odas.dir/src/sink/snk_tracks.o: CMakeFiles/odas.dir/flags.make
 CMakeFiles/odas.dir/src/sink/snk_tracks.o: ../src/sink/snk_tracks.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/odas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_151) "Building C object CMakeFiles/odas.dir/src/sink/snk_tracks.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/odas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_152) "Building C object CMakeFiles/odas.dir/src/sink/snk_tracks.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/odas.dir/src/sink/snk_tracks.o   -c /home/pi/odas/src/sink/snk_tracks.c
 
 CMakeFiles/odas.dir/src/sink/snk_tracks.i: cmake_force
@@ -2022,7 +2035,7 @@ CMakeFiles/odas.dir/src/sink/snk_tracks.s: cmake_force
 
 CMakeFiles/odas.dir/src/source/src_hops.o: CMakeFiles/odas.dir/flags.make
 CMakeFiles/odas.dir/src/source/src_hops.o: ../src/source/src_hops.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/odas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_152) "Building C object CMakeFiles/odas.dir/src/source/src_hops.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/odas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_153) "Building C object CMakeFiles/odas.dir/src/source/src_hops.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/odas.dir/src/source/src_hops.o   -c /home/pi/odas/src/source/src_hops.c
 
 CMakeFiles/odas.dir/src/source/src_hops.i: cmake_force
@@ -2171,6 +2184,7 @@ odas_OBJECTS = \
 "CMakeFiles/odas.dir/src/message/msg_targets.o" \
 "CMakeFiles/odas.dir/src/message/msg_tracks.o" \
 "CMakeFiles/odas.dir/src/module/mod_classify.o" \
+"CMakeFiles/odas.dir/src/module/update_led.o" \
 "CMakeFiles/odas.dir/src/module/mod_istft.o" \
 "CMakeFiles/odas.dir/src/module/mod_mapping.o" \
 "CMakeFiles/odas.dir/src/module/mod_noise.o" \
@@ -2327,6 +2341,7 @@ odas_EXTERNAL_OBJECTS =
 ../lib/libodas.so: CMakeFiles/odas.dir/src/message/msg_targets.o
 ../lib/libodas.so: CMakeFiles/odas.dir/src/message/msg_tracks.o
 ../lib/libodas.so: CMakeFiles/odas.dir/src/module/mod_classify.o
+../lib/libodas.so: CMakeFiles/odas.dir/src/module/update_led.o
 ../lib/libodas.so: CMakeFiles/odas.dir/src/module/mod_istft.o
 ../lib/libodas.so: CMakeFiles/odas.dir/src/module/mod_mapping.o
 ../lib/libodas.so: CMakeFiles/odas.dir/src/module/mod_noise.o
@@ -2344,8 +2359,9 @@ odas_EXTERNAL_OBJECTS =
 ../lib/libodas.so: CMakeFiles/odas.dir/src/sink/snk_tracks.o
 ../lib/libodas.so: CMakeFiles/odas.dir/src/source/src_hops.o
 ../lib/libodas.so: CMakeFiles/odas.dir/build.make
+../lib/libodas.so: /usr/lib/libmatrix_creator_hal.so
 ../lib/libodas.so: CMakeFiles/odas.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/pi/odas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_153) "Linking C shared library ../lib/libodas.so"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/pi/odas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_154) "Linking CXX shared library ../lib/libodas.so"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/odas.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

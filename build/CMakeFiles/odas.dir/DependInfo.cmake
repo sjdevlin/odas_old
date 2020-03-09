@@ -1,6 +1,7 @@
 # The set of languages for which implicit dependencies are needed:
 set(CMAKE_DEPENDS_LANGUAGES
   "C"
+  "CXX"
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
@@ -163,7 +164,16 @@ set(CMAKE_C_COMPILER_ID "GNU")
 set(CMAKE_C_TARGET_INCLUDE_PATH
   "../include"
   "../include/odas"
-  "/usr/include/json-c"
+  )
+set(CMAKE_DEPENDS_CHECK_CXX
+  "/home/pi/odas/src/module/update_led.cpp" "/home/pi/odas/build/CMakeFiles/odas.dir/src/module/update_led.o"
+  )
+set(CMAKE_CXX_COMPILER_ID "GNU")
+
+# The include file search paths:
+set(CMAKE_CXX_TARGET_INCLUDE_PATH
+  "../include"
+  "../include/odas"
   )
 
 # Targets to which this target links.

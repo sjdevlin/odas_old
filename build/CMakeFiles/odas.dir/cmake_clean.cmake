@@ -135,6 +135,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/odas.dir/src/message/msg_targets.o"
   "CMakeFiles/odas.dir/src/message/msg_tracks.o"
   "CMakeFiles/odas.dir/src/module/mod_classify.o"
+  "CMakeFiles/odas.dir/src/module/update_led.o"
   "CMakeFiles/odas.dir/src/module/mod_istft.o"
   "CMakeFiles/odas.dir/src/module/mod_mapping.o"
   "CMakeFiles/odas.dir/src/module/mod_noise.o"
@@ -156,6 +157,6 @@ file(REMOVE_RECURSE
 )
 
 # Per-language clean rules from dependency scanning.
-foreach(lang C)
+foreach(lang C CXX)
   include(CMakeFiles/odas.dir/cmake_clean_${lang}.cmake OPTIONAL)
 endforeach()

@@ -6,5 +6,5 @@ C_FLAGS = -O3 -DNDEBUG
 
 C_DEFINES = 
 
-C_INCLUDES = -I/home/pi/odas/include -I/home/pi/odas/include/odas -I/usr/include/json-c 
+C_INCLUDES = -I/home/pi/odas/include -I/home/pi/odas/include/odas 
 

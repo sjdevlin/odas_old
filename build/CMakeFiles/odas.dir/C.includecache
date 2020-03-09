@@ -68,6 +68,8 @@ system/hop2frame.h
 system/pitch2category.h
 -
 
+../include/odas/module/update_led.h
+
 ../include/odas/signal/acorr.h
 stdlib.h
 -
@@ -212,5 +214,7 @@ stdio.h
 
 /home/pi/odas/src/module/mod_classify.c
 module/mod_classify.h
+-
+module/update_led.h
 -
 

@@ -229,7 +229,7 @@ ODAS_SOURCE_DIR:STATIC=/home/pi/odas
 PKG_CONFIG_EXECUTABLE:FILEPATH=/usr/bin/pkg-config
 
 //Dependencies for the target
-odas_LIB_DEPENDS:STATIC=general;fftw3f;general;asound;general;config;general;m;general;pthread;
+odas_LIB_DEPENDS:STATIC=general;fftw3f;general;asound;general;config;general;/usr/lib/libmatrix_creator_hal.so;general;m;general;pthread;
 
 //Path to a library.
 pkgcfg_lib_PC_ALSA_asound:FILEPATH=/usr/lib/arm-linux-gnueabihf/libasound.so

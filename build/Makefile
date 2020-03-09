@@ -80,18 +80,6 @@ install/local/fast: preinstall/fast
 	/usr/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
 .PHONY : install/local/fast
 
-# Special rule for the target install
-install: preinstall
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
-	/usr/bin/cmake -P cmake_install.cmake
-.PHONY : install
-
-# Special rule for the target install
-install/fast: preinstall/fast
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
-	/usr/bin/cmake -P cmake_install.cmake
-.PHONY : install/fast
-
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
@@ -123,6 +111,18 @@ list_install_components:
 list_install_components/fast: list_install_components
 
 .PHONY : list_install_components/fast
+
+# Special rule for the target install
+install: preinstall
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
+	/usr/bin/cmake -P cmake_install.cmake
+.PHONY : install
+
+# Special rule for the target install
+install/fast: preinstall/fast
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
+	/usr/bin/cmake -P cmake_install.cmake
+.PHONY : install/fast
 
 # The main all target
 all: cmake_check_build_system
@@ -170,19 +170,6 @@ odas/fast:
 .PHONY : odas/fast
 
 #=============================================================================
-# Target rules for targets named matrix-odas
-
-# Build rule for target.
-matrix-odas: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 matrix-odas
-.PHONY : matrix-odas
-
-# fast build rule for target.
-matrix-odas/fast:
-	$(MAKE) -f CMakeFiles/matrix-odas.dir/build.make CMakeFiles/matrix-odas.dir/build
-.PHONY : matrix-odas/fast
-
-#=============================================================================
 # Target rules for targets named odaslive
 
 # Build rule for target.
@@ -207,21 +194,6 @@ odas_headers: cmake_check_build_system
 odas_headers/fast:
 	$(MAKE) -f include/CMakeFiles/odas_headers.dir/build.make include/CMakeFiles/odas_headers.dir/build
 .PHONY : odas_headers/fast
-
-# target to build an object file
-demo/matrix-demos/matrix-odas.o:
-	$(MAKE) -f CMakeFiles/matrix-odas.dir/build.make CMakeFiles/matrix-odas.dir/demo/matrix-demos/matrix-odas.o
-.PHONY : demo/matrix-demos/matrix-odas.o
-
-# target to preprocess a source file
-demo/matrix-demos/matrix-odas.i:
-	$(MAKE) -f CMakeFiles/matrix-odas.dir/build.make CMakeFiles/matrix-odas.dir/demo/matrix-demos/matrix-odas.i
-.PHONY : demo/matrix-demos/matrix-odas.i
-
-# target to generate assembly for a file
-demo/matrix-demos/matrix-odas.s:
-	$(MAKE) -f CMakeFiles/matrix-odas.dir/build.make CMakeFiles/matrix-odas.dir/demo/matrix-demos/matrix-odas.s
-.PHONY : demo/matrix-demos/matrix-odas.s
 
 # target to build an object file
 demo/odaslive/configs.o:
@@ -1407,6 +1379,21 @@ src/module/mod_volume.i:
 src/module/mod_volume.s:
 	$(MAKE) -f CMakeFiles/odas.dir/build.make CMakeFiles/odas.dir/src/module/mod_volume.s
 .PHONY : src/module/mod_volume.s
+
+# target to build an object file
+src/module/update_led.o:
+	$(MAKE) -f CMakeFiles/odas.dir/build.make CMakeFiles/odas.dir/src/module/update_led.o
+.PHONY : src/module/update_led.o
+
+# target to preprocess a source file
+src/module/update_led.i:
+	$(MAKE) -f CMakeFiles/odas.dir/build.make CMakeFiles/odas.dir/src/module/update_led.i
+.PHONY : src/module/update_led.i
+
+# target to generate assembly for a file
+src/module/update_led.s:
+	$(MAKE) -f CMakeFiles/odas.dir/build.make CMakeFiles/odas.dir/src/module/update_led.s
+.PHONY : src/module/update_led.s
 
 # target to build an object file
 src/signal/acorr.o:
@@ -2601,17 +2588,13 @@ help:
 	@echo "... depend"
 	@echo "... install/strip"
 	@echo "... install/local"
-	@echo "... install"
 	@echo "... odas"
-	@echo "... matrix-odas"
 	@echo "... edit_cache"
 	@echo "... odaslive"
 	@echo "... rebuild_cache"
 	@echo "... list_install_components"
+	@echo "... install"
 	@echo "... odas_headers"
-	@echo "... demo/matrix-demos/matrix-odas.o"
-	@echo "... demo/matrix-demos/matrix-odas.i"
-	@echo "... demo/matrix-demos/matrix-odas.s"
 	@echo "... demo/odaslive/configs.o"
 	@echo "... demo/odaslive/configs.i"
 	@echo "... demo/odaslive/configs.s"
@@ -2849,6 +2832,9 @@ help:
 	@echo "... src/module/mod_volume.o"
 	@echo "... src/module/mod_volume.i"
 	@echo "... src/module/mod_volume.s"
+	@echo "... src/module/update_led.o"
+	@echo "... src/module/update_led.i"
+	@echo "... src/module/update_led.s"
 	@echo "... src/signal/acorr.o"
 	@echo "... src/signal/acorr.i"
 	@echo "... src/signal/acorr.s"

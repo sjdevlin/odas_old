@@ -17,7 +17,6 @@ set(CMAKE_C_COMPILER_ID "GNU")
 set(CMAKE_C_TARGET_INCLUDE_PATH
   "../include"
   "../include/odas"
-  "/usr/include/json-c"
   )
 
 # Targets to which this target links.
