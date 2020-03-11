@@ -3,7 +3,7 @@
 #define NUM_LEDS 18
 #define NUM_COLOURS 4
 #define MAX_PARTICIPANTS 6
-#define ANGLE_SPREAD 20
+#define ANGLE_SPREAD 35
 #define MAX_BRIGHT 120
 #define MED_BRIGHT 60
 #define MIN_BRIGHT 30
