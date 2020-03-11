@@ -147,6 +147,8 @@
                          angle_xy = (atan2 ( obj->in2->tracks->array[iTrack+1] , obj->in2->tracks->array[iTrack+0]  ) * 180.0) / M_PI ;
 
                         //check is angle already recorded
+                         num_matches = 0;
+
                          for (i=0;i<num_participants;i++) {
                              // check how far away it is from a known source - minimum angle
                               angle_diff =  angle_xy - participant[i].angle;
@@ -179,7 +181,7 @@
 
                          else if (num_matches == 1 ) {
 
-                                 if (obj->pitches->array[iTrack] > 50) {
+                                 if (obj->pitches->array[iTrack] > 50.0) {
 
                                      participant[person_speaking].talking = 0x01;
                                      ++participant[person_speaking].total_talk_time;
@@ -192,7 +194,6 @@
                                          led_array[participant[person_speaking].led_num][2] = rgbw_value[person_speaking][2];
                                          led_array[participant[person_speaking].led_num][3] = rgbw_value[person_speaking][3];
 
-                                         ++participant[person_speaking].num_turns;
                                          participant[person_speaking].angle += matched_angle_diff / 2 ;
 
 
