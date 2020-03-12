@@ -89,7 +89,7 @@
         int num_turns;
         int silent_time;
         unsigned char talking; 
-        unsigned char was_talking; 
+        unsigned char status; 
         long total_talk_time;
         char sex;
         float freq;};
