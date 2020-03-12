@@ -13,6 +13,9 @@
 #define YELLOW {MED_BRIGHT,MED_BRIGHT,0,0}
 #define CYAN {0,MED_BRIGHT,MED_BRIGHT,0}
 #define PURPLE {MED_BRIGHT,0,MED_BRIGHT,0}
+#define PROVISIONAL 'p'
+#define CONFIRMED 'c'
+
 
 
 
