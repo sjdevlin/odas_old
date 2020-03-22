@@ -87,7 +87,8 @@
         int led_num;
         int angle;
         int num_turns;
-        int timestamp_last_heard;
+        int last_trackID;
+        int last_trackID;
         unsigned char talking; 
         unsigned char status; 
         long total_talk_time;
