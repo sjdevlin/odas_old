@@ -35,6 +35,7 @@
         format_binary_int32 = 32, 
         format_binary_float = 1, 
         format_text_json = 2,
+        format_meetpie = 3,
 
     } format_type;
 
@@ -53,6 +54,8 @@
     format_obj * format_construct_binary_float();    
 
     format_obj * format_construct_text_json();
+
+    format_obj * format_construct_meetpie();
 
     format_obj * format_clone(const format_obj * obj);
 

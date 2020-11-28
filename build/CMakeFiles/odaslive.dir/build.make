@@ -60,80 +60,80 @@ include CMakeFiles/odaslive.dir/flags.make
 CMakeFiles/odaslive.dir/demo/odaslive/main.o: CMakeFiles/odaslive.dir/flags.make
 CMakeFiles/odaslive.dir/demo/odaslive/main.o: ../demo/odaslive/main.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/odas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/odaslive.dir/demo/odaslive/main.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/odaslive.dir/demo/odaslive/main.o   -c /home/pi/odas/demo/odaslive/main.c
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/odaslive.dir/demo/odaslive/main.o   -c /home/pi/odas/demo/odaslive/main.c
 
 CMakeFiles/odaslive.dir/demo/odaslive/main.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/odaslive.dir/demo/odaslive/main.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/odas/demo/odaslive/main.c > CMakeFiles/odaslive.dir/demo/odaslive/main.i
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/odas/demo/odaslive/main.c > CMakeFiles/odaslive.dir/demo/odaslive/main.i
 
 CMakeFiles/odaslive.dir/demo/odaslive/main.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/odaslive.dir/demo/odaslive/main.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/odas/demo/odaslive/main.c -o CMakeFiles/odaslive.dir/demo/odaslive/main.s
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/odas/demo/odaslive/main.c -o CMakeFiles/odaslive.dir/demo/odaslive/main.s
 
 CMakeFiles/odaslive.dir/demo/odaslive/configs.o: CMakeFiles/odaslive.dir/flags.make
 CMakeFiles/odaslive.dir/demo/odaslive/configs.o: ../demo/odaslive/configs.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/odas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/odaslive.dir/demo/odaslive/configs.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/odaslive.dir/demo/odaslive/configs.o   -c /home/pi/odas/demo/odaslive/configs.c
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/odaslive.dir/demo/odaslive/configs.o   -c /home/pi/odas/demo/odaslive/configs.c
 
 CMakeFiles/odaslive.dir/demo/odaslive/configs.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/odaslive.dir/demo/odaslive/configs.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/odas/demo/odaslive/configs.c > CMakeFiles/odaslive.dir/demo/odaslive/configs.i
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/odas/demo/odaslive/configs.c > CMakeFiles/odaslive.dir/demo/odaslive/configs.i
 
 CMakeFiles/odaslive.dir/demo/odaslive/configs.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/odaslive.dir/demo/odaslive/configs.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/odas/demo/odaslive/configs.c -o CMakeFiles/odaslive.dir/demo/odaslive/configs.s
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/odas/demo/odaslive/configs.c -o CMakeFiles/odaslive.dir/demo/odaslive/configs.s
 
 CMakeFiles/odaslive.dir/demo/odaslive/objects.o: CMakeFiles/odaslive.dir/flags.make
 CMakeFiles/odaslive.dir/demo/odaslive/objects.o: ../demo/odaslive/objects.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/odas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/odaslive.dir/demo/odaslive/objects.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/odaslive.dir/demo/odaslive/objects.o   -c /home/pi/odas/demo/odaslive/objects.c
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/odaslive.dir/demo/odaslive/objects.o   -c /home/pi/odas/demo/odaslive/objects.c
 
 CMakeFiles/odaslive.dir/demo/odaslive/objects.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/odaslive.dir/demo/odaslive/objects.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/odas/demo/odaslive/objects.c > CMakeFiles/odaslive.dir/demo/odaslive/objects.i
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/odas/demo/odaslive/objects.c > CMakeFiles/odaslive.dir/demo/odaslive/objects.i
 
 CMakeFiles/odaslive.dir/demo/odaslive/objects.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/odaslive.dir/demo/odaslive/objects.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/odas/demo/odaslive/objects.c -o CMakeFiles/odaslive.dir/demo/odaslive/objects.s
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/odas/demo/odaslive/objects.c -o CMakeFiles/odaslive.dir/demo/odaslive/objects.s
 
 CMakeFiles/odaslive.dir/demo/odaslive/parameters.o: CMakeFiles/odaslive.dir/flags.make
 CMakeFiles/odaslive.dir/demo/odaslive/parameters.o: ../demo/odaslive/parameters.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/odas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/odaslive.dir/demo/odaslive/parameters.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/odaslive.dir/demo/odaslive/parameters.o   -c /home/pi/odas/demo/odaslive/parameters.c
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/odaslive.dir/demo/odaslive/parameters.o   -c /home/pi/odas/demo/odaslive/parameters.c
 
 CMakeFiles/odaslive.dir/demo/odaslive/parameters.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/odaslive.dir/demo/odaslive/parameters.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/odas/demo/odaslive/parameters.c > CMakeFiles/odaslive.dir/demo/odaslive/parameters.i
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/odas/demo/odaslive/parameters.c > CMakeFiles/odaslive.dir/demo/odaslive/parameters.i
 
 CMakeFiles/odaslive.dir/demo/odaslive/parameters.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/odaslive.dir/demo/odaslive/parameters.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/odas/demo/odaslive/parameters.c -o CMakeFiles/odaslive.dir/demo/odaslive/parameters.s
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/odas/demo/odaslive/parameters.c -o CMakeFiles/odaslive.dir/demo/odaslive/parameters.s
 
 CMakeFiles/odaslive.dir/demo/odaslive/profiler.o: CMakeFiles/odaslive.dir/flags.make
 CMakeFiles/odaslive.dir/demo/odaslive/profiler.o: ../demo/odaslive/profiler.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/odas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/odaslive.dir/demo/odaslive/profiler.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/odaslive.dir/demo/odaslive/profiler.o   -c /home/pi/odas/demo/odaslive/profiler.c
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/odaslive.dir/demo/odaslive/profiler.o   -c /home/pi/odas/demo/odaslive/profiler.c
 
 CMakeFiles/odaslive.dir/demo/odaslive/profiler.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/odaslive.dir/demo/odaslive/profiler.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/odas/demo/odaslive/profiler.c > CMakeFiles/odaslive.dir/demo/odaslive/profiler.i
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/odas/demo/odaslive/profiler.c > CMakeFiles/odaslive.dir/demo/odaslive/profiler.i
 
 CMakeFiles/odaslive.dir/demo/odaslive/profiler.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/odaslive.dir/demo/odaslive/profiler.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/odas/demo/odaslive/profiler.c -o CMakeFiles/odaslive.dir/demo/odaslive/profiler.s
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/odas/demo/odaslive/profiler.c -o CMakeFiles/odaslive.dir/demo/odaslive/profiler.s
 
 CMakeFiles/odaslive.dir/demo/odaslive/threads.o: CMakeFiles/odaslive.dir/flags.make
 CMakeFiles/odaslive.dir/demo/odaslive/threads.o: ../demo/odaslive/threads.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/odas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/odaslive.dir/demo/odaslive/threads.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/odaslive.dir/demo/odaslive/threads.o   -c /home/pi/odas/demo/odaslive/threads.c
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/odaslive.dir/demo/odaslive/threads.o   -c /home/pi/odas/demo/odaslive/threads.c
 
 CMakeFiles/odaslive.dir/demo/odaslive/threads.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/odaslive.dir/demo/odaslive/threads.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/odas/demo/odaslive/threads.c > CMakeFiles/odaslive.dir/demo/odaslive/threads.i
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/odas/demo/odaslive/threads.c > CMakeFiles/odaslive.dir/demo/odaslive/threads.i
 
 CMakeFiles/odaslive.dir/demo/odaslive/threads.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/odaslive.dir/demo/odaslive/threads.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/odas/demo/odaslive/threads.c -o CMakeFiles/odaslive.dir/demo/odaslive/threads.s
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/odas/demo/odaslive/threads.c -o CMakeFiles/odaslive.dir/demo/odaslive/threads.s
 
 # Object files for target odaslive
 odaslive_OBJECTS = \

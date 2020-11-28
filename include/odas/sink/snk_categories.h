@@ -36,6 +36,7 @@
     #include "../message/msg_categories.h"
     #include "../utils/pcm.h"
 
+
     typedef struct snk_categories_obj {
 
         unsigned long long timeStamp;
@@ -54,6 +55,22 @@
         struct sockaddr_in sserver;
         int sid;
 
+// meet pie stuff
+
+        unsigned int * participant_is_talking;
+        unsigned int * participant_total_talk_time;
+        unsigned int * participant_angle;
+        unsigned int * angle_array;
+        unsigned int max_num_participants;
+        unsigned int num_participants;
+        unsigned int meeting_duration;
+        unsigned int last_talker;
+        float energy_min;
+        unsigned int angle_spread;
+
+
+//
+
         msg_categories_obj * in;
 
     } snk_categories_obj;
@@ -63,6 +80,9 @@
         unsigned int fS;
         format_obj * format;
         interface_obj * interface;
+        unsigned int max_num_participants;
+        float energy_min;
+        unsigned int angle_spread;
 
     } snk_categories_cfg;
 
@@ -80,6 +100,8 @@
 
     void snk_categories_open_interface_file(snk_categories_obj * obj);
 
+    void snk_categories_open_interface_led(snk_categories_obj * obj);
+
     void snk_categories_open_interface_socket(snk_categories_obj * obj);
 
     void snk_categories_open_interface_terminal(snk_categories_obj * obj);
@@ -89,6 +111,8 @@
     void snk_categories_close_interface_blackhole(snk_categories_obj * obj);
 
     void snk_categories_close_interface_file(snk_categories_obj * obj);
+
+    void snk_categories_close_interface_led(snk_categories_obj * obj);
 
     void snk_categories_close_interface_socket(snk_categories_obj * obj);
 
@@ -100,11 +124,15 @@
 
     void snk_categories_process_interface_file(snk_categories_obj * obj);
 
+    void snk_categories_process_interface_led(snk_categories_obj * obj);
+
     void snk_categories_process_interface_socket(snk_categories_obj * obj);
 
     void snk_categories_process_interface_terminal(snk_categories_obj * obj);
 
     void snk_categories_process_format_text_json(snk_categories_obj * obj);
+
+    void snk_categories_process_format_meetpie(snk_categories_obj * obj);
 
     void snk_categories_process_format_undefined(snk_categories_obj * obj);
 

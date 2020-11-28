@@ -670,7 +670,6 @@ CMakeFiles/odas.dir/src/module/mod_classify.o
  ../include/odas/message/msg_hops.h
  ../include/odas/message/msg_tracks.h
  ../include/odas/module/mod_classify.h
- ../include/odas/module/update_led.h
  ../include/odas/signal/acorr.h
  ../include/odas/signal/category.h
  ../include/odas/signal/frame.h
@@ -1035,6 +1034,7 @@ CMakeFiles/odas.dir/src/sink/snk_categories.o
  ../include/odas/general/format.h
  ../include/odas/general/interface.h
  ../include/odas/message/msg_categories.h
+ ../include/odas/module/update_led.h
  ../include/odas/signal/category.h
  ../include/odas/sink/snk_categories.h
  ../include/odas/utils/pcm.h
@@ -1292,5 +1292,10 @@ CMakeFiles/odas.dir/src/utils/transcendental.o
  ../include/odas/utils/transcendental.h
  /home/pi/odas/src/utils/transcendental.c
 CMakeFiles/odas.dir/src/module/update_led.o
- ../include/odas/module/update_led.h
+ ../include/odas/general/format.h
+ ../include/odas/general/interface.h
+ ../include/odas/message/msg_categories.h
+ ../include/odas/signal/category.h
+ ../include/odas/sink/snk_categories.h
+ ../include/odas/utils/pcm.h
  /home/pi/odas/src/module/update_led.cpp

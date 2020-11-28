@@ -89,7 +89,9 @@
     void pitch2category_process(pitch2category_obj * obj, const pitches_obj * pitches, const tracks_obj * tracks, categories_obj * categories) {
 
         unsigned int iSep;
-        float deltaPitch;
+        // meet pie
+        float temp_angle;
+        //
 
         for (iSep = 0; iSep < obj->nSeps; iSep++) {
 
@@ -149,7 +151,6 @@
                         obj->categories[iSep] = 0x00;
 
                     }
-
                     // tau_i-1 = tau_i
                     memcpy(obj->tausPrev, obj->tausNow, sizeof(float) * obj->nSeps);
 
@@ -160,9 +161,14 @@
                     memcpy(obj->phisPrev, obj->phisNow, sizeof(float) * obj->nSeps);
 
                 }
-
+// consider reducing frequency here (will need to pass timestamp)
                 categories->array[iSep] = obj->categories[iSep];
-
+// For meet pie
+//                temp_angle = atan2 ( tracks->array[iSep+1] , tracks->array[iSep]  ) ;                 
+                categories->angle_xy_array[iSep] = 180 - (atan2 ( tracks->array[iSep+1] , tracks->array[iSep]) *57.3);
+                categories->frequency_array[iSep] = pitches->array[iSep];
+                categories->energy_array[iSep] = tracks->activity[iSep];
+//
             }
             else {
 

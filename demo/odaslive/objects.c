@@ -1359,7 +1359,7 @@
             }
 
 //sd            if (cfgs->snk_categories_config->interface->type != interface_blackhole) {
-            if (cfgs->snk_categories_config->interface->type == interface_blackhole) {
+            if (cfgs->snk_categories_config->interface->type == interface_led) {
 
                 amod_ssl_enable(objs->amod_ssl_object);
                 amod_sst_enable(objs->amod_sst_object);

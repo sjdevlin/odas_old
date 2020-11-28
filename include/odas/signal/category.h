@@ -30,6 +30,11 @@
     typedef struct categories_obj {
 
         unsigned int nSignals;
+// for meet pie
+        unsigned int * angle_xy_array;
+        float * frequency_array;
+        float * energy_array; 
+// end
         char * array;
 
     } categories_obj;

@@ -2025,10 +2025,37 @@
             tmpStr1 = parameters_lookup_string(fileConfig, "classify.category.format");
 
             if (strcmp(tmpStr1, "json") == 0) { cfg->format = format_construct_text_json(); }
-            else if (strcmp(tmpStr1, "undefined") == 0) { cfg->format = format_construct_undefined(); }                       
+            else if (strcmp(tmpStr1, "undefined") == 0) { cfg->format = format_construct_undefined(); }  
+            else if (strcmp(tmpStr1, "meetpie") == 0) { cfg->format = format_construct_meetpie(); }  
             else { printf("classify.category.format: Invalid format\n"); exit(EXIT_FAILURE); }
 
             free((void *) tmpStr1);       
+
+        // + -------------------------+
+        // |      Meet Pie Config     |
+        // + -------------------------+
+
+        // +----------------------------------------------------------+
+        // | Num People Max                                           |
+        // +----------------------------------------------------------+           
+
+            cfg->max_num_participants = parameters_lookup_int(fileConfig, "meetpie.numPeopleMax");
+
+
+        // +----------------------------------------------------------+
+        // | Energy Min                                               |
+        // +----------------------------------------------------------+           
+
+            cfg->energy_min = parameters_lookup_float(fileConfig, "meetpie.energyMin");
+
+        // +----------------------------------------------------------+
+        // | Angle spread for each participant                        |
+        // +----------------------------------------------------------+           
+
+            cfg->angle_spread = parameters_lookup_int(fileConfig, "meetpie.angleSpread");
+
+
+
 
         // +----------------------------------------------------------+
         // | Type                                                     |
@@ -2036,9 +2063,10 @@
 
             tmpStr1 = parameters_lookup_string(fileConfig, "classify.category.interface.type");
 
-            if (strcmp(tmpStr1, "blackhole") == 0) {
+            if (strcmp(tmpStr1, "led") == 0) {
 
-                cfg->interface = interface_construct_blackhole();
+                tmpInt1 = parameters_lookup_int(fileConfig, "classify.category.interface.numLEDs");
+                cfg->interface = interface_construct_led(tmpInt1);
 
             }
             else if (strcmp(tmpStr1, "file") == 0) { 

@@ -3,7 +3,7 @@
 
     configs * configs_construct(const char * file_config) {
 
-        configs * cfgs;
+        configs * cfgs; 
         unsigned int iSink;
 
         cfgs = (configs *) malloc(sizeof(configs));

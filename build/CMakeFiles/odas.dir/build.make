@@ -60,1991 +60,1991 @@ include CMakeFiles/odas.dir/flags.make
 CMakeFiles/odas.dir/src/general/format.o: CMakeFiles/odas.dir/flags.make
 CMakeFiles/odas.dir/src/general/format.o: ../src/general/format.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/odas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/odas.dir/src/general/format.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/odas.dir/src/general/format.o   -c /home/pi/odas/src/general/format.c
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/odas.dir/src/general/format.o   -c /home/pi/odas/src/general/format.c
 
 CMakeFiles/odas.dir/src/general/format.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/odas.dir/src/general/format.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/odas/src/general/format.c > CMakeFiles/odas.dir/src/general/format.i
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/odas/src/general/format.c > CMakeFiles/odas.dir/src/general/format.i
 
 CMakeFiles/odas.dir/src/general/format.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/odas.dir/src/general/format.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/odas/src/general/format.c -o CMakeFiles/odas.dir/src/general/format.s
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/odas/src/general/format.c -o CMakeFiles/odas.dir/src/general/format.s
 
 CMakeFiles/odas.dir/src/general/interface.o: CMakeFiles/odas.dir/flags.make
 CMakeFiles/odas.dir/src/general/interface.o: ../src/general/interface.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/odas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/odas.dir/src/general/interface.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/odas.dir/src/general/interface.o   -c /home/pi/odas/src/general/interface.c
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/odas.dir/src/general/interface.o   -c /home/pi/odas/src/general/interface.c
 
 CMakeFiles/odas.dir/src/general/interface.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/odas.dir/src/general/interface.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/odas/src/general/interface.c > CMakeFiles/odas.dir/src/general/interface.i
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/odas/src/general/interface.c > CMakeFiles/odas.dir/src/general/interface.i
 
 CMakeFiles/odas.dir/src/general/interface.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/odas.dir/src/general/interface.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/odas/src/general/interface.c -o CMakeFiles/odas.dir/src/general/interface.s
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/odas/src/general/interface.c -o CMakeFiles/odas.dir/src/general/interface.s
 
 CMakeFiles/odas.dir/src/general/link.o: CMakeFiles/odas.dir/flags.make
 CMakeFiles/odas.dir/src/general/link.o: ../src/general/link.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/odas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/odas.dir/src/general/link.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/odas.dir/src/general/link.o   -c /home/pi/odas/src/general/link.c
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/odas.dir/src/general/link.o   -c /home/pi/odas/src/general/link.c
 
 CMakeFiles/odas.dir/src/general/link.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/odas.dir/src/general/link.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/odas/src/general/link.c > CMakeFiles/odas.dir/src/general/link.i
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/odas/src/general/link.c > CMakeFiles/odas.dir/src/general/link.i
 
 CMakeFiles/odas.dir/src/general/link.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/odas.dir/src/general/link.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/odas/src/general/link.c -o CMakeFiles/odas.dir/src/general/link.s
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/odas/src/general/link.c -o CMakeFiles/odas.dir/src/general/link.s
 
 CMakeFiles/odas.dir/src/general/mic.o: CMakeFiles/odas.dir/flags.make
 CMakeFiles/odas.dir/src/general/mic.o: ../src/general/mic.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/odas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/odas.dir/src/general/mic.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/odas.dir/src/general/mic.o   -c /home/pi/odas/src/general/mic.c
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/odas.dir/src/general/mic.o   -c /home/pi/odas/src/general/mic.c
 
 CMakeFiles/odas.dir/src/general/mic.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/odas.dir/src/general/mic.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/odas/src/general/mic.c > CMakeFiles/odas.dir/src/general/mic.i
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/odas/src/general/mic.c > CMakeFiles/odas.dir/src/general/mic.i
 
 CMakeFiles/odas.dir/src/general/mic.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/odas.dir/src/general/mic.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/odas/src/general/mic.c -o CMakeFiles/odas.dir/src/general/mic.s
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/odas/src/general/mic.c -o CMakeFiles/odas.dir/src/general/mic.s
 
 CMakeFiles/odas.dir/src/general/samplerate.o: CMakeFiles/odas.dir/flags.make
 CMakeFiles/odas.dir/src/general/samplerate.o: ../src/general/samplerate.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/odas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/odas.dir/src/general/samplerate.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/odas.dir/src/general/samplerate.o   -c /home/pi/odas/src/general/samplerate.c
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/odas.dir/src/general/samplerate.o   -c /home/pi/odas/src/general/samplerate.c
 
 CMakeFiles/odas.dir/src/general/samplerate.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/odas.dir/src/general/samplerate.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/odas/src/general/samplerate.c > CMakeFiles/odas.dir/src/general/samplerate.i
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/odas/src/general/samplerate.c > CMakeFiles/odas.dir/src/general/samplerate.i
 
 CMakeFiles/odas.dir/src/general/samplerate.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/odas.dir/src/general/samplerate.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/odas/src/general/samplerate.c -o CMakeFiles/odas.dir/src/general/samplerate.s
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/odas/src/general/samplerate.c -o CMakeFiles/odas.dir/src/general/samplerate.s
 
 CMakeFiles/odas.dir/src/general/soundspeed.o: CMakeFiles/odas.dir/flags.make
 CMakeFiles/odas.dir/src/general/soundspeed.o: ../src/general/soundspeed.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/odas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/odas.dir/src/general/soundspeed.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/odas.dir/src/general/soundspeed.o   -c /home/pi/odas/src/general/soundspeed.c
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/odas.dir/src/general/soundspeed.o   -c /home/pi/odas/src/general/soundspeed.c
 
 CMakeFiles/odas.dir/src/general/soundspeed.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/odas.dir/src/general/soundspeed.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/odas/src/general/soundspeed.c > CMakeFiles/odas.dir/src/general/soundspeed.i
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/odas/src/general/soundspeed.c > CMakeFiles/odas.dir/src/general/soundspeed.i
 
 CMakeFiles/odas.dir/src/general/soundspeed.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/odas.dir/src/general/soundspeed.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/odas/src/general/soundspeed.c -o CMakeFiles/odas.dir/src/general/soundspeed.s
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/odas/src/general/soundspeed.c -o CMakeFiles/odas.dir/src/general/soundspeed.s
 
 CMakeFiles/odas.dir/src/general/spatialfilter.o: CMakeFiles/odas.dir/flags.make
 CMakeFiles/odas.dir/src/general/spatialfilter.o: ../src/general/spatialfilter.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/odas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/odas.dir/src/general/spatialfilter.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/odas.dir/src/general/spatialfilter.o   -c /home/pi/odas/src/general/spatialfilter.c
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/odas.dir/src/general/spatialfilter.o   -c /home/pi/odas/src/general/spatialfilter.c
 
 CMakeFiles/odas.dir/src/general/spatialfilter.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/odas.dir/src/general/spatialfilter.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/odas/src/general/spatialfilter.c > CMakeFiles/odas.dir/src/general/spatialfilter.i
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/odas/src/general/spatialfilter.c > CMakeFiles/odas.dir/src/general/spatialfilter.i
 
 CMakeFiles/odas.dir/src/general/spatialfilter.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/odas.dir/src/general/spatialfilter.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/odas/src/general/spatialfilter.c -o CMakeFiles/odas.dir/src/general/spatialfilter.s
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/odas/src/general/spatialfilter.c -o CMakeFiles/odas.dir/src/general/spatialfilter.s
 
 CMakeFiles/odas.dir/src/general/thread.o: CMakeFiles/odas.dir/flags.make
 CMakeFiles/odas.dir/src/general/thread.o: ../src/general/thread.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/odas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/odas.dir/src/general/thread.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/odas.dir/src/general/thread.o   -c /home/pi/odas/src/general/thread.c
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/odas.dir/src/general/thread.o   -c /home/pi/odas/src/general/thread.c
 
 CMakeFiles/odas.dir/src/general/thread.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/odas.dir/src/general/thread.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/odas/src/general/thread.c > CMakeFiles/odas.dir/src/general/thread.i
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/odas/src/general/thread.c > CMakeFiles/odas.dir/src/general/thread.i
 
 CMakeFiles/odas.dir/src/general/thread.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/odas.dir/src/general/thread.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/odas/src/general/thread.c -o CMakeFiles/odas.dir/src/general/thread.s
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/odas/src/general/thread.c -o CMakeFiles/odas.dir/src/general/thread.s
 
 CMakeFiles/odas.dir/src/init/combining.o: CMakeFiles/odas.dir/flags.make
 CMakeFiles/odas.dir/src/init/combining.o: ../src/init/combining.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/odas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/odas.dir/src/init/combining.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/odas.dir/src/init/combining.o   -c /home/pi/odas/src/init/combining.c
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/odas.dir/src/init/combining.o   -c /home/pi/odas/src/init/combining.c
 
 CMakeFiles/odas.dir/src/init/combining.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/odas.dir/src/init/combining.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/odas/src/init/combining.c > CMakeFiles/odas.dir/src/init/combining.i
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/odas/src/init/combining.c > CMakeFiles/odas.dir/src/init/combining.i
 
 CMakeFiles/odas.dir/src/init/combining.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/odas.dir/src/init/combining.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/odas/src/init/combining.c -o CMakeFiles/odas.dir/src/init/combining.s
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/odas/src/init/combining.c -o CMakeFiles/odas.dir/src/init/combining.s
 
 CMakeFiles/odas.dir/src/init/delay.o: CMakeFiles/odas.dir/flags.make
 CMakeFiles/odas.dir/src/init/delay.o: ../src/init/delay.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/odas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/odas.dir/src/init/delay.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/odas.dir/src/init/delay.o   -c /home/pi/odas/src/init/delay.c
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/odas.dir/src/init/delay.o   -c /home/pi/odas/src/init/delay.c
 
 CMakeFiles/odas.dir/src/init/delay.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/odas.dir/src/init/delay.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/odas/src/init/delay.c > CMakeFiles/odas.dir/src/init/delay.i
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/odas/src/init/delay.c > CMakeFiles/odas.dir/src/init/delay.i
 
 CMakeFiles/odas.dir/src/init/delay.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/odas.dir/src/init/delay.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/odas/src/init/delay.c -o CMakeFiles/odas.dir/src/init/delay.s
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/odas/src/init/delay.c -o CMakeFiles/odas.dir/src/init/delay.s
 
 CMakeFiles/odas.dir/src/init/directivity.o: CMakeFiles/odas.dir/flags.make
 CMakeFiles/odas.dir/src/init/directivity.o: ../src/init/directivity.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/odas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/odas.dir/src/init/directivity.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/odas.dir/src/init/directivity.o   -c /home/pi/odas/src/init/directivity.c
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/odas.dir/src/init/directivity.o   -c /home/pi/odas/src/init/directivity.c
 
 CMakeFiles/odas.dir/src/init/directivity.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/odas.dir/src/init/directivity.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/odas/src/init/directivity.c > CMakeFiles/odas.dir/src/init/directivity.i
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/odas/src/init/directivity.c > CMakeFiles/odas.dir/src/init/directivity.i
 
 CMakeFiles/odas.dir/src/init/directivity.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/odas.dir/src/init/directivity.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/odas/src/init/directivity.c -o CMakeFiles/odas.dir/src/init/directivity.s
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/odas/src/init/directivity.c -o CMakeFiles/odas.dir/src/init/directivity.s
 
 CMakeFiles/odas.dir/src/init/hit.o: CMakeFiles/odas.dir/flags.make
 CMakeFiles/odas.dir/src/init/hit.o: ../src/init/hit.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/odas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/odas.dir/src/init/hit.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/odas.dir/src/init/hit.o   -c /home/pi/odas/src/init/hit.c
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/odas.dir/src/init/hit.o   -c /home/pi/odas/src/init/hit.c
 
 CMakeFiles/odas.dir/src/init/hit.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/odas.dir/src/init/hit.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/odas/src/init/hit.c > CMakeFiles/odas.dir/src/init/hit.i
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/odas/src/init/hit.c > CMakeFiles/odas.dir/src/init/hit.i
 
 CMakeFiles/odas.dir/src/init/hit.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/odas.dir/src/init/hit.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/odas/src/init/hit.c -o CMakeFiles/odas.dir/src/init/hit.s
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/odas/src/init/hit.c -o CMakeFiles/odas.dir/src/init/hit.s
 
 CMakeFiles/odas.dir/src/init/linking.o: CMakeFiles/odas.dir/flags.make
 CMakeFiles/odas.dir/src/init/linking.o: ../src/init/linking.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/odas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/odas.dir/src/init/linking.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/odas.dir/src/init/linking.o   -c /home/pi/odas/src/init/linking.c
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/odas.dir/src/init/linking.o   -c /home/pi/odas/src/init/linking.c
 
 CMakeFiles/odas.dir/src/init/linking.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/odas.dir/src/init/linking.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/odas/src/init/linking.c > CMakeFiles/odas.dir/src/init/linking.i
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/odas/src/init/linking.c > CMakeFiles/odas.dir/src/init/linking.i
 
 CMakeFiles/odas.dir/src/init/linking.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/odas.dir/src/init/linking.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/odas/src/init/linking.c -o CMakeFiles/odas.dir/src/init/linking.s
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/odas/src/init/linking.c -o CMakeFiles/odas.dir/src/init/linking.s
 
 CMakeFiles/odas.dir/src/init/scanning.o: CMakeFiles/odas.dir/flags.make
 CMakeFiles/odas.dir/src/init/scanning.o: ../src/init/scanning.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/odas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/odas.dir/src/init/scanning.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/odas.dir/src/init/scanning.o   -c /home/pi/odas/src/init/scanning.c
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/odas.dir/src/init/scanning.o   -c /home/pi/odas/src/init/scanning.c
 
 CMakeFiles/odas.dir/src/init/scanning.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/odas.dir/src/init/scanning.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/odas/src/init/scanning.c > CMakeFiles/odas.dir/src/init/scanning.i
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/odas/src/init/scanning.c > CMakeFiles/odas.dir/src/init/scanning.i
 
 CMakeFiles/odas.dir/src/init/scanning.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/odas.dir/src/init/scanning.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/odas/src/init/scanning.c -o CMakeFiles/odas.dir/src/init/scanning.s
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/odas/src/init/scanning.c -o CMakeFiles/odas.dir/src/init/scanning.s
 
 CMakeFiles/odas.dir/src/init/space.o: CMakeFiles/odas.dir/flags.make
 CMakeFiles/odas.dir/src/init/space.o: ../src/init/space.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/odas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/odas.dir/src/init/space.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/odas.dir/src/init/space.o   -c /home/pi/odas/src/init/space.c
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/odas.dir/src/init/space.o   -c /home/pi/odas/src/init/space.c
 
 CMakeFiles/odas.dir/src/init/space.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/odas.dir/src/init/space.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/odas/src/init/space.c > CMakeFiles/odas.dir/src/init/space.i
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/odas/src/init/space.c > CMakeFiles/odas.dir/src/init/space.i
 
 CMakeFiles/odas.dir/src/init/space.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/odas.dir/src/init/space.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/odas/src/init/space.c -o CMakeFiles/odas.dir/src/init/space.s
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/odas/src/init/space.c -o CMakeFiles/odas.dir/src/init/space.s
 
 CMakeFiles/odas.dir/src/init/windowing.o: CMakeFiles/odas.dir/flags.make
 CMakeFiles/odas.dir/src/init/windowing.o: ../src/init/windowing.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/odas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/odas.dir/src/init/windowing.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/odas.dir/src/init/windowing.o   -c /home/pi/odas/src/init/windowing.c
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/odas.dir/src/init/windowing.o   -c /home/pi/odas/src/init/windowing.c
 
 CMakeFiles/odas.dir/src/init/windowing.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/odas.dir/src/init/windowing.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/odas/src/init/windowing.c > CMakeFiles/odas.dir/src/init/windowing.i
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/odas/src/init/windowing.c > CMakeFiles/odas.dir/src/init/windowing.i
 
 CMakeFiles/odas.dir/src/init/windowing.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/odas.dir/src/init/windowing.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/odas/src/init/windowing.c -o CMakeFiles/odas.dir/src/init/windowing.s
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/odas/src/init/windowing.c -o CMakeFiles/odas.dir/src/init/windowing.s
 
 CMakeFiles/odas.dir/src/signal/acorr.o: CMakeFiles/odas.dir/flags.make
 CMakeFiles/odas.dir/src/signal/acorr.o: ../src/signal/acorr.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/odas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/odas.dir/src/signal/acorr.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/odas.dir/src/signal/acorr.o   -c /home/pi/odas/src/signal/acorr.c
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/odas.dir/src/signal/acorr.o   -c /home/pi/odas/src/signal/acorr.c
 
 CMakeFiles/odas.dir/src/signal/acorr.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/odas.dir/src/signal/acorr.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/odas/src/signal/acorr.c > CMakeFiles/odas.dir/src/signal/acorr.i
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/odas/src/signal/acorr.c > CMakeFiles/odas.dir/src/signal/acorr.i
 
 CMakeFiles/odas.dir/src/signal/acorr.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/odas.dir/src/signal/acorr.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/odas/src/signal/acorr.c -o CMakeFiles/odas.dir/src/signal/acorr.s
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/odas/src/signal/acorr.c -o CMakeFiles/odas.dir/src/signal/acorr.s
 
 CMakeFiles/odas.dir/src/signal/aimg.o: CMakeFiles/odas.dir/flags.make
 CMakeFiles/odas.dir/src/signal/aimg.o: ../src/signal/aimg.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/odas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/odas.dir/src/signal/aimg.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/odas.dir/src/signal/aimg.o   -c /home/pi/odas/src/signal/aimg.c
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/odas.dir/src/signal/aimg.o   -c /home/pi/odas/src/signal/aimg.c
 
 CMakeFiles/odas.dir/src/signal/aimg.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/odas.dir/src/signal/aimg.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/odas/src/signal/aimg.c > CMakeFiles/odas.dir/src/signal/aimg.i
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/odas/src/signal/aimg.c > CMakeFiles/odas.dir/src/signal/aimg.i
 
 CMakeFiles/odas.dir/src/signal/aimg.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/odas.dir/src/signal/aimg.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/odas/src/signal/aimg.c -o CMakeFiles/odas.dir/src/signal/aimg.s
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/odas/src/signal/aimg.c -o CMakeFiles/odas.dir/src/signal/aimg.s
 
 CMakeFiles/odas.dir/src/signal/area.o: CMakeFiles/odas.dir/flags.make
 CMakeFiles/odas.dir/src/signal/area.o: ../src/signal/area.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/odas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/odas.dir/src/signal/area.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/odas.dir/src/signal/area.o   -c /home/pi/odas/src/signal/area.c
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/odas.dir/src/signal/area.o   -c /home/pi/odas/src/signal/area.c
 
 CMakeFiles/odas.dir/src/signal/area.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/odas.dir/src/signal/area.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/odas/src/signal/area.c > CMakeFiles/odas.dir/src/signal/area.i
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/odas/src/signal/area.c > CMakeFiles/odas.dir/src/signal/area.i
 
 CMakeFiles/odas.dir/src/signal/area.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/odas.dir/src/signal/area.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/odas/src/signal/area.c -o CMakeFiles/odas.dir/src/signal/area.s
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/odas/src/signal/area.c -o CMakeFiles/odas.dir/src/signal/area.s
 
 CMakeFiles/odas.dir/src/signal/assignation.o: CMakeFiles/odas.dir/flags.make
 CMakeFiles/odas.dir/src/signal/assignation.o: ../src/signal/assignation.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/odas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/odas.dir/src/signal/assignation.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/odas.dir/src/signal/assignation.o   -c /home/pi/odas/src/signal/assignation.c
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/odas.dir/src/signal/assignation.o   -c /home/pi/odas/src/signal/assignation.c
 
 CMakeFiles/odas.dir/src/signal/assignation.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/odas.dir/src/signal/assignation.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/odas/src/signal/assignation.c > CMakeFiles/odas.dir/src/signal/assignation.i
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/odas/src/signal/assignation.c > CMakeFiles/odas.dir/src/signal/assignation.i
 
 CMakeFiles/odas.dir/src/signal/assignation.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/odas.dir/src/signal/assignation.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/odas/src/signal/assignation.c -o CMakeFiles/odas.dir/src/signal/assignation.s
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/odas/src/signal/assignation.c -o CMakeFiles/odas.dir/src/signal/assignation.s
 
 CMakeFiles/odas.dir/src/signal/beampattern.o: CMakeFiles/odas.dir/flags.make
 CMakeFiles/odas.dir/src/signal/beampattern.o: ../src/signal/beampattern.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/odas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/odas.dir/src/signal/beampattern.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/odas.dir/src/signal/beampattern.o   -c /home/pi/odas/src/signal/beampattern.c
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/odas.dir/src/signal/beampattern.o   -c /home/pi/odas/src/signal/beampattern.c
 
 CMakeFiles/odas.dir/src/signal/beampattern.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/odas.dir/src/signal/beampattern.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/odas/src/signal/beampattern.c > CMakeFiles/odas.dir/src/signal/beampattern.i
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/odas/src/signal/beampattern.c > CMakeFiles/odas.dir/src/signal/beampattern.i
 
 CMakeFiles/odas.dir/src/signal/beampattern.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/odas.dir/src/signal/beampattern.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/odas/src/signal/beampattern.c -o CMakeFiles/odas.dir/src/signal/beampattern.s
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/odas/src/signal/beampattern.c -o CMakeFiles/odas.dir/src/signal/beampattern.s
 
 CMakeFiles/odas.dir/src/signal/category.o: CMakeFiles/odas.dir/flags.make
 CMakeFiles/odas.dir/src/signal/category.o: ../src/signal/category.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/odas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object CMakeFiles/odas.dir/src/signal/category.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/odas.dir/src/signal/category.o   -c /home/pi/odas/src/signal/category.c
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/odas.dir/src/signal/category.o   -c /home/pi/odas/src/signal/category.c
 
 CMakeFiles/odas.dir/src/signal/category.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/odas.dir/src/signal/category.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/odas/src/signal/category.c > CMakeFiles/odas.dir/src/signal/category.i
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/odas/src/signal/category.c > CMakeFiles/odas.dir/src/signal/category.i
 
 CMakeFiles/odas.dir/src/signal/category.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/odas.dir/src/signal/category.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/odas/src/signal/category.c -o CMakeFiles/odas.dir/src/signal/category.s
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/odas/src/signal/category.c -o CMakeFiles/odas.dir/src/signal/category.s
 
 CMakeFiles/odas.dir/src/signal/coherence.o: CMakeFiles/odas.dir/flags.make
 CMakeFiles/odas.dir/src/signal/coherence.o: ../src/signal/coherence.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/odas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object CMakeFiles/odas.dir/src/signal/coherence.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/odas.dir/src/signal/coherence.o   -c /home/pi/odas/src/signal/coherence.c
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/odas.dir/src/signal/coherence.o   -c /home/pi/odas/src/signal/coherence.c
 
 CMakeFiles/odas.dir/src/signal/coherence.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/odas.dir/src/signal/coherence.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/odas/src/signal/coherence.c > CMakeFiles/odas.dir/src/signal/coherence.i
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/odas/src/signal/coherence.c > CMakeFiles/odas.dir/src/signal/coherence.i
 
 CMakeFiles/odas.dir/src/signal/coherence.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/odas.dir/src/signal/coherence.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/odas/src/signal/coherence.c -o CMakeFiles/odas.dir/src/signal/coherence.s
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/odas/src/signal/coherence.c -o CMakeFiles/odas.dir/src/signal/coherence.s
 
 CMakeFiles/odas.dir/src/signal/delta.o: CMakeFiles/odas.dir/flags.make
 CMakeFiles/odas.dir/src/signal/delta.o: ../src/signal/delta.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/odas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object CMakeFiles/odas.dir/src/signal/delta.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/odas.dir/src/signal/delta.o   -c /home/pi/odas/src/signal/delta.c
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/odas.dir/src/signal/delta.o   -c /home/pi/odas/src/signal/delta.c
 
 CMakeFiles/odas.dir/src/signal/delta.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/odas.dir/src/signal/delta.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/odas/src/signal/delta.c > CMakeFiles/odas.dir/src/signal/delta.i
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/odas/src/signal/delta.c > CMakeFiles/odas.dir/src/signal/delta.i
 
 CMakeFiles/odas.dir/src/signal/delta.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/odas.dir/src/signal/delta.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/odas/src/signal/delta.c -o CMakeFiles/odas.dir/src/signal/delta.s
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/odas/src/signal/delta.c -o CMakeFiles/odas.dir/src/signal/delta.s
 
 CMakeFiles/odas.dir/src/signal/demixing.o: CMakeFiles/odas.dir/flags.make
 CMakeFiles/odas.dir/src/signal/demixing.o: ../src/signal/demixing.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/odas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object CMakeFiles/odas.dir/src/signal/demixing.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/odas.dir/src/signal/demixing.o   -c /home/pi/odas/src/signal/demixing.c
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/odas.dir/src/signal/demixing.o   -c /home/pi/odas/src/signal/demixing.c
 
 CMakeFiles/odas.dir/src/signal/demixing.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/odas.dir/src/signal/demixing.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/odas/src/signal/demixing.c > CMakeFiles/odas.dir/src/signal/demixing.i
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/odas/src/signal/demixing.c > CMakeFiles/odas.dir/src/signal/demixing.i
 
 CMakeFiles/odas.dir/src/signal/demixing.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/odas.dir/src/signal/demixing.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/odas/src/signal/demixing.c -o CMakeFiles/odas.dir/src/signal/demixing.s
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/odas/src/signal/demixing.c -o CMakeFiles/odas.dir/src/signal/demixing.s
 
 CMakeFiles/odas.dir/src/signal/env.o: CMakeFiles/odas.dir/flags.make
 CMakeFiles/odas.dir/src/signal/env.o: ../src/signal/env.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/odas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object CMakeFiles/odas.dir/src/signal/env.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/odas.dir/src/signal/env.o   -c /home/pi/odas/src/signal/env.c
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/odas.dir/src/signal/env.o   -c /home/pi/odas/src/signal/env.c
 
 CMakeFiles/odas.dir/src/signal/env.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/odas.dir/src/signal/env.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/odas/src/signal/env.c > CMakeFiles/odas.dir/src/signal/env.i
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/odas/src/signal/env.c > CMakeFiles/odas.dir/src/signal/env.i
 
 CMakeFiles/odas.dir/src/signal/env.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/odas.dir/src/signal/env.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/odas/src/signal/env.c -o CMakeFiles/odas.dir/src/signal/env.s
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/odas/src/signal/env.c -o CMakeFiles/odas.dir/src/signal/env.s
 
 CMakeFiles/odas.dir/src/signal/frame.o: CMakeFiles/odas.dir/flags.make
 CMakeFiles/odas.dir/src/signal/frame.o: ../src/signal/frame.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/odas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object CMakeFiles/odas.dir/src/signal/frame.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/odas.dir/src/signal/frame.o   -c /home/pi/odas/src/signal/frame.c
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/odas.dir/src/signal/frame.o   -c /home/pi/odas/src/signal/frame.c
 
 CMakeFiles/odas.dir/src/signal/frame.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/odas.dir/src/signal/frame.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/odas/src/signal/frame.c > CMakeFiles/odas.dir/src/signal/frame.i
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/odas/src/signal/frame.c > CMakeFiles/odas.dir/src/signal/frame.i
 
 CMakeFiles/odas.dir/src/signal/frame.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/odas.dir/src/signal/frame.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/odas/src/signal/frame.c -o CMakeFiles/odas.dir/src/signal/frame.s
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/odas/src/signal/frame.c -o CMakeFiles/odas.dir/src/signal/frame.s
 
 CMakeFiles/odas.dir/src/signal/freq.o: CMakeFiles/odas.dir/flags.make
 CMakeFiles/odas.dir/src/signal/freq.o: ../src/signal/freq.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/odas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object CMakeFiles/odas.dir/src/signal/freq.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/odas.dir/src/signal/freq.o   -c /home/pi/odas/src/signal/freq.c
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/odas.dir/src/signal/freq.o   -c /home/pi/odas/src/signal/freq.c
 
 CMakeFiles/odas.dir/src/signal/freq.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/odas.dir/src/signal/freq.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/odas/src/signal/freq.c > CMakeFiles/odas.dir/src/signal/freq.i
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/odas/src/signal/freq.c > CMakeFiles/odas.dir/src/signal/freq.i
 
 CMakeFiles/odas.dir/src/signal/freq.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/odas.dir/src/signal/freq.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/odas/src/signal/freq.c -o CMakeFiles/odas.dir/src/signal/freq.s
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/odas/src/signal/freq.c -o CMakeFiles/odas.dir/src/signal/freq.s
 
 CMakeFiles/odas.dir/src/signal/gain.o: CMakeFiles/odas.dir/flags.make
 CMakeFiles/odas.dir/src/signal/gain.o: ../src/signal/gain.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/odas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object CMakeFiles/odas.dir/src/signal/gain.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/odas.dir/src/signal/gain.o   -c /home/pi/odas/src/signal/gain.c
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/odas.dir/src/signal/gain.o   -c /home/pi/odas/src/signal/gain.c
 
 CMakeFiles/odas.dir/src/signal/gain.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/odas.dir/src/signal/gain.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/odas/src/signal/gain.c > CMakeFiles/odas.dir/src/signal/gain.i
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/odas/src/signal/gain.c > CMakeFiles/odas.dir/src/signal/gain.i
 
 CMakeFiles/odas.dir/src/signal/gain.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/odas.dir/src/signal/gain.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/odas/src/signal/gain.c -o CMakeFiles/odas.dir/src/signal/gain.s
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/odas/src/signal/gain.c -o CMakeFiles/odas.dir/src/signal/gain.s
 
 CMakeFiles/odas.dir/src/signal/hop.o: CMakeFiles/odas.dir/flags.make
 CMakeFiles/odas.dir/src/signal/hop.o: ../src/signal/hop.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/odas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building C object CMakeFiles/odas.dir/src/signal/hop.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/odas.dir/src/signal/hop.o   -c /home/pi/odas/src/signal/hop.c
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/odas.dir/src/signal/hop.o   -c /home/pi/odas/src/signal/hop.c
 
 CMakeFiles/odas.dir/src/signal/hop.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/odas.dir/src/signal/hop.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/odas/src/signal/hop.c > CMakeFiles/odas.dir/src/signal/hop.i
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/odas/src/signal/hop.c > CMakeFiles/odas.dir/src/signal/hop.i
 
 CMakeFiles/odas.dir/src/signal/hop.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/odas.dir/src/signal/hop.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/odas/src/signal/hop.c -o CMakeFiles/odas.dir/src/signal/hop.s
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/odas/src/signal/hop.c -o CMakeFiles/odas.dir/src/signal/hop.s
 
 CMakeFiles/odas.dir/src/signal/index.o: CMakeFiles/odas.dir/flags.make
 CMakeFiles/odas.dir/src/signal/index.o: ../src/signal/index.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/odas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building C object CMakeFiles/odas.dir/src/signal/index.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/odas.dir/src/signal/index.o   -c /home/pi/odas/src/signal/index.c
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/odas.dir/src/signal/index.o   -c /home/pi/odas/src/signal/index.c
 
 CMakeFiles/odas.dir/src/signal/index.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/odas.dir/src/signal/index.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/odas/src/signal/index.c > CMakeFiles/odas.dir/src/signal/index.i
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/odas/src/signal/index.c > CMakeFiles/odas.dir/src/signal/index.i
 
 CMakeFiles/odas.dir/src/signal/index.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/odas.dir/src/signal/index.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/odas/src/signal/index.c -o CMakeFiles/odas.dir/src/signal/index.s
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/odas/src/signal/index.c -o CMakeFiles/odas.dir/src/signal/index.s
 
 CMakeFiles/odas.dir/src/signal/kalman.o: CMakeFiles/odas.dir/flags.make
 CMakeFiles/odas.dir/src/signal/kalman.o: ../src/signal/kalman.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/odas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building C object CMakeFiles/odas.dir/src/signal/kalman.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/odas.dir/src/signal/kalman.o   -c /home/pi/odas/src/signal/kalman.c
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/odas.dir/src/signal/kalman.o   -c /home/pi/odas/src/signal/kalman.c
 
 CMakeFiles/odas.dir/src/signal/kalman.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/odas.dir/src/signal/kalman.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/odas/src/signal/kalman.c > CMakeFiles/odas.dir/src/signal/kalman.i
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/odas/src/signal/kalman.c > CMakeFiles/odas.dir/src/signal/kalman.i
 
 CMakeFiles/odas.dir/src/signal/kalman.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/odas.dir/src/signal/kalman.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/odas/src/signal/kalman.c -o CMakeFiles/odas.dir/src/signal/kalman.s
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/odas/src/signal/kalman.c -o CMakeFiles/odas.dir/src/signal/kalman.s
 
 CMakeFiles/odas.dir/src/signal/map.o: CMakeFiles/odas.dir/flags.make
 CMakeFiles/odas.dir/src/signal/map.o: ../src/signal/map.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/odas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building C object CMakeFiles/odas.dir/src/signal/map.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/odas.dir/src/signal/map.o   -c /home/pi/odas/src/signal/map.c
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/odas.dir/src/signal/map.o   -c /home/pi/odas/src/signal/map.c
 
 CMakeFiles/odas.dir/src/signal/map.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/odas.dir/src/signal/map.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/odas/src/signal/map.c > CMakeFiles/odas.dir/src/signal/map.i
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/odas/src/signal/map.c > CMakeFiles/odas.dir/src/signal/map.i
 
 CMakeFiles/odas.dir/src/signal/map.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/odas.dir/src/signal/map.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/odas/src/signal/map.c -o CMakeFiles/odas.dir/src/signal/map.s
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/odas/src/signal/map.c -o CMakeFiles/odas.dir/src/signal/map.s
 
 CMakeFiles/odas.dir/src/signal/mask.o: CMakeFiles/odas.dir/flags.make
 CMakeFiles/odas.dir/src/signal/mask.o: ../src/signal/mask.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/odas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building C object CMakeFiles/odas.dir/src/signal/mask.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/odas.dir/src/signal/mask.o   -c /home/pi/odas/src/signal/mask.c
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/odas.dir/src/signal/mask.o   -c /home/pi/odas/src/signal/mask.c
 
 CMakeFiles/odas.dir/src/signal/mask.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/odas.dir/src/signal/mask.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/odas/src/signal/mask.c > CMakeFiles/odas.dir/src/signal/mask.i
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/odas/src/signal/mask.c > CMakeFiles/odas.dir/src/signal/mask.i
 
 CMakeFiles/odas.dir/src/signal/mask.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/odas.dir/src/signal/mask.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/odas/src/signal/mask.c -o CMakeFiles/odas.dir/src/signal/mask.s
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/odas/src/signal/mask.c -o CMakeFiles/odas.dir/src/signal/mask.s
 
 CMakeFiles/odas.dir/src/signal/mixture.o: CMakeFiles/odas.dir/flags.make
 CMakeFiles/odas.dir/src/signal/mixture.o: ../src/signal/mixture.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/odas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building C object CMakeFiles/odas.dir/src/signal/mixture.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/odas.dir/src/signal/mixture.o   -c /home/pi/odas/src/signal/mixture.c
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/odas.dir/src/signal/mixture.o   -c /home/pi/odas/src/signal/mixture.c
 
 CMakeFiles/odas.dir/src/signal/mixture.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/odas.dir/src/signal/mixture.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/odas/src/signal/mixture.c > CMakeFiles/odas.dir/src/signal/mixture.i
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/odas/src/signal/mixture.c > CMakeFiles/odas.dir/src/signal/mixture.i
 
 CMakeFiles/odas.dir/src/signal/mixture.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/odas.dir/src/signal/mixture.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/odas/src/signal/mixture.c -o CMakeFiles/odas.dir/src/signal/mixture.s
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/odas/src/signal/mixture.c -o CMakeFiles/odas.dir/src/signal/mixture.s
 
 CMakeFiles/odas.dir/src/signal/pair.o: CMakeFiles/odas.dir/flags.make
 CMakeFiles/odas.dir/src/signal/pair.o: ../src/signal/pair.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/odas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building C object CMakeFiles/odas.dir/src/signal/pair.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/odas.dir/src/signal/pair.o   -c /home/pi/odas/src/signal/pair.c
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/odas.dir/src/signal/pair.o   -c /home/pi/odas/src/signal/pair.c
 
 CMakeFiles/odas.dir/src/signal/pair.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/odas.dir/src/signal/pair.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/odas/src/signal/pair.c > CMakeFiles/odas.dir/src/signal/pair.i
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/odas/src/signal/pair.c > CMakeFiles/odas.dir/src/signal/pair.i
 
 CMakeFiles/odas.dir/src/signal/pair.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/odas.dir/src/signal/pair.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/odas/src/signal/pair.c -o CMakeFiles/odas.dir/src/signal/pair.s
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/odas/src/signal/pair.c -o CMakeFiles/odas.dir/src/signal/pair.s
 
 CMakeFiles/odas.dir/src/signal/particle.o: CMakeFiles/odas.dir/flags.make
 CMakeFiles/odas.dir/src/signal/particle.o: ../src/signal/particle.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/odas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building C object CMakeFiles/odas.dir/src/signal/particle.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/odas.dir/src/signal/particle.o   -c /home/pi/odas/src/signal/particle.c
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/odas.dir/src/signal/particle.o   -c /home/pi/odas/src/signal/particle.c
 
 CMakeFiles/odas.dir/src/signal/particle.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/odas.dir/src/signal/particle.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/odas/src/signal/particle.c > CMakeFiles/odas.dir/src/signal/particle.i
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/odas/src/signal/particle.c > CMakeFiles/odas.dir/src/signal/particle.i
 
 CMakeFiles/odas.dir/src/signal/particle.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/odas.dir/src/signal/particle.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/odas/src/signal/particle.c -o CMakeFiles/odas.dir/src/signal/particle.s
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/odas/src/signal/particle.c -o CMakeFiles/odas.dir/src/signal/particle.s
 
 CMakeFiles/odas.dir/src/signal/pitch.o: CMakeFiles/odas.dir/flags.make
 CMakeFiles/odas.dir/src/signal/pitch.o: ../src/signal/pitch.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/odas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building C object CMakeFiles/odas.dir/src/signal/pitch.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/odas.dir/src/signal/pitch.o   -c /home/pi/odas/src/signal/pitch.c
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/odas.dir/src/signal/pitch.o   -c /home/pi/odas/src/signal/pitch.c
 
 CMakeFiles/odas.dir/src/signal/pitch.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/odas.dir/src/signal/pitch.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/odas/src/signal/pitch.c > CMakeFiles/odas.dir/src/signal/pitch.i
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/odas/src/signal/pitch.c > CMakeFiles/odas.dir/src/signal/pitch.i
 
 CMakeFiles/odas.dir/src/signal/pitch.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/odas.dir/src/signal/pitch.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/odas/src/signal/pitch.c -o CMakeFiles/odas.dir/src/signal/pitch.s
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/odas/src/signal/pitch.c -o CMakeFiles/odas.dir/src/signal/pitch.s
 
 CMakeFiles/odas.dir/src/signal/point.o: CMakeFiles/odas.dir/flags.make
 CMakeFiles/odas.dir/src/signal/point.o: ../src/signal/point.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/odas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building C object CMakeFiles/odas.dir/src/signal/point.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/odas.dir/src/signal/point.o   -c /home/pi/odas/src/signal/point.c
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/odas.dir/src/signal/point.o   -c /home/pi/odas/src/signal/point.c
 
 CMakeFiles/odas.dir/src/signal/point.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/odas.dir/src/signal/point.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/odas/src/signal/point.c > CMakeFiles/odas.dir/src/signal/point.i
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/odas/src/signal/point.c > CMakeFiles/odas.dir/src/signal/point.i
 
 CMakeFiles/odas.dir/src/signal/point.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/odas.dir/src/signal/point.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/odas/src/signal/point.c -o CMakeFiles/odas.dir/src/signal/point.s
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/odas/src/signal/point.c -o CMakeFiles/odas.dir/src/signal/point.s
 
 CMakeFiles/odas.dir/src/signal/postprob.o: CMakeFiles/odas.dir/flags.make
 CMakeFiles/odas.dir/src/signal/postprob.o: ../src/signal/postprob.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/odas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building C object CMakeFiles/odas.dir/src/signal/postprob.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/odas.dir/src/signal/postprob.o   -c /home/pi/odas/src/signal/postprob.c
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/odas.dir/src/signal/postprob.o   -c /home/pi/odas/src/signal/postprob.c
 
 CMakeFiles/odas.dir/src/signal/postprob.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/odas.dir/src/signal/postprob.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/odas/src/signal/postprob.c > CMakeFiles/odas.dir/src/signal/postprob.i
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/odas/src/signal/postprob.c > CMakeFiles/odas.dir/src/signal/postprob.i
 
 CMakeFiles/odas.dir/src/signal/postprob.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/odas.dir/src/signal/postprob.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/odas/src/signal/postprob.c -o CMakeFiles/odas.dir/src/signal/postprob.s
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/odas/src/signal/postprob.c -o CMakeFiles/odas.dir/src/signal/postprob.s
 
 CMakeFiles/odas.dir/src/signal/pot.o: CMakeFiles/odas.dir/flags.make
 CMakeFiles/odas.dir/src/signal/pot.o: ../src/signal/pot.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/odas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building C object CMakeFiles/odas.dir/src/signal/pot.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/odas.dir/src/signal/pot.o   -c /home/pi/odas/src/signal/pot.c
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/odas.dir/src/signal/pot.o   -c /home/pi/odas/src/signal/pot.c
 
 CMakeFiles/odas.dir/src/signal/pot.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/odas.dir/src/signal/pot.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/odas/src/signal/pot.c > CMakeFiles/odas.dir/src/signal/pot.i
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/odas/src/signal/pot.c > CMakeFiles/odas.dir/src/signal/pot.i
 
 CMakeFiles/odas.dir/src/signal/pot.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/odas.dir/src/signal/pot.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/odas/src/signal/pot.c -o CMakeFiles/odas.dir/src/signal/pot.s
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/odas/src/signal/pot.c -o CMakeFiles/odas.dir/src/signal/pot.s
 
 CMakeFiles/odas.dir/src/signal/scan.o: CMakeFiles/odas.dir/flags.make
 CMakeFiles/odas.dir/src/signal/scan.o: ../src/signal/scan.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/odas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building C object CMakeFiles/odas.dir/src/signal/scan.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/odas.dir/src/signal/scan.o   -c /home/pi/odas/src/signal/scan.c
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/odas.dir/src/signal/scan.o   -c /home/pi/odas/src/signal/scan.c
 
 CMakeFiles/odas.dir/src/signal/scan.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/odas.dir/src/signal/scan.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/odas/src/signal/scan.c > CMakeFiles/odas.dir/src/signal/scan.i
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/odas/src/signal/scan.c > CMakeFiles/odas.dir/src/signal/scan.i
 
 CMakeFiles/odas.dir/src/signal/scan.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/odas.dir/src/signal/scan.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/odas/src/signal/scan.c -o CMakeFiles/odas.dir/src/signal/scan.s
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/odas/src/signal/scan.c -o CMakeFiles/odas.dir/src/signal/scan.s
 
 CMakeFiles/odas.dir/src/signal/spatialgain.o: CMakeFiles/odas.dir/flags.make
 CMakeFiles/odas.dir/src/signal/spatialgain.o: ../src/signal/spatialgain.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/odas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building C object CMakeFiles/odas.dir/src/signal/spatialgain.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/odas.dir/src/signal/spatialgain.o   -c /home/pi/odas/src/signal/spatialgain.c
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/odas.dir/src/signal/spatialgain.o   -c /home/pi/odas/src/signal/spatialgain.c
 
 CMakeFiles/odas.dir/src/signal/spatialgain.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/odas.dir/src/signal/spatialgain.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/odas/src/signal/spatialgain.c > CMakeFiles/odas.dir/src/signal/spatialgain.i
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/odas/src/signal/spatialgain.c > CMakeFiles/odas.dir/src/signal/spatialgain.i
 
 CMakeFiles/odas.dir/src/signal/spatialgain.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/odas.dir/src/signal/spatialgain.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/odas/src/signal/spatialgain.c -o CMakeFiles/odas.dir/src/signal/spatialgain.s
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/odas/src/signal/spatialgain.c -o CMakeFiles/odas.dir/src/signal/spatialgain.s
 
 CMakeFiles/odas.dir/src/signal/spatialindex.o: CMakeFiles/odas.dir/flags.make
 CMakeFiles/odas.dir/src/signal/spatialindex.o: ../src/signal/spatialindex.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/odas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building C object CMakeFiles/odas.dir/src/signal/spatialindex.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/odas.dir/src/signal/spatialindex.o   -c /home/pi/odas/src/signal/spatialindex.c
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/odas.dir/src/signal/spatialindex.o   -c /home/pi/odas/src/signal/spatialindex.c
 
 CMakeFiles/odas.dir/src/signal/spatialindex.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/odas.dir/src/signal/spatialindex.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/odas/src/signal/spatialindex.c > CMakeFiles/odas.dir/src/signal/spatialindex.i
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/odas/src/signal/spatialindex.c > CMakeFiles/odas.dir/src/signal/spatialindex.i
 
 CMakeFiles/odas.dir/src/signal/spatialindex.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/odas.dir/src/signal/spatialindex.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/odas/src/signal/spatialindex.c -o CMakeFiles/odas.dir/src/signal/spatialindex.s
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/odas/src/signal/spatialindex.c -o CMakeFiles/odas.dir/src/signal/spatialindex.s
 
 CMakeFiles/odas.dir/src/signal/spatialmask.o: CMakeFiles/odas.dir/flags.make
 CMakeFiles/odas.dir/src/signal/spatialmask.o: ../src/signal/spatialmask.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/odas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building C object CMakeFiles/odas.dir/src/signal/spatialmask.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/odas.dir/src/signal/spatialmask.o   -c /home/pi/odas/src/signal/spatialmask.c
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/odas.dir/src/signal/spatialmask.o   -c /home/pi/odas/src/signal/spatialmask.c
 
 CMakeFiles/odas.dir/src/signal/spatialmask.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/odas.dir/src/signal/spatialmask.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/odas/src/signal/spatialmask.c > CMakeFiles/odas.dir/src/signal/spatialmask.i
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/odas/src/signal/spatialmask.c > CMakeFiles/odas.dir/src/signal/spatialmask.i
 
 CMakeFiles/odas.dir/src/signal/spatialmask.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/odas.dir/src/signal/spatialmask.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/odas/src/signal/spatialmask.c -o CMakeFiles/odas.dir/src/signal/spatialmask.s
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/odas/src/signal/spatialmask.c -o CMakeFiles/odas.dir/src/signal/spatialmask.s
 
 CMakeFiles/odas.dir/src/signal/steer.o: CMakeFiles/odas.dir/flags.make
 CMakeFiles/odas.dir/src/signal/steer.o: ../src/signal/steer.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/odas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building C object CMakeFiles/odas.dir/src/signal/steer.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/odas.dir/src/signal/steer.o   -c /home/pi/odas/src/signal/steer.c
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/odas.dir/src/signal/steer.o   -c /home/pi/odas/src/signal/steer.c
 
 CMakeFiles/odas.dir/src/signal/steer.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/odas.dir/src/signal/steer.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/odas/src/signal/steer.c > CMakeFiles/odas.dir/src/signal/steer.i
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/odas/src/signal/steer.c > CMakeFiles/odas.dir/src/signal/steer.i
 
 CMakeFiles/odas.dir/src/signal/steer.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/odas.dir/src/signal/steer.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/odas/src/signal/steer.c -o CMakeFiles/odas.dir/src/signal/steer.s
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/odas/src/signal/steer.c -o CMakeFiles/odas.dir/src/signal/steer.s
 
 CMakeFiles/odas.dir/src/signal/target.o: CMakeFiles/odas.dir/flags.make
 CMakeFiles/odas.dir/src/signal/target.o: ../src/signal/target.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/odas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building C object CMakeFiles/odas.dir/src/signal/target.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/odas.dir/src/signal/target.o   -c /home/pi/odas/src/signal/target.c
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/odas.dir/src/signal/target.o   -c /home/pi/odas/src/signal/target.c
 
 CMakeFiles/odas.dir/src/signal/target.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/odas.dir/src/signal/target.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/odas/src/signal/target.c > CMakeFiles/odas.dir/src/signal/target.i
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/odas/src/signal/target.c > CMakeFiles/odas.dir/src/signal/target.i
 
 CMakeFiles/odas.dir/src/signal/target.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/odas.dir/src/signal/target.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/odas/src/signal/target.c -o CMakeFiles/odas.dir/src/signal/target.s
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/odas/src/signal/target.c -o CMakeFiles/odas.dir/src/signal/target.s
 
 CMakeFiles/odas.dir/src/signal/tau.o: CMakeFiles/odas.dir/flags.make
 CMakeFiles/odas.dir/src/signal/tau.o: ../src/signal/tau.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/odas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building C object CMakeFiles/odas.dir/src/signal/tau.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/odas.dir/src/signal/tau.o   -c /home/pi/odas/src/signal/tau.c
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/odas.dir/src/signal/tau.o   -c /home/pi/odas/src/signal/tau.c
 
 CMakeFiles/odas.dir/src/signal/tau.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/odas.dir/src/signal/tau.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/odas/src/signal/tau.c > CMakeFiles/odas.dir/src/signal/tau.i
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/odas/src/signal/tau.c > CMakeFiles/odas.dir/src/signal/tau.i
 
 CMakeFiles/odas.dir/src/signal/tau.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/odas.dir/src/signal/tau.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/odas/src/signal/tau.c -o CMakeFiles/odas.dir/src/signal/tau.s
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/odas/src/signal/tau.c -o CMakeFiles/odas.dir/src/signal/tau.s
 
 CMakeFiles/odas.dir/src/signal/tdoa.o: CMakeFiles/odas.dir/flags.make
 CMakeFiles/odas.dir/src/signal/tdoa.o: ../src/signal/tdoa.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/odas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building C object CMakeFiles/odas.dir/src/signal/tdoa.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/odas.dir/src/signal/tdoa.o   -c /home/pi/odas/src/signal/tdoa.c
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/odas.dir/src/signal/tdoa.o   -c /home/pi/odas/src/signal/tdoa.c
 
 CMakeFiles/odas.dir/src/signal/tdoa.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/odas.dir/src/signal/tdoa.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/odas/src/signal/tdoa.c > CMakeFiles/odas.dir/src/signal/tdoa.i
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/odas/src/signal/tdoa.c > CMakeFiles/odas.dir/src/signal/tdoa.i
 
 CMakeFiles/odas.dir/src/signal/tdoa.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/odas.dir/src/signal/tdoa.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/odas/src/signal/tdoa.c -o CMakeFiles/odas.dir/src/signal/tdoa.s
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/odas/src/signal/tdoa.c -o CMakeFiles/odas.dir/src/signal/tdoa.s
 
 CMakeFiles/odas.dir/src/signal/track.o: CMakeFiles/odas.dir/flags.make
 CMakeFiles/odas.dir/src/signal/track.o: ../src/signal/track.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/odas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building C object CMakeFiles/odas.dir/src/signal/track.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/odas.dir/src/signal/track.o   -c /home/pi/odas/src/signal/track.c
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/odas.dir/src/signal/track.o   -c /home/pi/odas/src/signal/track.c
 
 CMakeFiles/odas.dir/src/signal/track.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/odas.dir/src/signal/track.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/odas/src/signal/track.c > CMakeFiles/odas.dir/src/signal/track.i
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/odas/src/signal/track.c > CMakeFiles/odas.dir/src/signal/track.i
 
 CMakeFiles/odas.dir/src/signal/track.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/odas.dir/src/signal/track.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/odas/src/signal/track.c -o CMakeFiles/odas.dir/src/signal/track.s
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/odas/src/signal/track.c -o CMakeFiles/odas.dir/src/signal/track.s
 
 CMakeFiles/odas.dir/src/signal/triangle.o: CMakeFiles/odas.dir/flags.make
 CMakeFiles/odas.dir/src/signal/triangle.o: ../src/signal/triangle.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/odas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building C object CMakeFiles/odas.dir/src/signal/triangle.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/odas.dir/src/signal/triangle.o   -c /home/pi/odas/src/signal/triangle.c
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/odas.dir/src/signal/triangle.o   -c /home/pi/odas/src/signal/triangle.c
 
 CMakeFiles/odas.dir/src/signal/triangle.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/odas.dir/src/signal/triangle.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/odas/src/signal/triangle.c > CMakeFiles/odas.dir/src/signal/triangle.i
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/odas/src/signal/triangle.c > CMakeFiles/odas.dir/src/signal/triangle.i
 
 CMakeFiles/odas.dir/src/signal/triangle.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/odas.dir/src/signal/triangle.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/odas/src/signal/triangle.c -o CMakeFiles/odas.dir/src/signal/triangle.s
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/odas/src/signal/triangle.c -o CMakeFiles/odas.dir/src/signal/triangle.s
 
 CMakeFiles/odas.dir/src/signal/window.o: CMakeFiles/odas.dir/flags.make
 CMakeFiles/odas.dir/src/signal/window.o: ../src/signal/window.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/odas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building C object CMakeFiles/odas.dir/src/signal/window.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/odas.dir/src/signal/window.o   -c /home/pi/odas/src/signal/window.c
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/odas.dir/src/signal/window.o   -c /home/pi/odas/src/signal/window.c
 
 CMakeFiles/odas.dir/src/signal/window.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/odas.dir/src/signal/window.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/odas/src/signal/window.c > CMakeFiles/odas.dir/src/signal/window.i
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/odas/src/signal/window.c > CMakeFiles/odas.dir/src/signal/window.i
 
 CMakeFiles/odas.dir/src/signal/window.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/odas.dir/src/signal/window.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/odas/src/signal/window.c -o CMakeFiles/odas.dir/src/signal/window.s
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/odas/src/signal/window.c -o CMakeFiles/odas.dir/src/signal/window.s
 
 CMakeFiles/odas.dir/src/signal/xcorr.o: CMakeFiles/odas.dir/flags.make
 CMakeFiles/odas.dir/src/signal/xcorr.o: ../src/signal/xcorr.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/odas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building C object CMakeFiles/odas.dir/src/signal/xcorr.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/odas.dir/src/signal/xcorr.o   -c /home/pi/odas/src/signal/xcorr.c
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/odas.dir/src/signal/xcorr.o   -c /home/pi/odas/src/signal/xcorr.c
 
 CMakeFiles/odas.dir/src/signal/xcorr.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/odas.dir/src/signal/xcorr.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/odas/src/signal/xcorr.c > CMakeFiles/odas.dir/src/signal/xcorr.i
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/odas/src/signal/xcorr.c > CMakeFiles/odas.dir/src/signal/xcorr.i
 
 CMakeFiles/odas.dir/src/signal/xcorr.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/odas.dir/src/signal/xcorr.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/odas/src/signal/xcorr.c -o CMakeFiles/odas.dir/src/signal/xcorr.s
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/odas/src/signal/xcorr.c -o CMakeFiles/odas.dir/src/signal/xcorr.s
 
 CMakeFiles/odas.dir/src/system/acorr2pitch.o: CMakeFiles/odas.dir/flags.make
 CMakeFiles/odas.dir/src/system/acorr2pitch.o: ../src/system/acorr2pitch.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/odas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building C object CMakeFiles/odas.dir/src/system/acorr2pitch.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/odas.dir/src/system/acorr2pitch.o   -c /home/pi/odas/src/system/acorr2pitch.c
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/odas.dir/src/system/acorr2pitch.o   -c /home/pi/odas/src/system/acorr2pitch.c
 
 CMakeFiles/odas.dir/src/system/acorr2pitch.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/odas.dir/src/system/acorr2pitch.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/odas/src/system/acorr2pitch.c > CMakeFiles/odas.dir/src/system/acorr2pitch.i
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/odas/src/system/acorr2pitch.c > CMakeFiles/odas.dir/src/system/acorr2pitch.i
 
 CMakeFiles/odas.dir/src/system/acorr2pitch.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/odas.dir/src/system/acorr2pitch.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/odas/src/system/acorr2pitch.c -o CMakeFiles/odas.dir/src/system/acorr2pitch.s
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/odas/src/system/acorr2pitch.c -o CMakeFiles/odas.dir/src/system/acorr2pitch.s
 
 CMakeFiles/odas.dir/src/system/demixing2env.o: CMakeFiles/odas.dir/flags.make
 CMakeFiles/odas.dir/src/system/demixing2env.o: ../src/system/demixing2env.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/odas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building C object CMakeFiles/odas.dir/src/system/demixing2env.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/odas.dir/src/system/demixing2env.o   -c /home/pi/odas/src/system/demixing2env.c
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/odas.dir/src/system/demixing2env.o   -c /home/pi/odas/src/system/demixing2env.c
 
 CMakeFiles/odas.dir/src/system/demixing2env.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/odas.dir/src/system/demixing2env.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/odas/src/system/demixing2env.c > CMakeFiles/odas.dir/src/system/demixing2env.i
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/odas/src/system/demixing2env.c > CMakeFiles/odas.dir/src/system/demixing2env.i
 
 CMakeFiles/odas.dir/src/system/demixing2env.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/odas.dir/src/system/demixing2env.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/odas/src/system/demixing2env.c -o CMakeFiles/odas.dir/src/system/demixing2env.s
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/odas/src/system/demixing2env.c -o CMakeFiles/odas.dir/src/system/demixing2env.s
 
 CMakeFiles/odas.dir/src/system/demixing2freq.o: CMakeFiles/odas.dir/flags.make
 CMakeFiles/odas.dir/src/system/demixing2freq.o: ../src/system/demixing2freq.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/odas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building C object CMakeFiles/odas.dir/src/system/demixing2freq.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/odas.dir/src/system/demixing2freq.o   -c /home/pi/odas/src/system/demixing2freq.c
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/odas.dir/src/system/demixing2freq.o   -c /home/pi/odas/src/system/demixing2freq.c
 
 CMakeFiles/odas.dir/src/system/demixing2freq.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/odas.dir/src/system/demixing2freq.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/odas/src/system/demixing2freq.c > CMakeFiles/odas.dir/src/system/demixing2freq.i
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/odas/src/system/demixing2freq.c > CMakeFiles/odas.dir/src/system/demixing2freq.i
 
 CMakeFiles/odas.dir/src/system/demixing2freq.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/odas.dir/src/system/demixing2freq.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/odas/src/system/demixing2freq.c -o CMakeFiles/odas.dir/src/system/demixing2freq.s
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/odas/src/system/demixing2freq.c -o CMakeFiles/odas.dir/src/system/demixing2freq.s
 
 CMakeFiles/odas.dir/src/system/env2env.o: CMakeFiles/odas.dir/flags.make
 CMakeFiles/odas.dir/src/system/env2env.o: ../src/system/env2env.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/odas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building C object CMakeFiles/odas.dir/src/system/env2env.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/odas.dir/src/system/env2env.o   -c /home/pi/odas/src/system/env2env.c
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/odas.dir/src/system/env2env.o   -c /home/pi/odas/src/system/env2env.c
 
 CMakeFiles/odas.dir/src/system/env2env.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/odas.dir/src/system/env2env.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/odas/src/system/env2env.c > CMakeFiles/odas.dir/src/system/env2env.i
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/odas/src/system/env2env.c > CMakeFiles/odas.dir/src/system/env2env.i
 
 CMakeFiles/odas.dir/src/system/env2env.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/odas.dir/src/system/env2env.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/odas/src/system/env2env.c -o CMakeFiles/odas.dir/src/system/env2env.s
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/odas/src/system/env2env.c -o CMakeFiles/odas.dir/src/system/env2env.s
 
 CMakeFiles/odas.dir/src/system/hop2hop.o: CMakeFiles/odas.dir/flags.make
 CMakeFiles/odas.dir/src/system/hop2hop.o: ../src/system/hop2hop.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/odas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building C object CMakeFiles/odas.dir/src/system/hop2hop.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/odas.dir/src/system/hop2hop.o   -c /home/pi/odas/src/system/hop2hop.c
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/odas.dir/src/system/hop2hop.o   -c /home/pi/odas/src/system/hop2hop.c
 
 CMakeFiles/odas.dir/src/system/hop2hop.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/odas.dir/src/system/hop2hop.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/odas/src/system/hop2hop.c > CMakeFiles/odas.dir/src/system/hop2hop.i
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/odas/src/system/hop2hop.c > CMakeFiles/odas.dir/src/system/hop2hop.i
 
 CMakeFiles/odas.dir/src/system/hop2hop.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/odas.dir/src/system/hop2hop.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/odas/src/system/hop2hop.c -o CMakeFiles/odas.dir/src/system/hop2hop.s
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/odas/src/system/hop2hop.c -o CMakeFiles/odas.dir/src/system/hop2hop.s
 
 CMakeFiles/odas.dir/src/system/hop2frame.o: CMakeFiles/odas.dir/flags.make
 CMakeFiles/odas.dir/src/system/hop2frame.o: ../src/system/hop2frame.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/odas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Building C object CMakeFiles/odas.dir/src/system/hop2frame.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/odas.dir/src/system/hop2frame.o   -c /home/pi/odas/src/system/hop2frame.c
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/odas.dir/src/system/hop2frame.o   -c /home/pi/odas/src/system/hop2frame.c
 
 CMakeFiles/odas.dir/src/system/hop2frame.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/odas.dir/src/system/hop2frame.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/odas/src/system/hop2frame.c > CMakeFiles/odas.dir/src/system/hop2frame.i
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/odas/src/system/hop2frame.c > CMakeFiles/odas.dir/src/system/hop2frame.i
 
 CMakeFiles/odas.dir/src/system/hop2frame.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/odas.dir/src/system/hop2frame.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/odas/src/system/hop2frame.c -o CMakeFiles/odas.dir/src/system/hop2frame.s
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/odas/src/system/hop2frame.c -o CMakeFiles/odas.dir/src/system/hop2frame.s
 
 CMakeFiles/odas.dir/src/system/frame2freq.o: CMakeFiles/odas.dir/flags.make
 CMakeFiles/odas.dir/src/system/frame2freq.o: ../src/system/frame2freq.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/odas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Building C object CMakeFiles/odas.dir/src/system/frame2freq.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/odas.dir/src/system/frame2freq.o   -c /home/pi/odas/src/system/frame2freq.c
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/odas.dir/src/system/frame2freq.o   -c /home/pi/odas/src/system/frame2freq.c
 
 CMakeFiles/odas.dir/src/system/frame2freq.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/odas.dir/src/system/frame2freq.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/odas/src/system/frame2freq.c > CMakeFiles/odas.dir/src/system/frame2freq.i
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/odas/src/system/frame2freq.c > CMakeFiles/odas.dir/src/system/frame2freq.i
 
 CMakeFiles/odas.dir/src/system/frame2freq.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/odas.dir/src/system/frame2freq.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/odas/src/system/frame2freq.c -o CMakeFiles/odas.dir/src/system/frame2freq.s
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/odas/src/system/frame2freq.c -o CMakeFiles/odas.dir/src/system/frame2freq.s
 
 CMakeFiles/odas.dir/src/system/freq2acorr.o: CMakeFiles/odas.dir/flags.make
 CMakeFiles/odas.dir/src/system/freq2acorr.o: ../src/system/freq2acorr.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/odas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Building C object CMakeFiles/odas.dir/src/system/freq2acorr.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/odas.dir/src/system/freq2acorr.o   -c /home/pi/odas/src/system/freq2acorr.c
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/odas.dir/src/system/freq2acorr.o   -c /home/pi/odas/src/system/freq2acorr.c
 
 CMakeFiles/odas.dir/src/system/freq2acorr.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/odas.dir/src/system/freq2acorr.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/odas/src/system/freq2acorr.c > CMakeFiles/odas.dir/src/system/freq2acorr.i
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/odas/src/system/freq2acorr.c > CMakeFiles/odas.dir/src/system/freq2acorr.i
 
 CMakeFiles/odas.dir/src/system/freq2acorr.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/odas.dir/src/system/freq2acorr.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/odas/src/system/freq2acorr.c -o CMakeFiles/odas.dir/src/system/freq2acorr.s
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/odas/src/system/freq2acorr.c -o CMakeFiles/odas.dir/src/system/freq2acorr.s
 
 CMakeFiles/odas.dir/src/system/freq2env.o: CMakeFiles/odas.dir/flags.make
 CMakeFiles/odas.dir/src/system/freq2env.o: ../src/system/freq2env.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/odas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_62) "Building C object CMakeFiles/odas.dir/src/system/freq2env.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/odas.dir/src/system/freq2env.o   -c /home/pi/odas/src/system/freq2env.c
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/odas.dir/src/system/freq2env.o   -c /home/pi/odas/src/system/freq2env.c
 
 CMakeFiles/odas.dir/src/system/freq2env.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/odas.dir/src/system/freq2env.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/odas/src/system/freq2env.c > CMakeFiles/odas.dir/src/system/freq2env.i
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/odas/src/system/freq2env.c > CMakeFiles/odas.dir/src/system/freq2env.i
 
 CMakeFiles/odas.dir/src/system/freq2env.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/odas.dir/src/system/freq2env.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/odas/src/system/freq2env.c -o CMakeFiles/odas.dir/src/system/freq2env.s
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/odas/src/system/freq2env.c -o CMakeFiles/odas.dir/src/system/freq2env.s
 
 CMakeFiles/odas.dir/src/system/freq2freq.o: CMakeFiles/odas.dir/flags.make
 CMakeFiles/odas.dir/src/system/freq2freq.o: ../src/system/freq2freq.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/odas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_63) "Building C object CMakeFiles/odas.dir/src/system/freq2freq.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/odas.dir/src/system/freq2freq.o   -c /home/pi/odas/src/system/freq2freq.c
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/odas.dir/src/system/freq2freq.o   -c /home/pi/odas/src/system/freq2freq.c
 
 CMakeFiles/odas.dir/src/system/freq2freq.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/odas.dir/src/system/freq2freq.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/odas/src/system/freq2freq.c > CMakeFiles/odas.dir/src/system/freq2freq.i
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/odas/src/system/freq2freq.c > CMakeFiles/odas.dir/src/system/freq2freq.i
 
 CMakeFiles/odas.dir/src/system/freq2freq.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/odas.dir/src/system/freq2freq.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/odas/src/system/freq2freq.c -o CMakeFiles/odas.dir/src/system/freq2freq.s
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/odas/src/system/freq2freq.c -o CMakeFiles/odas.dir/src/system/freq2freq.s
 
 CMakeFiles/odas.dir/src/system/freq2frame.o: CMakeFiles/odas.dir/flags.make
 CMakeFiles/odas.dir/src/system/freq2frame.o: ../src/system/freq2frame.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/odas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_64) "Building C object CMakeFiles/odas.dir/src/system/freq2frame.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/odas.dir/src/system/freq2frame.o   -c /home/pi/odas/src/system/freq2frame.c
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/odas.dir/src/system/freq2frame.o   -c /home/pi/odas/src/system/freq2frame.c
 
 CMakeFiles/odas.dir/src/system/freq2frame.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/odas.dir/src/system/freq2frame.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/odas/src/system/freq2frame.c > CMakeFiles/odas.dir/src/system/freq2frame.i
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/odas/src/system/freq2frame.c > CMakeFiles/odas.dir/src/system/freq2frame.i
 
 CMakeFiles/odas.dir/src/system/freq2frame.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/odas.dir/src/system/freq2frame.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/odas/src/system/freq2frame.c -o CMakeFiles/odas.dir/src/system/freq2frame.s
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/odas/src/system/freq2frame.c -o CMakeFiles/odas.dir/src/system/freq2frame.s
 
 CMakeFiles/odas.dir/src/system/freq2xcorr.o: CMakeFiles/odas.dir/flags.make
 CMakeFiles/odas.dir/src/system/freq2xcorr.o: ../src/system/freq2xcorr.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/odas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_65) "Building C object CMakeFiles/odas.dir/src/system/freq2xcorr.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/odas.dir/src/system/freq2xcorr.o   -c /home/pi/odas/src/system/freq2xcorr.c
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/odas.dir/src/system/freq2xcorr.o   -c /home/pi/odas/src/system/freq2xcorr.c
 
 CMakeFiles/odas.dir/src/system/freq2xcorr.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/odas.dir/src/system/freq2xcorr.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/odas/src/system/freq2xcorr.c > CMakeFiles/odas.dir/src/system/freq2xcorr.i
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/odas/src/system/freq2xcorr.c > CMakeFiles/odas.dir/src/system/freq2xcorr.i
 
 CMakeFiles/odas.dir/src/system/freq2xcorr.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/odas.dir/src/system/freq2xcorr.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/odas/src/system/freq2xcorr.c -o CMakeFiles/odas.dir/src/system/freq2xcorr.s
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/odas/src/system/freq2xcorr.c -o CMakeFiles/odas.dir/src/system/freq2xcorr.s
 
 CMakeFiles/odas.dir/src/system/frame2hop.o: CMakeFiles/odas.dir/flags.make
 CMakeFiles/odas.dir/src/system/frame2hop.o: ../src/system/frame2hop.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/odas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_66) "Building C object CMakeFiles/odas.dir/src/system/frame2hop.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/odas.dir/src/system/frame2hop.o   -c /home/pi/odas/src/system/frame2hop.c
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/odas.dir/src/system/frame2hop.o   -c /home/pi/odas/src/system/frame2hop.c
 
 CMakeFiles/odas.dir/src/system/frame2hop.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/odas.dir/src/system/frame2hop.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/odas/src/system/frame2hop.c > CMakeFiles/odas.dir/src/system/frame2hop.i
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/odas/src/system/frame2hop.c > CMakeFiles/odas.dir/src/system/frame2hop.i
 
 CMakeFiles/odas.dir/src/system/frame2hop.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/odas.dir/src/system/frame2hop.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/odas/src/system/frame2hop.c -o CMakeFiles/odas.dir/src/system/frame2hop.s
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/odas/src/system/frame2hop.c -o CMakeFiles/odas.dir/src/system/frame2hop.s
 
 CMakeFiles/odas.dir/src/system/gain2mask.o: CMakeFiles/odas.dir/flags.make
 CMakeFiles/odas.dir/src/system/gain2mask.o: ../src/system/gain2mask.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/odas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_67) "Building C object CMakeFiles/odas.dir/src/system/gain2mask.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/odas.dir/src/system/gain2mask.o   -c /home/pi/odas/src/system/gain2mask.c
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/odas.dir/src/system/gain2mask.o   -c /home/pi/odas/src/system/gain2mask.c
 
 CMakeFiles/odas.dir/src/system/gain2mask.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/odas.dir/src/system/gain2mask.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/odas/src/system/gain2mask.c > CMakeFiles/odas.dir/src/system/gain2mask.i
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/odas/src/system/gain2mask.c > CMakeFiles/odas.dir/src/system/gain2mask.i
 
 CMakeFiles/odas.dir/src/system/gain2mask.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/odas.dir/src/system/gain2mask.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/odas/src/system/gain2mask.c -o CMakeFiles/odas.dir/src/system/gain2mask.s
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/odas/src/system/gain2mask.c -o CMakeFiles/odas.dir/src/system/gain2mask.s
 
 CMakeFiles/odas.dir/src/system/kalman2coherence.o: CMakeFiles/odas.dir/flags.make
 CMakeFiles/odas.dir/src/system/kalman2coherence.o: ../src/system/kalman2coherence.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/odas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_68) "Building C object CMakeFiles/odas.dir/src/system/kalman2coherence.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/odas.dir/src/system/kalman2coherence.o   -c /home/pi/odas/src/system/kalman2coherence.c
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/odas.dir/src/system/kalman2coherence.o   -c /home/pi/odas/src/system/kalman2coherence.c
 
 CMakeFiles/odas.dir/src/system/kalman2coherence.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/odas.dir/src/system/kalman2coherence.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/odas/src/system/kalman2coherence.c > CMakeFiles/odas.dir/src/system/kalman2coherence.i
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/odas/src/system/kalman2coherence.c > CMakeFiles/odas.dir/src/system/kalman2coherence.i
 
 CMakeFiles/odas.dir/src/system/kalman2coherence.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/odas.dir/src/system/kalman2coherence.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/odas/src/system/kalman2coherence.c -o CMakeFiles/odas.dir/src/system/kalman2coherence.s
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/odas/src/system/kalman2coherence.c -o CMakeFiles/odas.dir/src/system/kalman2coherence.s
 
 CMakeFiles/odas.dir/src/system/kalman2kalman.o: CMakeFiles/odas.dir/flags.make
 CMakeFiles/odas.dir/src/system/kalman2kalman.o: ../src/system/kalman2kalman.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/odas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_69) "Building C object CMakeFiles/odas.dir/src/system/kalman2kalman.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/odas.dir/src/system/kalman2kalman.o   -c /home/pi/odas/src/system/kalman2kalman.c
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/odas.dir/src/system/kalman2kalman.o   -c /home/pi/odas/src/system/kalman2kalman.c
 
 CMakeFiles/odas.dir/src/system/kalman2kalman.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/odas.dir/src/system/kalman2kalman.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/odas/src/system/kalman2kalman.c > CMakeFiles/odas.dir/src/system/kalman2kalman.i
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/odas/src/system/kalman2kalman.c > CMakeFiles/odas.dir/src/system/kalman2kalman.i
 
 CMakeFiles/odas.dir/src/system/kalman2kalman.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/odas.dir/src/system/kalman2kalman.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/odas/src/system/kalman2kalman.c -o CMakeFiles/odas.dir/src/system/kalman2kalman.s
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/odas/src/system/kalman2kalman.c -o CMakeFiles/odas.dir/src/system/kalman2kalman.s
 
 CMakeFiles/odas.dir/src/system/mixture2mixture.o: CMakeFiles/odas.dir/flags.make
 CMakeFiles/odas.dir/src/system/mixture2mixture.o: ../src/system/mixture2mixture.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/odas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_70) "Building C object CMakeFiles/odas.dir/src/system/mixture2mixture.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/odas.dir/src/system/mixture2mixture.o   -c /home/pi/odas/src/system/mixture2mixture.c
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/odas.dir/src/system/mixture2mixture.o   -c /home/pi/odas/src/system/mixture2mixture.c
 
 CMakeFiles/odas.dir/src/system/mixture2mixture.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/odas.dir/src/system/mixture2mixture.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/odas/src/system/mixture2mixture.c > CMakeFiles/odas.dir/src/system/mixture2mixture.i
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/odas/src/system/mixture2mixture.c > CMakeFiles/odas.dir/src/system/mixture2mixture.i
 
 CMakeFiles/odas.dir/src/system/mixture2mixture.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/odas.dir/src/system/mixture2mixture.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/odas/src/system/mixture2mixture.c -o CMakeFiles/odas.dir/src/system/mixture2mixture.s
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/odas/src/system/mixture2mixture.c -o CMakeFiles/odas.dir/src/system/mixture2mixture.s
 
 CMakeFiles/odas.dir/src/system/particle2coherence.o: CMakeFiles/odas.dir/flags.make
 CMakeFiles/odas.dir/src/system/particle2coherence.o: ../src/system/particle2coherence.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/odas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_71) "Building C object CMakeFiles/odas.dir/src/system/particle2coherence.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/odas.dir/src/system/particle2coherence.o   -c /home/pi/odas/src/system/particle2coherence.c
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/odas.dir/src/system/particle2coherence.o   -c /home/pi/odas/src/system/particle2coherence.c
 
 CMakeFiles/odas.dir/src/system/particle2coherence.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/odas.dir/src/system/particle2coherence.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/odas/src/system/particle2coherence.c > CMakeFiles/odas.dir/src/system/particle2coherence.i
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/odas/src/system/particle2coherence.c > CMakeFiles/odas.dir/src/system/particle2coherence.i
 
 CMakeFiles/odas.dir/src/system/particle2coherence.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/odas.dir/src/system/particle2coherence.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/odas/src/system/particle2coherence.c -o CMakeFiles/odas.dir/src/system/particle2coherence.s
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/odas/src/system/particle2coherence.c -o CMakeFiles/odas.dir/src/system/particle2coherence.s
 
 CMakeFiles/odas.dir/src/system/particle2particle.o: CMakeFiles/odas.dir/flags.make
 CMakeFiles/odas.dir/src/system/particle2particle.o: ../src/system/particle2particle.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/odas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_72) "Building C object CMakeFiles/odas.dir/src/system/particle2particle.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/odas.dir/src/system/particle2particle.o   -c /home/pi/odas/src/system/particle2particle.c
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/odas.dir/src/system/particle2particle.o   -c /home/pi/odas/src/system/particle2particle.c
 
 CMakeFiles/odas.dir/src/system/particle2particle.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/odas.dir/src/system/particle2particle.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/odas/src/system/particle2particle.c > CMakeFiles/odas.dir/src/system/particle2particle.i
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/odas/src/system/particle2particle.c > CMakeFiles/odas.dir/src/system/particle2particle.i
 
 CMakeFiles/odas.dir/src/system/particle2particle.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/odas.dir/src/system/particle2particle.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/odas/src/system/particle2particle.c -o CMakeFiles/odas.dir/src/system/particle2particle.s
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/odas/src/system/particle2particle.c -o CMakeFiles/odas.dir/src/system/particle2particle.s
 
 CMakeFiles/odas.dir/src/system/pitch2category.o: CMakeFiles/odas.dir/flags.make
 CMakeFiles/odas.dir/src/system/pitch2category.o: ../src/system/pitch2category.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/odas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_73) "Building C object CMakeFiles/odas.dir/src/system/pitch2category.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/odas.dir/src/system/pitch2category.o   -c /home/pi/odas/src/system/pitch2category.c
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/odas.dir/src/system/pitch2category.o   -c /home/pi/odas/src/system/pitch2category.c
 
 CMakeFiles/odas.dir/src/system/pitch2category.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/odas.dir/src/system/pitch2category.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/odas/src/system/pitch2category.c > CMakeFiles/odas.dir/src/system/pitch2category.i
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/odas/src/system/pitch2category.c > CMakeFiles/odas.dir/src/system/pitch2category.i
 
 CMakeFiles/odas.dir/src/system/pitch2category.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/odas.dir/src/system/pitch2category.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/odas/src/system/pitch2category.c -o CMakeFiles/odas.dir/src/system/pitch2category.s
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/odas/src/system/pitch2category.c -o CMakeFiles/odas.dir/src/system/pitch2category.s
 
 CMakeFiles/odas.dir/src/system/steer2demixing.o: CMakeFiles/odas.dir/flags.make
 CMakeFiles/odas.dir/src/system/steer2demixing.o: ../src/system/steer2demixing.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/odas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_74) "Building C object CMakeFiles/odas.dir/src/system/steer2demixing.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/odas.dir/src/system/steer2demixing.o   -c /home/pi/odas/src/system/steer2demixing.c
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/odas.dir/src/system/steer2demixing.o   -c /home/pi/odas/src/system/steer2demixing.c
 
 CMakeFiles/odas.dir/src/system/steer2demixing.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/odas.dir/src/system/steer2demixing.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/odas/src/system/steer2demixing.c > CMakeFiles/odas.dir/src/system/steer2demixing.i
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/odas/src/system/steer2demixing.c > CMakeFiles/odas.dir/src/system/steer2demixing.i
 
 CMakeFiles/odas.dir/src/system/steer2demixing.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/odas.dir/src/system/steer2demixing.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/odas/src/system/steer2demixing.c -o CMakeFiles/odas.dir/src/system/steer2demixing.s
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/odas/src/system/steer2demixing.c -o CMakeFiles/odas.dir/src/system/steer2demixing.s
 
 CMakeFiles/odas.dir/src/system/track2gain.o: CMakeFiles/odas.dir/flags.make
 CMakeFiles/odas.dir/src/system/track2gain.o: ../src/system/track2gain.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/odas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_75) "Building C object CMakeFiles/odas.dir/src/system/track2gain.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/odas.dir/src/system/track2gain.o   -c /home/pi/odas/src/system/track2gain.c
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/odas.dir/src/system/track2gain.o   -c /home/pi/odas/src/system/track2gain.c
 
 CMakeFiles/odas.dir/src/system/track2gain.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/odas.dir/src/system/track2gain.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/odas/src/system/track2gain.c > CMakeFiles/odas.dir/src/system/track2gain.i
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/odas/src/system/track2gain.c > CMakeFiles/odas.dir/src/system/track2gain.i
 
 CMakeFiles/odas.dir/src/system/track2gain.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/odas.dir/src/system/track2gain.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/odas/src/system/track2gain.c -o CMakeFiles/odas.dir/src/system/track2gain.s
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/odas/src/system/track2gain.c -o CMakeFiles/odas.dir/src/system/track2gain.s
 
 CMakeFiles/odas.dir/src/system/track2steer.o: CMakeFiles/odas.dir/flags.make
 CMakeFiles/odas.dir/src/system/track2steer.o: ../src/system/track2steer.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/odas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_76) "Building C object CMakeFiles/odas.dir/src/system/track2steer.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/odas.dir/src/system/track2steer.o   -c /home/pi/odas/src/system/track2steer.c
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/odas.dir/src/system/track2steer.o   -c /home/pi/odas/src/system/track2steer.c
 
 CMakeFiles/odas.dir/src/system/track2steer.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/odas.dir/src/system/track2steer.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/odas/src/system/track2steer.c > CMakeFiles/odas.dir/src/system/track2steer.i
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/odas/src/system/track2steer.c > CMakeFiles/odas.dir/src/system/track2steer.i
 
 CMakeFiles/odas.dir/src/system/track2steer.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/odas.dir/src/system/track2steer.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/odas/src/system/track2steer.c -o CMakeFiles/odas.dir/src/system/track2steer.s
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/odas/src/system/track2steer.c -o CMakeFiles/odas.dir/src/system/track2steer.s
 
 CMakeFiles/odas.dir/src/system/xcorr2aimg.o: CMakeFiles/odas.dir/flags.make
 CMakeFiles/odas.dir/src/system/xcorr2aimg.o: ../src/system/xcorr2aimg.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/odas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_77) "Building C object CMakeFiles/odas.dir/src/system/xcorr2aimg.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/odas.dir/src/system/xcorr2aimg.o   -c /home/pi/odas/src/system/xcorr2aimg.c
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/odas.dir/src/system/xcorr2aimg.o   -c /home/pi/odas/src/system/xcorr2aimg.c
 
 CMakeFiles/odas.dir/src/system/xcorr2aimg.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/odas.dir/src/system/xcorr2aimg.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/odas/src/system/xcorr2aimg.c > CMakeFiles/odas.dir/src/system/xcorr2aimg.i
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/odas/src/system/xcorr2aimg.c > CMakeFiles/odas.dir/src/system/xcorr2aimg.i
 
 CMakeFiles/odas.dir/src/system/xcorr2aimg.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/odas.dir/src/system/xcorr2aimg.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/odas/src/system/xcorr2aimg.c -o CMakeFiles/odas.dir/src/system/xcorr2aimg.s
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/odas/src/system/xcorr2aimg.c -o CMakeFiles/odas.dir/src/system/xcorr2aimg.s
 
 CMakeFiles/odas.dir/src/system/xcorr2xcorr.o: CMakeFiles/odas.dir/flags.make
 CMakeFiles/odas.dir/src/system/xcorr2xcorr.o: ../src/system/xcorr2xcorr.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/odas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_78) "Building C object CMakeFiles/odas.dir/src/system/xcorr2xcorr.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/odas.dir/src/system/xcorr2xcorr.o   -c /home/pi/odas/src/system/xcorr2xcorr.c
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/odas.dir/src/system/xcorr2xcorr.o   -c /home/pi/odas/src/system/xcorr2xcorr.c
 
 CMakeFiles/odas.dir/src/system/xcorr2xcorr.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/odas.dir/src/system/xcorr2xcorr.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/odas/src/system/xcorr2xcorr.c > CMakeFiles/odas.dir/src/system/xcorr2xcorr.i
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/odas/src/system/xcorr2xcorr.c > CMakeFiles/odas.dir/src/system/xcorr2xcorr.i
 
 CMakeFiles/odas.dir/src/system/xcorr2xcorr.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/odas.dir/src/system/xcorr2xcorr.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/odas/src/system/xcorr2xcorr.c -o CMakeFiles/odas.dir/src/system/xcorr2xcorr.s
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/odas/src/system/xcorr2xcorr.c -o CMakeFiles/odas.dir/src/system/xcorr2xcorr.s
 
 CMakeFiles/odas.dir/src/utils/cmatrix.o: CMakeFiles/odas.dir/flags.make
 CMakeFiles/odas.dir/src/utils/cmatrix.o: ../src/utils/cmatrix.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/odas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_79) "Building C object CMakeFiles/odas.dir/src/utils/cmatrix.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/odas.dir/src/utils/cmatrix.o   -c /home/pi/odas/src/utils/cmatrix.c
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/odas.dir/src/utils/cmatrix.o   -c /home/pi/odas/src/utils/cmatrix.c
 
 CMakeFiles/odas.dir/src/utils/cmatrix.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/odas.dir/src/utils/cmatrix.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/odas/src/utils/cmatrix.c > CMakeFiles/odas.dir/src/utils/cmatrix.i
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/odas/src/utils/cmatrix.c > CMakeFiles/odas.dir/src/utils/cmatrix.i
 
 CMakeFiles/odas.dir/src/utils/cmatrix.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/odas.dir/src/utils/cmatrix.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/odas/src/utils/cmatrix.c -o CMakeFiles/odas.dir/src/utils/cmatrix.s
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/odas/src/utils/cmatrix.c -o CMakeFiles/odas.dir/src/utils/cmatrix.s
 
 CMakeFiles/odas.dir/src/utils/fft.o: CMakeFiles/odas.dir/flags.make
 CMakeFiles/odas.dir/src/utils/fft.o: ../src/utils/fft.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/odas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_80) "Building C object CMakeFiles/odas.dir/src/utils/fft.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/odas.dir/src/utils/fft.o   -c /home/pi/odas/src/utils/fft.c
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/odas.dir/src/utils/fft.o   -c /home/pi/odas/src/utils/fft.c
 
 CMakeFiles/odas.dir/src/utils/fft.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/odas.dir/src/utils/fft.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/odas/src/utils/fft.c > CMakeFiles/odas.dir/src/utils/fft.i
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/odas/src/utils/fft.c > CMakeFiles/odas.dir/src/utils/fft.i
 
 CMakeFiles/odas.dir/src/utils/fft.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/odas.dir/src/utils/fft.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/odas/src/utils/fft.c -o CMakeFiles/odas.dir/src/utils/fft.s
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/odas/src/utils/fft.c -o CMakeFiles/odas.dir/src/utils/fft.s
 
 CMakeFiles/odas.dir/src/utils/fifo.o: CMakeFiles/odas.dir/flags.make
 CMakeFiles/odas.dir/src/utils/fifo.o: ../src/utils/fifo.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/odas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_81) "Building C object CMakeFiles/odas.dir/src/utils/fifo.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/odas.dir/src/utils/fifo.o   -c /home/pi/odas/src/utils/fifo.c
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/odas.dir/src/utils/fifo.o   -c /home/pi/odas/src/utils/fifo.c
 
 CMakeFiles/odas.dir/src/utils/fifo.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/odas.dir/src/utils/fifo.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/odas/src/utils/fifo.c > CMakeFiles/odas.dir/src/utils/fifo.i
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/odas/src/utils/fifo.c > CMakeFiles/odas.dir/src/utils/fifo.i
 
 CMakeFiles/odas.dir/src/utils/fifo.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/odas.dir/src/utils/fifo.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/odas/src/utils/fifo.c -o CMakeFiles/odas.dir/src/utils/fifo.s
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/odas/src/utils/fifo.c -o CMakeFiles/odas.dir/src/utils/fifo.s
 
 CMakeFiles/odas.dir/src/utils/gaussian.o: CMakeFiles/odas.dir/flags.make
 CMakeFiles/odas.dir/src/utils/gaussian.o: ../src/utils/gaussian.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/odas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_82) "Building C object CMakeFiles/odas.dir/src/utils/gaussian.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/odas.dir/src/utils/gaussian.o   -c /home/pi/odas/src/utils/gaussian.c
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/odas.dir/src/utils/gaussian.o   -c /home/pi/odas/src/utils/gaussian.c
 
 CMakeFiles/odas.dir/src/utils/gaussian.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/odas.dir/src/utils/gaussian.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/odas/src/utils/gaussian.c > CMakeFiles/odas.dir/src/utils/gaussian.i
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/odas/src/utils/gaussian.c > CMakeFiles/odas.dir/src/utils/gaussian.i
 
 CMakeFiles/odas.dir/src/utils/gaussian.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/odas.dir/src/utils/gaussian.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/odas/src/utils/gaussian.c -o CMakeFiles/odas.dir/src/utils/gaussian.s
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/odas/src/utils/gaussian.c -o CMakeFiles/odas.dir/src/utils/gaussian.s
 
 CMakeFiles/odas.dir/src/utils/gaussjordan.o: CMakeFiles/odas.dir/flags.make
 CMakeFiles/odas.dir/src/utils/gaussjordan.o: ../src/utils/gaussjordan.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/odas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_83) "Building C object CMakeFiles/odas.dir/src/utils/gaussjordan.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/odas.dir/src/utils/gaussjordan.o   -c /home/pi/odas/src/utils/gaussjordan.c
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/odas.dir/src/utils/gaussjordan.o   -c /home/pi/odas/src/utils/gaussjordan.c
 
 CMakeFiles/odas.dir/src/utils/gaussjordan.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/odas.dir/src/utils/gaussjordan.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/odas/src/utils/gaussjordan.c > CMakeFiles/odas.dir/src/utils/gaussjordan.i
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/odas/src/utils/gaussjordan.c > CMakeFiles/odas.dir/src/utils/gaussjordan.i
 
 CMakeFiles/odas.dir/src/utils/gaussjordan.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/odas.dir/src/utils/gaussjordan.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/odas/src/utils/gaussjordan.c -o CMakeFiles/odas.dir/src/utils/gaussjordan.s
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/odas/src/utils/gaussjordan.c -o CMakeFiles/odas.dir/src/utils/gaussjordan.s
 
 CMakeFiles/odas.dir/src/utils/inverse.o: CMakeFiles/odas.dir/flags.make
 CMakeFiles/odas.dir/src/utils/inverse.o: ../src/utils/inverse.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/odas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_84) "Building C object CMakeFiles/odas.dir/src/utils/inverse.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/odas.dir/src/utils/inverse.o   -c /home/pi/odas/src/utils/inverse.c
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/odas.dir/src/utils/inverse.o   -c /home/pi/odas/src/utils/inverse.c
 
 CMakeFiles/odas.dir/src/utils/inverse.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/odas.dir/src/utils/inverse.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/odas/src/utils/inverse.c > CMakeFiles/odas.dir/src/utils/inverse.i
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/odas/src/utils/inverse.c > CMakeFiles/odas.dir/src/utils/inverse.i
 
 CMakeFiles/odas.dir/src/utils/inverse.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/odas.dir/src/utils/inverse.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/odas/src/utils/inverse.c -o CMakeFiles/odas.dir/src/utils/inverse.s
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/odas/src/utils/inverse.c -o CMakeFiles/odas.dir/src/utils/inverse.s
 
 CMakeFiles/odas.dir/src/utils/matrix.o: CMakeFiles/odas.dir/flags.make
 CMakeFiles/odas.dir/src/utils/matrix.o: ../src/utils/matrix.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/odas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_85) "Building C object CMakeFiles/odas.dir/src/utils/matrix.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/odas.dir/src/utils/matrix.o   -c /home/pi/odas/src/utils/matrix.c
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/odas.dir/src/utils/matrix.o   -c /home/pi/odas/src/utils/matrix.c
 
 CMakeFiles/odas.dir/src/utils/matrix.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/odas.dir/src/utils/matrix.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/odas/src/utils/matrix.c > CMakeFiles/odas.dir/src/utils/matrix.i
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/odas/src/utils/matrix.c > CMakeFiles/odas.dir/src/utils/matrix.i
 
 CMakeFiles/odas.dir/src/utils/matrix.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/odas.dir/src/utils/matrix.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/odas/src/utils/matrix.c -o CMakeFiles/odas.dir/src/utils/matrix.s
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/odas/src/utils/matrix.c -o CMakeFiles/odas.dir/src/utils/matrix.s
 
 CMakeFiles/odas.dir/src/utils/pcm.o: CMakeFiles/odas.dir/flags.make
 CMakeFiles/odas.dir/src/utils/pcm.o: ../src/utils/pcm.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/odas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_86) "Building C object CMakeFiles/odas.dir/src/utils/pcm.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/odas.dir/src/utils/pcm.o   -c /home/pi/odas/src/utils/pcm.c
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/odas.dir/src/utils/pcm.o   -c /home/pi/odas/src/utils/pcm.c
 
 CMakeFiles/odas.dir/src/utils/pcm.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/odas.dir/src/utils/pcm.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/odas/src/utils/pcm.c > CMakeFiles/odas.dir/src/utils/pcm.i
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/odas/src/utils/pcm.c > CMakeFiles/odas.dir/src/utils/pcm.i
 
 CMakeFiles/odas.dir/src/utils/pcm.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/odas.dir/src/utils/pcm.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/odas/src/utils/pcm.c -o CMakeFiles/odas.dir/src/utils/pcm.s
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/odas/src/utils/pcm.c -o CMakeFiles/odas.dir/src/utils/pcm.s
 
 CMakeFiles/odas.dir/src/utils/random.o: CMakeFiles/odas.dir/flags.make
 CMakeFiles/odas.dir/src/utils/random.o: ../src/utils/random.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/odas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_87) "Building C object CMakeFiles/odas.dir/src/utils/random.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/odas.dir/src/utils/random.o   -c /home/pi/odas/src/utils/random.c
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/odas.dir/src/utils/random.o   -c /home/pi/odas/src/utils/random.c
 
 CMakeFiles/odas.dir/src/utils/random.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/odas.dir/src/utils/random.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/odas/src/utils/random.c > CMakeFiles/odas.dir/src/utils/random.i
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/odas/src/utils/random.c > CMakeFiles/odas.dir/src/utils/random.i
 
 CMakeFiles/odas.dir/src/utils/random.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/odas.dir/src/utils/random.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/odas/src/utils/random.c -o CMakeFiles/odas.dir/src/utils/random.s
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/odas/src/utils/random.c -o CMakeFiles/odas.dir/src/utils/random.s
 
 CMakeFiles/odas.dir/src/utils/transcendental.o: CMakeFiles/odas.dir/flags.make
 CMakeFiles/odas.dir/src/utils/transcendental.o: ../src/utils/transcendental.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/odas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_88) "Building C object CMakeFiles/odas.dir/src/utils/transcendental.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/odas.dir/src/utils/transcendental.o   -c /home/pi/odas/src/utils/transcendental.c
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/odas.dir/src/utils/transcendental.o   -c /home/pi/odas/src/utils/transcendental.c
 
 CMakeFiles/odas.dir/src/utils/transcendental.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/odas.dir/src/utils/transcendental.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/odas/src/utils/transcendental.c > CMakeFiles/odas.dir/src/utils/transcendental.i
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/odas/src/utils/transcendental.c > CMakeFiles/odas.dir/src/utils/transcendental.i
 
 CMakeFiles/odas.dir/src/utils/transcendental.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/odas.dir/src/utils/transcendental.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/odas/src/utils/transcendental.c -o CMakeFiles/odas.dir/src/utils/transcendental.s
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/odas/src/utils/transcendental.c -o CMakeFiles/odas.dir/src/utils/transcendental.s
 
 CMakeFiles/odas.dir/src/aconnector/acon_categories.o: CMakeFiles/odas.dir/flags.make
 CMakeFiles/odas.dir/src/aconnector/acon_categories.o: ../src/aconnector/acon_categories.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/odas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_89) "Building C object CMakeFiles/odas.dir/src/aconnector/acon_categories.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/odas.dir/src/aconnector/acon_categories.o   -c /home/pi/odas/src/aconnector/acon_categories.c
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/odas.dir/src/aconnector/acon_categories.o   -c /home/pi/odas/src/aconnector/acon_categories.c
 
 CMakeFiles/odas.dir/src/aconnector/acon_categories.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/odas.dir/src/aconnector/acon_categories.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/odas/src/aconnector/acon_categories.c > CMakeFiles/odas.dir/src/aconnector/acon_categories.i
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/odas/src/aconnector/acon_categories.c > CMakeFiles/odas.dir/src/aconnector/acon_categories.i
 
 CMakeFiles/odas.dir/src/aconnector/acon_categories.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/odas.dir/src/aconnector/acon_categories.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/odas/src/aconnector/acon_categories.c -o CMakeFiles/odas.dir/src/aconnector/acon_categories.s
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/odas/src/aconnector/acon_categories.c -o CMakeFiles/odas.dir/src/aconnector/acon_categories.s
 
 CMakeFiles/odas.dir/src/aconnector/acon_hops.o: CMakeFiles/odas.dir/flags.make
 CMakeFiles/odas.dir/src/aconnector/acon_hops.o: ../src/aconnector/acon_hops.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/odas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_90) "Building C object CMakeFiles/odas.dir/src/aconnector/acon_hops.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/odas.dir/src/aconnector/acon_hops.o   -c /home/pi/odas/src/aconnector/acon_hops.c
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/odas.dir/src/aconnector/acon_hops.o   -c /home/pi/odas/src/aconnector/acon_hops.c
 
 CMakeFiles/odas.dir/src/aconnector/acon_hops.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/odas.dir/src/aconnector/acon_hops.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/odas/src/aconnector/acon_hops.c > CMakeFiles/odas.dir/src/aconnector/acon_hops.i
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/odas/src/aconnector/acon_hops.c > CMakeFiles/odas.dir/src/aconnector/acon_hops.i
 
 CMakeFiles/odas.dir/src/aconnector/acon_hops.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/odas.dir/src/aconnector/acon_hops.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/odas/src/aconnector/acon_hops.c -o CMakeFiles/odas.dir/src/aconnector/acon_hops.s
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/odas/src/aconnector/acon_hops.c -o CMakeFiles/odas.dir/src/aconnector/acon_hops.s
 
 CMakeFiles/odas.dir/src/aconnector/acon_pots.o: CMakeFiles/odas.dir/flags.make
 CMakeFiles/odas.dir/src/aconnector/acon_pots.o: ../src/aconnector/acon_pots.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/odas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_91) "Building C object CMakeFiles/odas.dir/src/aconnector/acon_pots.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/odas.dir/src/aconnector/acon_pots.o   -c /home/pi/odas/src/aconnector/acon_pots.c
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/odas.dir/src/aconnector/acon_pots.o   -c /home/pi/odas/src/aconnector/acon_pots.c
 
 CMakeFiles/odas.dir/src/aconnector/acon_pots.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/odas.dir/src/aconnector/acon_pots.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/odas/src/aconnector/acon_pots.c > CMakeFiles/odas.dir/src/aconnector/acon_pots.i
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/odas/src/aconnector/acon_pots.c > CMakeFiles/odas.dir/src/aconnector/acon_pots.i
 
 CMakeFiles/odas.dir/src/aconnector/acon_pots.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/odas.dir/src/aconnector/acon_pots.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/odas/src/aconnector/acon_pots.c -o CMakeFiles/odas.dir/src/aconnector/acon_pots.s
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/odas/src/aconnector/acon_pots.c -o CMakeFiles/odas.dir/src/aconnector/acon_pots.s
 
 CMakeFiles/odas.dir/src/aconnector/acon_powers.o: CMakeFiles/odas.dir/flags.make
 CMakeFiles/odas.dir/src/aconnector/acon_powers.o: ../src/aconnector/acon_powers.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/odas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_92) "Building C object CMakeFiles/odas.dir/src/aconnector/acon_powers.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/odas.dir/src/aconnector/acon_powers.o   -c /home/pi/odas/src/aconnector/acon_powers.c
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/odas.dir/src/aconnector/acon_powers.o   -c /home/pi/odas/src/aconnector/acon_powers.c
 
 CMakeFiles/odas.dir/src/aconnector/acon_powers.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/odas.dir/src/aconnector/acon_powers.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/odas/src/aconnector/acon_powers.c > CMakeFiles/odas.dir/src/aconnector/acon_powers.i
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/odas/src/aconnector/acon_powers.c > CMakeFiles/odas.dir/src/aconnector/acon_powers.i
 
 CMakeFiles/odas.dir/src/aconnector/acon_powers.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/odas.dir/src/aconnector/acon_powers.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/odas/src/aconnector/acon_powers.c -o CMakeFiles/odas.dir/src/aconnector/acon_powers.s
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/odas/src/aconnector/acon_powers.c -o CMakeFiles/odas.dir/src/aconnector/acon_powers.s
 
 CMakeFiles/odas.dir/src/aconnector/acon_spectra.o: CMakeFiles/odas.dir/flags.make
 CMakeFiles/odas.dir/src/aconnector/acon_spectra.o: ../src/aconnector/acon_spectra.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/odas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_93) "Building C object CMakeFiles/odas.dir/src/aconnector/acon_spectra.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/odas.dir/src/aconnector/acon_spectra.o   -c /home/pi/odas/src/aconnector/acon_spectra.c
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/odas.dir/src/aconnector/acon_spectra.o   -c /home/pi/odas/src/aconnector/acon_spectra.c
 
 CMakeFiles/odas.dir/src/aconnector/acon_spectra.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/odas.dir/src/aconnector/acon_spectra.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/odas/src/aconnector/acon_spectra.c > CMakeFiles/odas.dir/src/aconnector/acon_spectra.i
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/odas/src/aconnector/acon_spectra.c > CMakeFiles/odas.dir/src/aconnector/acon_spectra.i
 
 CMakeFiles/odas.dir/src/aconnector/acon_spectra.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/odas.dir/src/aconnector/acon_spectra.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/odas/src/aconnector/acon_spectra.c -o CMakeFiles/odas.dir/src/aconnector/acon_spectra.s
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/odas/src/aconnector/acon_spectra.c -o CMakeFiles/odas.dir/src/aconnector/acon_spectra.s
 
 CMakeFiles/odas.dir/src/aconnector/acon_targets.o: CMakeFiles/odas.dir/flags.make
 CMakeFiles/odas.dir/src/aconnector/acon_targets.o: ../src/aconnector/acon_targets.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/odas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_94) "Building C object CMakeFiles/odas.dir/src/aconnector/acon_targets.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/odas.dir/src/aconnector/acon_targets.o   -c /home/pi/odas/src/aconnector/acon_targets.c
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/odas.dir/src/aconnector/acon_targets.o   -c /home/pi/odas/src/aconnector/acon_targets.c
 
 CMakeFiles/odas.dir/src/aconnector/acon_targets.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/odas.dir/src/aconnector/acon_targets.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/odas/src/aconnector/acon_targets.c > CMakeFiles/odas.dir/src/aconnector/acon_targets.i
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/odas/src/aconnector/acon_targets.c > CMakeFiles/odas.dir/src/aconnector/acon_targets.i
 
 CMakeFiles/odas.dir/src/aconnector/acon_targets.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/odas.dir/src/aconnector/acon_targets.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/odas/src/aconnector/acon_targets.c -o CMakeFiles/odas.dir/src/aconnector/acon_targets.s
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/odas/src/aconnector/acon_targets.c -o CMakeFiles/odas.dir/src/aconnector/acon_targets.s
 
 CMakeFiles/odas.dir/src/aconnector/acon_tracks.o: CMakeFiles/odas.dir/flags.make
 CMakeFiles/odas.dir/src/aconnector/acon_tracks.o: ../src/aconnector/acon_tracks.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/odas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_95) "Building C object CMakeFiles/odas.dir/src/aconnector/acon_tracks.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/odas.dir/src/aconnector/acon_tracks.o   -c /home/pi/odas/src/aconnector/acon_tracks.c
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/odas.dir/src/aconnector/acon_tracks.o   -c /home/pi/odas/src/aconnector/acon_tracks.c
 
 CMakeFiles/odas.dir/src/aconnector/acon_tracks.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/odas.dir/src/aconnector/acon_tracks.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/odas/src/aconnector/acon_tracks.c > CMakeFiles/odas.dir/src/aconnector/acon_tracks.i
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/odas/src/aconnector/acon_tracks.c > CMakeFiles/odas.dir/src/aconnector/acon_tracks.i
 
 CMakeFiles/odas.dir/src/aconnector/acon_tracks.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/odas.dir/src/aconnector/acon_tracks.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/odas/src/aconnector/acon_tracks.c -o CMakeFiles/odas.dir/src/aconnector/acon_tracks.s
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/odas/src/aconnector/acon_tracks.c -o CMakeFiles/odas.dir/src/aconnector/acon_tracks.s
 
 CMakeFiles/odas.dir/src/ainjector/ainj_targets.o: CMakeFiles/odas.dir/flags.make
 CMakeFiles/odas.dir/src/ainjector/ainj_targets.o: ../src/ainjector/ainj_targets.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/odas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_96) "Building C object CMakeFiles/odas.dir/src/ainjector/ainj_targets.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/odas.dir/src/ainjector/ainj_targets.o   -c /home/pi/odas/src/ainjector/ainj_targets.c
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/odas.dir/src/ainjector/ainj_targets.o   -c /home/pi/odas/src/ainjector/ainj_targets.c
 
 CMakeFiles/odas.dir/src/ainjector/ainj_targets.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/odas.dir/src/ainjector/ainj_targets.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/odas/src/ainjector/ainj_targets.c > CMakeFiles/odas.dir/src/ainjector/ainj_targets.i
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/odas/src/ainjector/ainj_targets.c > CMakeFiles/odas.dir/src/ainjector/ainj_targets.i
 
 CMakeFiles/odas.dir/src/ainjector/ainj_targets.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/odas.dir/src/ainjector/ainj_targets.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/odas/src/ainjector/ainj_targets.c -o CMakeFiles/odas.dir/src/ainjector/ainj_targets.s
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/odas/src/ainjector/ainj_targets.c -o CMakeFiles/odas.dir/src/ainjector/ainj_targets.s
 
 CMakeFiles/odas.dir/src/amessage/amsg_categories.o: CMakeFiles/odas.dir/flags.make
 CMakeFiles/odas.dir/src/amessage/amsg_categories.o: ../src/amessage/amsg_categories.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/odas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_97) "Building C object CMakeFiles/odas.dir/src/amessage/amsg_categories.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/odas.dir/src/amessage/amsg_categories.o   -c /home/pi/odas/src/amessage/amsg_categories.c
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/odas.dir/src/amessage/amsg_categories.o   -c /home/pi/odas/src/amessage/amsg_categories.c
 
 CMakeFiles/odas.dir/src/amessage/amsg_categories.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/odas.dir/src/amessage/amsg_categories.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/odas/src/amessage/amsg_categories.c > CMakeFiles/odas.dir/src/amessage/amsg_categories.i
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/odas/src/amessage/amsg_categories.c > CMakeFiles/odas.dir/src/amessage/amsg_categories.i
 
 CMakeFiles/odas.dir/src/amessage/amsg_categories.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/odas.dir/src/amessage/amsg_categories.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/odas/src/amessage/amsg_categories.c -o CMakeFiles/odas.dir/src/amessage/amsg_categories.s
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/odas/src/amessage/amsg_categories.c -o CMakeFiles/odas.dir/src/amessage/amsg_categories.s
 
 CMakeFiles/odas.dir/src/amessage/amsg_hops.o: CMakeFiles/odas.dir/flags.make
 CMakeFiles/odas.dir/src/amessage/amsg_hops.o: ../src/amessage/amsg_hops.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/odas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_98) "Building C object CMakeFiles/odas.dir/src/amessage/amsg_hops.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/odas.dir/src/amessage/amsg_hops.o   -c /home/pi/odas/src/amessage/amsg_hops.c
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/odas.dir/src/amessage/amsg_hops.o   -c /home/pi/odas/src/amessage/amsg_hops.c
 
 CMakeFiles/odas.dir/src/amessage/amsg_hops.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/odas.dir/src/amessage/amsg_hops.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/odas/src/amessage/amsg_hops.c > CMakeFiles/odas.dir/src/amessage/amsg_hops.i
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/odas/src/amessage/amsg_hops.c > CMakeFiles/odas.dir/src/amessage/amsg_hops.i
 
 CMakeFiles/odas.dir/src/amessage/amsg_hops.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/odas.dir/src/amessage/amsg_hops.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/odas/src/amessage/amsg_hops.c -o CMakeFiles/odas.dir/src/amessage/amsg_hops.s
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/odas/src/amessage/amsg_hops.c -o CMakeFiles/odas.dir/src/amessage/amsg_hops.s
 
 CMakeFiles/odas.dir/src/amessage/amsg_pots.o: CMakeFiles/odas.dir/flags.make
 CMakeFiles/odas.dir/src/amessage/amsg_pots.o: ../src/amessage/amsg_pots.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/odas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_99) "Building C object CMakeFiles/odas.dir/src/amessage/amsg_pots.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/odas.dir/src/amessage/amsg_pots.o   -c /home/pi/odas/src/amessage/amsg_pots.c
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/odas.dir/src/amessage/amsg_pots.o   -c /home/pi/odas/src/amessage/amsg_pots.c
 
 CMakeFiles/odas.dir/src/amessage/amsg_pots.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/odas.dir/src/amessage/amsg_pots.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/odas/src/amessage/amsg_pots.c > CMakeFiles/odas.dir/src/amessage/amsg_pots.i
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/odas/src/amessage/amsg_pots.c > CMakeFiles/odas.dir/src/amessage/amsg_pots.i
 
 CMakeFiles/odas.dir/src/amessage/amsg_pots.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/odas.dir/src/amessage/amsg_pots.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/odas/src/amessage/amsg_pots.c -o CMakeFiles/odas.dir/src/amessage/amsg_pots.s
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/odas/src/amessage/amsg_pots.c -o CMakeFiles/odas.dir/src/amessage/amsg_pots.s
 
 CMakeFiles/odas.dir/src/amessage/amsg_powers.o: CMakeFiles/odas.dir/flags.make
 CMakeFiles/odas.dir/src/amessage/amsg_powers.o: ../src/amessage/amsg_powers.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/odas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_100) "Building C object CMakeFiles/odas.dir/src/amessage/amsg_powers.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/odas.dir/src/amessage/amsg_powers.o   -c /home/pi/odas/src/amessage/amsg_powers.c
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/odas.dir/src/amessage/amsg_powers.o   -c /home/pi/odas/src/amessage/amsg_powers.c
 
 CMakeFiles/odas.dir/src/amessage/amsg_powers.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/odas.dir/src/amessage/amsg_powers.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/odas/src/amessage/amsg_powers.c > CMakeFiles/odas.dir/src/amessage/amsg_powers.i
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/odas/src/amessage/amsg_powers.c > CMakeFiles/odas.dir/src/amessage/amsg_powers.i
 
 CMakeFiles/odas.dir/src/amessage/amsg_powers.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/odas.dir/src/amessage/amsg_powers.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/odas/src/amessage/amsg_powers.c -o CMakeFiles/odas.dir/src/amessage/amsg_powers.s
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/odas/src/amessage/amsg_powers.c -o CMakeFiles/odas.dir/src/amessage/amsg_powers.s
 
 CMakeFiles/odas.dir/src/amessage/amsg_spectra.o: CMakeFiles/odas.dir/flags.make
 CMakeFiles/odas.dir/src/amessage/amsg_spectra.o: ../src/amessage/amsg_spectra.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/odas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_101) "Building C object CMakeFiles/odas.dir/src/amessage/amsg_spectra.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/odas.dir/src/amessage/amsg_spectra.o   -c /home/pi/odas/src/amessage/amsg_spectra.c
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/odas.dir/src/amessage/amsg_spectra.o   -c /home/pi/odas/src/amessage/amsg_spectra.c
 
 CMakeFiles/odas.dir/src/amessage/amsg_spectra.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/odas.dir/src/amessage/amsg_spectra.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/odas/src/amessage/amsg_spectra.c > CMakeFiles/odas.dir/src/amessage/amsg_spectra.i
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/odas/src/amessage/amsg_spectra.c > CMakeFiles/odas.dir/src/amessage/amsg_spectra.i
 
 CMakeFiles/odas.dir/src/amessage/amsg_spectra.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/odas.dir/src/amessage/amsg_spectra.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/odas/src/amessage/amsg_spectra.c -o CMakeFiles/odas.dir/src/amessage/amsg_spectra.s
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/odas/src/amessage/amsg_spectra.c -o CMakeFiles/odas.dir/src/amessage/amsg_spectra.s
 
 CMakeFiles/odas.dir/src/amessage/amsg_targets.o: CMakeFiles/odas.dir/flags.make
 CMakeFiles/odas.dir/src/amessage/amsg_targets.o: ../src/amessage/amsg_targets.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/odas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_102) "Building C object CMakeFiles/odas.dir/src/amessage/amsg_targets.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/odas.dir/src/amessage/amsg_targets.o   -c /home/pi/odas/src/amessage/amsg_targets.c
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/odas.dir/src/amessage/amsg_targets.o   -c /home/pi/odas/src/amessage/amsg_targets.c
 
 CMakeFiles/odas.dir/src/amessage/amsg_targets.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/odas.dir/src/amessage/amsg_targets.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/odas/src/amessage/amsg_targets.c > CMakeFiles/odas.dir/src/amessage/amsg_targets.i
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/odas/src/amessage/amsg_targets.c > CMakeFiles/odas.dir/src/amessage/amsg_targets.i
 
 CMakeFiles/odas.dir/src/amessage/amsg_targets.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/odas.dir/src/amessage/amsg_targets.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/odas/src/amessage/amsg_targets.c -o CMakeFiles/odas.dir/src/amessage/amsg_targets.s
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/odas/src/amessage/amsg_targets.c -o CMakeFiles/odas.dir/src/amessage/amsg_targets.s
 
 CMakeFiles/odas.dir/src/amessage/amsg_tracks.o: CMakeFiles/odas.dir/flags.make
 CMakeFiles/odas.dir/src/amessage/amsg_tracks.o: ../src/amessage/amsg_tracks.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/odas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_103) "Building C object CMakeFiles/odas.dir/src/amessage/amsg_tracks.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/odas.dir/src/amessage/amsg_tracks.o   -c /home/pi/odas/src/amessage/amsg_tracks.c
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/odas.dir/src/amessage/amsg_tracks.o   -c /home/pi/odas/src/amessage/amsg_tracks.c
 
 CMakeFiles/odas.dir/src/amessage/amsg_tracks.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/odas.dir/src/amessage/amsg_tracks.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/odas/src/amessage/amsg_tracks.c > CMakeFiles/odas.dir/src/amessage/amsg_tracks.i
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/odas/src/amessage/amsg_tracks.c > CMakeFiles/odas.dir/src/amessage/amsg_tracks.i
 
 CMakeFiles/odas.dir/src/amessage/amsg_tracks.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/odas.dir/src/amessage/amsg_tracks.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/odas/src/amessage/amsg_tracks.c -o CMakeFiles/odas.dir/src/amessage/amsg_tracks.s
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/odas/src/amessage/amsg_tracks.c -o CMakeFiles/odas.dir/src/amessage/amsg_tracks.s
 
 CMakeFiles/odas.dir/src/amodule/amod_classify.o: CMakeFiles/odas.dir/flags.make
 CMakeFiles/odas.dir/src/amodule/amod_classify.o: ../src/amodule/amod_classify.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/odas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_104) "Building C object CMakeFiles/odas.dir/src/amodule/amod_classify.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/odas.dir/src/amodule/amod_classify.o   -c /home/pi/odas/src/amodule/amod_classify.c
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/odas.dir/src/amodule/amod_classify.o   -c /home/pi/odas/src/amodule/amod_classify.c
 
 CMakeFiles/odas.dir/src/amodule/amod_classify.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/odas.dir/src/amodule/amod_classify.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/odas/src/amodule/amod_classify.c > CMakeFiles/odas.dir/src/amodule/amod_classify.i
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/odas/src/amodule/amod_classify.c > CMakeFiles/odas.dir/src/amodule/amod_classify.i
 
 CMakeFiles/odas.dir/src/amodule/amod_classify.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/odas.dir/src/amodule/amod_classify.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/odas/src/amodule/amod_classify.c -o CMakeFiles/odas.dir/src/amodule/amod_classify.s
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/odas/src/amodule/amod_classify.c -o CMakeFiles/odas.dir/src/amodule/amod_classify.s
 
 CMakeFiles/odas.dir/src/amodule/amod_istft.o: CMakeFiles/odas.dir/flags.make
 CMakeFiles/odas.dir/src/amodule/amod_istft.o: ../src/amodule/amod_istft.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/odas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_105) "Building C object CMakeFiles/odas.dir/src/amodule/amod_istft.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/odas.dir/src/amodule/amod_istft.o   -c /home/pi/odas/src/amodule/amod_istft.c
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/odas.dir/src/amodule/amod_istft.o   -c /home/pi/odas/src/amodule/amod_istft.c
 
 CMakeFiles/odas.dir/src/amodule/amod_istft.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/odas.dir/src/amodule/amod_istft.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/odas/src/amodule/amod_istft.c > CMakeFiles/odas.dir/src/amodule/amod_istft.i
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/odas/src/amodule/amod_istft.c > CMakeFiles/odas.dir/src/amodule/amod_istft.i
 
 CMakeFiles/odas.dir/src/amodule/amod_istft.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/odas.dir/src/amodule/amod_istft.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/odas/src/amodule/amod_istft.c -o CMakeFiles/odas.dir/src/amodule/amod_istft.s
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/odas/src/amodule/amod_istft.c -o CMakeFiles/odas.dir/src/amodule/amod_istft.s
 
 CMakeFiles/odas.dir/src/amodule/amod_mapping.o: CMakeFiles/odas.dir/flags.make
 CMakeFiles/odas.dir/src/amodule/amod_mapping.o: ../src/amodule/amod_mapping.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/odas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_106) "Building C object CMakeFiles/odas.dir/src/amodule/amod_mapping.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/odas.dir/src/amodule/amod_mapping.o   -c /home/pi/odas/src/amodule/amod_mapping.c
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/odas.dir/src/amodule/amod_mapping.o   -c /home/pi/odas/src/amodule/amod_mapping.c
 
 CMakeFiles/odas.dir/src/amodule/amod_mapping.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/odas.dir/src/amodule/amod_mapping.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/odas/src/amodule/amod_mapping.c > CMakeFiles/odas.dir/src/amodule/amod_mapping.i
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/odas/src/amodule/amod_mapping.c > CMakeFiles/odas.dir/src/amodule/amod_mapping.i
 
 CMakeFiles/odas.dir/src/amodule/amod_mapping.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/odas.dir/src/amodule/amod_mapping.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/odas/src/amodule/amod_mapping.c -o CMakeFiles/odas.dir/src/amodule/amod_mapping.s
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/odas/src/amodule/amod_mapping.c -o CMakeFiles/odas.dir/src/amodule/amod_mapping.s
 
 CMakeFiles/odas.dir/src/amodule/amod_noise.o: CMakeFiles/odas.dir/flags.make
 CMakeFiles/odas.dir/src/amodule/amod_noise.o: ../src/amodule/amod_noise.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/odas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_107) "Building C object CMakeFiles/odas.dir/src/amodule/amod_noise.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/odas.dir/src/amodule/amod_noise.o   -c /home/pi/odas/src/amodule/amod_noise.c
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/odas.dir/src/amodule/amod_noise.o   -c /home/pi/odas/src/amodule/amod_noise.c
 
 CMakeFiles/odas.dir/src/amodule/amod_noise.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/odas.dir/src/amodule/amod_noise.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/odas/src/amodule/amod_noise.c > CMakeFiles/odas.dir/src/amodule/amod_noise.i
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/odas/src/amodule/amod_noise.c > CMakeFiles/odas.dir/src/amodule/amod_noise.i
 
 CMakeFiles/odas.dir/src/amodule/amod_noise.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/odas.dir/src/amodule/amod_noise.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/odas/src/amodule/amod_noise.c -o CMakeFiles/odas.dir/src/amodule/amod_noise.s
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/odas/src/amodule/amod_noise.c -o CMakeFiles/odas.dir/src/amodule/amod_noise.s
 
 CMakeFiles/odas.dir/src/amodule/amod_resample.o: CMakeFiles/odas.dir/flags.make
 CMakeFiles/odas.dir/src/amodule/amod_resample.o: ../src/amodule/amod_resample.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/odas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_108) "Building C object CMakeFiles/odas.dir/src/amodule/amod_resample.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/odas.dir/src/amodule/amod_resample.o   -c /home/pi/odas/src/amodule/amod_resample.c
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/odas.dir/src/amodule/amod_resample.o   -c /home/pi/odas/src/amodule/amod_resample.c
 
 CMakeFiles/odas.dir/src/amodule/amod_resample.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/odas.dir/src/amodule/amod_resample.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/odas/src/amodule/amod_resample.c > CMakeFiles/odas.dir/src/amodule/amod_resample.i
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/odas/src/amodule/amod_resample.c > CMakeFiles/odas.dir/src/amodule/amod_resample.i
 
 CMakeFiles/odas.dir/src/amodule/amod_resample.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/odas.dir/src/amodule/amod_resample.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/odas/src/amodule/amod_resample.c -o CMakeFiles/odas.dir/src/amodule/amod_resample.s
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/odas/src/amodule/amod_resample.c -o CMakeFiles/odas.dir/src/amodule/amod_resample.s
 
 CMakeFiles/odas.dir/src/amodule/amod_ssl.o: CMakeFiles/odas.dir/flags.make
 CMakeFiles/odas.dir/src/amodule/amod_ssl.o: ../src/amodule/amod_ssl.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/odas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_109) "Building C object CMakeFiles/odas.dir/src/amodule/amod_ssl.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/odas.dir/src/amodule/amod_ssl.o   -c /home/pi/odas/src/amodule/amod_ssl.c
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/odas.dir/src/amodule/amod_ssl.o   -c /home/pi/odas/src/amodule/amod_ssl.c
 
 CMakeFiles/odas.dir/src/amodule/amod_ssl.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/odas.dir/src/amodule/amod_ssl.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/odas/src/amodule/amod_ssl.c > CMakeFiles/odas.dir/src/amodule/amod_ssl.i
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/odas/src/amodule/amod_ssl.c > CMakeFiles/odas.dir/src/amodule/amod_ssl.i
 
 CMakeFiles/odas.dir/src/amodule/amod_ssl.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/odas.dir/src/amodule/amod_ssl.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/odas/src/amodule/amod_ssl.c -o CMakeFiles/odas.dir/src/amodule/amod_ssl.s
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/odas/src/amodule/amod_ssl.c -o CMakeFiles/odas.dir/src/amodule/amod_ssl.s
 
 CMakeFiles/odas.dir/src/amodule/amod_sss.o: CMakeFiles/odas.dir/flags.make
 CMakeFiles/odas.dir/src/amodule/amod_sss.o: ../src/amodule/amod_sss.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/odas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_110) "Building C object CMakeFiles/odas.dir/src/amodule/amod_sss.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/odas.dir/src/amodule/amod_sss.o   -c /home/pi/odas/src/amodule/amod_sss.c
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/odas.dir/src/amodule/amod_sss.o   -c /home/pi/odas/src/amodule/amod_sss.c
 
 CMakeFiles/odas.dir/src/amodule/amod_sss.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/odas.dir/src/amodule/amod_sss.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/odas/src/amodule/amod_sss.c > CMakeFiles/odas.dir/src/amodule/amod_sss.i
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/odas/src/amodule/amod_sss.c > CMakeFiles/odas.dir/src/amodule/amod_sss.i
 
 CMakeFiles/odas.dir/src/amodule/amod_sss.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/odas.dir/src/amodule/amod_sss.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/odas/src/amodule/amod_sss.c -o CMakeFiles/odas.dir/src/amodule/amod_sss.s
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/odas/src/amodule/amod_sss.c -o CMakeFiles/odas.dir/src/amodule/amod_sss.s
 
 CMakeFiles/odas.dir/src/amodule/amod_sst.o: CMakeFiles/odas.dir/flags.make
 CMakeFiles/odas.dir/src/amodule/amod_sst.o: ../src/amodule/amod_sst.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/odas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_111) "Building C object CMakeFiles/odas.dir/src/amodule/amod_sst.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/odas.dir/src/amodule/amod_sst.o   -c /home/pi/odas/src/amodule/amod_sst.c
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/odas.dir/src/amodule/amod_sst.o   -c /home/pi/odas/src/amodule/amod_sst.c
 
 CMakeFiles/odas.dir/src/amodule/amod_sst.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/odas.dir/src/amodule/amod_sst.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/odas/src/amodule/amod_sst.c > CMakeFiles/odas.dir/src/amodule/amod_sst.i
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/odas/src/amodule/amod_sst.c > CMakeFiles/odas.dir/src/amodule/amod_sst.i
 
 CMakeFiles/odas.dir/src/amodule/amod_sst.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/odas.dir/src/amodule/amod_sst.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/odas/src/amodule/amod_sst.c -o CMakeFiles/odas.dir/src/amodule/amod_sst.s
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/odas/src/amodule/amod_sst.c -o CMakeFiles/odas.dir/src/amodule/amod_sst.s
 
 CMakeFiles/odas.dir/src/amodule/amod_stft.o: CMakeFiles/odas.dir/flags.make
 CMakeFiles/odas.dir/src/amodule/amod_stft.o: ../src/amodule/amod_stft.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/odas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_112) "Building C object CMakeFiles/odas.dir/src/amodule/amod_stft.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/odas.dir/src/amodule/amod_stft.o   -c /home/pi/odas/src/amodule/amod_stft.c
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/odas.dir/src/amodule/amod_stft.o   -c /home/pi/odas/src/amodule/amod_stft.c
 
 CMakeFiles/odas.dir/src/amodule/amod_stft.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/odas.dir/src/amodule/amod_stft.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/odas/src/amodule/amod_stft.c > CMakeFiles/odas.dir/src/amodule/amod_stft.i
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/odas/src/amodule/amod_stft.c > CMakeFiles/odas.dir/src/amodule/amod_stft.i
 
 CMakeFiles/odas.dir/src/amodule/amod_stft.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/odas.dir/src/amodule/amod_stft.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/odas/src/amodule/amod_stft.c -o CMakeFiles/odas.dir/src/amodule/amod_stft.s
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/odas/src/amodule/amod_stft.c -o CMakeFiles/odas.dir/src/amodule/amod_stft.s
 
 CMakeFiles/odas.dir/src/amodule/amod_volume.o: CMakeFiles/odas.dir/flags.make
 CMakeFiles/odas.dir/src/amodule/amod_volume.o: ../src/amodule/amod_volume.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/odas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_113) "Building C object CMakeFiles/odas.dir/src/amodule/amod_volume.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/odas.dir/src/amodule/amod_volume.o   -c /home/pi/odas/src/amodule/amod_volume.c
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/odas.dir/src/amodule/amod_volume.o   -c /home/pi/odas/src/amodule/amod_volume.c
 
 CMakeFiles/odas.dir/src/amodule/amod_volume.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/odas.dir/src/amodule/amod_volume.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/odas/src/amodule/amod_volume.c > CMakeFiles/odas.dir/src/amodule/amod_volume.i
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/odas/src/amodule/amod_volume.c > CMakeFiles/odas.dir/src/amodule/amod_volume.i
 
 CMakeFiles/odas.dir/src/amodule/amod_volume.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/odas.dir/src/amodule/amod_volume.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/odas/src/amodule/amod_volume.c -o CMakeFiles/odas.dir/src/amodule/amod_volume.s
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/odas/src/amodule/amod_volume.c -o CMakeFiles/odas.dir/src/amodule/amod_volume.s
 
 CMakeFiles/odas.dir/src/asink/asnk_categories.o: CMakeFiles/odas.dir/flags.make
 CMakeFiles/odas.dir/src/asink/asnk_categories.o: ../src/asink/asnk_categories.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/odas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_114) "Building C object CMakeFiles/odas.dir/src/asink/asnk_categories.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/odas.dir/src/asink/asnk_categories.o   -c /home/pi/odas/src/asink/asnk_categories.c
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/odas.dir/src/asink/asnk_categories.o   -c /home/pi/odas/src/asink/asnk_categories.c
 
 CMakeFiles/odas.dir/src/asink/asnk_categories.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/odas.dir/src/asink/asnk_categories.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/odas/src/asink/asnk_categories.c > CMakeFiles/odas.dir/src/asink/asnk_categories.i
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/odas/src/asink/asnk_categories.c > CMakeFiles/odas.dir/src/asink/asnk_categories.i
 
 CMakeFiles/odas.dir/src/asink/asnk_categories.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/odas.dir/src/asink/asnk_categories.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/odas/src/asink/asnk_categories.c -o CMakeFiles/odas.dir/src/asink/asnk_categories.s
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/odas/src/asink/asnk_categories.c -o CMakeFiles/odas.dir/src/asink/asnk_categories.s
 
 CMakeFiles/odas.dir/src/asink/asnk_hops.o: CMakeFiles/odas.dir/flags.make
 CMakeFiles/odas.dir/src/asink/asnk_hops.o: ../src/asink/asnk_hops.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/odas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_115) "Building C object CMakeFiles/odas.dir/src/asink/asnk_hops.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/odas.dir/src/asink/asnk_hops.o   -c /home/pi/odas/src/asink/asnk_hops.c
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/odas.dir/src/asink/asnk_hops.o   -c /home/pi/odas/src/asink/asnk_hops.c
 
 CMakeFiles/odas.dir/src/asink/asnk_hops.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/odas.dir/src/asink/asnk_hops.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/odas/src/asink/asnk_hops.c > CMakeFiles/odas.dir/src/asink/asnk_hops.i
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/odas/src/asink/asnk_hops.c > CMakeFiles/odas.dir/src/asink/asnk_hops.i
 
 CMakeFiles/odas.dir/src/asink/asnk_hops.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/odas.dir/src/asink/asnk_hops.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/odas/src/asink/asnk_hops.c -o CMakeFiles/odas.dir/src/asink/asnk_hops.s
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/odas/src/asink/asnk_hops.c -o CMakeFiles/odas.dir/src/asink/asnk_hops.s
 
 CMakeFiles/odas.dir/src/asink/asnk_pots.o: CMakeFiles/odas.dir/flags.make
 CMakeFiles/odas.dir/src/asink/asnk_pots.o: ../src/asink/asnk_pots.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/odas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_116) "Building C object CMakeFiles/odas.dir/src/asink/asnk_pots.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/odas.dir/src/asink/asnk_pots.o   -c /home/pi/odas/src/asink/asnk_pots.c
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/odas.dir/src/asink/asnk_pots.o   -c /home/pi/odas/src/asink/asnk_pots.c
 
 CMakeFiles/odas.dir/src/asink/asnk_pots.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/odas.dir/src/asink/asnk_pots.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/odas/src/asink/asnk_pots.c > CMakeFiles/odas.dir/src/asink/asnk_pots.i
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/odas/src/asink/asnk_pots.c > CMakeFiles/odas.dir/src/asink/asnk_pots.i
 
 CMakeFiles/odas.dir/src/asink/asnk_pots.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/odas.dir/src/asink/asnk_pots.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/odas/src/asink/asnk_pots.c -o CMakeFiles/odas.dir/src/asink/asnk_pots.s
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/odas/src/asink/asnk_pots.c -o CMakeFiles/odas.dir/src/asink/asnk_pots.s
 
 CMakeFiles/odas.dir/src/asink/asnk_powers.o: CMakeFiles/odas.dir/flags.make
 CMakeFiles/odas.dir/src/asink/asnk_powers.o: ../src/asink/asnk_powers.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/odas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_117) "Building C object CMakeFiles/odas.dir/src/asink/asnk_powers.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/odas.dir/src/asink/asnk_powers.o   -c /home/pi/odas/src/asink/asnk_powers.c
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/odas.dir/src/asink/asnk_powers.o   -c /home/pi/odas/src/asink/asnk_powers.c
 
 CMakeFiles/odas.dir/src/asink/asnk_powers.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/odas.dir/src/asink/asnk_powers.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/odas/src/asink/asnk_powers.c > CMakeFiles/odas.dir/src/asink/asnk_powers.i
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/odas/src/asink/asnk_powers.c > CMakeFiles/odas.dir/src/asink/asnk_powers.i
 
 CMakeFiles/odas.dir/src/asink/asnk_powers.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/odas.dir/src/asink/asnk_powers.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/odas/src/asink/asnk_powers.c -o CMakeFiles/odas.dir/src/asink/asnk_powers.s
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/odas/src/asink/asnk_powers.c -o CMakeFiles/odas.dir/src/asink/asnk_powers.s
 
 CMakeFiles/odas.dir/src/asink/asnk_spectra.o: CMakeFiles/odas.dir/flags.make
 CMakeFiles/odas.dir/src/asink/asnk_spectra.o: ../src/asink/asnk_spectra.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/odas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_118) "Building C object CMakeFiles/odas.dir/src/asink/asnk_spectra.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/odas.dir/src/asink/asnk_spectra.o   -c /home/pi/odas/src/asink/asnk_spectra.c
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/odas.dir/src/asink/asnk_spectra.o   -c /home/pi/odas/src/asink/asnk_spectra.c
 
 CMakeFiles/odas.dir/src/asink/asnk_spectra.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/odas.dir/src/asink/asnk_spectra.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/odas/src/asink/asnk_spectra.c > CMakeFiles/odas.dir/src/asink/asnk_spectra.i
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/odas/src/asink/asnk_spectra.c > CMakeFiles/odas.dir/src/asink/asnk_spectra.i
 
 CMakeFiles/odas.dir/src/asink/asnk_spectra.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/odas.dir/src/asink/asnk_spectra.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/odas/src/asink/asnk_spectra.c -o CMakeFiles/odas.dir/src/asink/asnk_spectra.s
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/odas/src/asink/asnk_spectra.c -o CMakeFiles/odas.dir/src/asink/asnk_spectra.s
 
 CMakeFiles/odas.dir/src/asink/asnk_tracks.o: CMakeFiles/odas.dir/flags.make
 CMakeFiles/odas.dir/src/asink/asnk_tracks.o: ../src/asink/asnk_tracks.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/odas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_119) "Building C object CMakeFiles/odas.dir/src/asink/asnk_tracks.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/odas.dir/src/asink/asnk_tracks.o   -c /home/pi/odas/src/asink/asnk_tracks.c
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/odas.dir/src/asink/asnk_tracks.o   -c /home/pi/odas/src/asink/asnk_tracks.c
 
 CMakeFiles/odas.dir/src/asink/asnk_tracks.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/odas.dir/src/asink/asnk_tracks.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/odas/src/asink/asnk_tracks.c > CMakeFiles/odas.dir/src/asink/asnk_tracks.i
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/odas/src/asink/asnk_tracks.c > CMakeFiles/odas.dir/src/asink/asnk_tracks.i
 
 CMakeFiles/odas.dir/src/asink/asnk_tracks.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/odas.dir/src/asink/asnk_tracks.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/odas/src/asink/asnk_tracks.c -o CMakeFiles/odas.dir/src/asink/asnk_tracks.s
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/odas/src/asink/asnk_tracks.c -o CMakeFiles/odas.dir/src/asink/asnk_tracks.s
 
 CMakeFiles/odas.dir/src/asource/asrc_hops.o: CMakeFiles/odas.dir/flags.make
 CMakeFiles/odas.dir/src/asource/asrc_hops.o: ../src/asource/asrc_hops.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/odas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_120) "Building C object CMakeFiles/odas.dir/src/asource/asrc_hops.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/odas.dir/src/asource/asrc_hops.o   -c /home/pi/odas/src/asource/asrc_hops.c
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/odas.dir/src/asource/asrc_hops.o   -c /home/pi/odas/src/asource/asrc_hops.c
 
 CMakeFiles/odas.dir/src/asource/asrc_hops.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/odas.dir/src/asource/asrc_hops.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/odas/src/asource/asrc_hops.c > CMakeFiles/odas.dir/src/asource/asrc_hops.i
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/odas/src/asource/asrc_hops.c > CMakeFiles/odas.dir/src/asource/asrc_hops.i
 
 CMakeFiles/odas.dir/src/asource/asrc_hops.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/odas.dir/src/asource/asrc_hops.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/odas/src/asource/asrc_hops.c -o CMakeFiles/odas.dir/src/asource/asrc_hops.s
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/odas/src/asource/asrc_hops.c -o CMakeFiles/odas.dir/src/asource/asrc_hops.s
 
 CMakeFiles/odas.dir/src/connector/con_categories.o: CMakeFiles/odas.dir/flags.make
 CMakeFiles/odas.dir/src/connector/con_categories.o: ../src/connector/con_categories.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/odas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_121) "Building C object CMakeFiles/odas.dir/src/connector/con_categories.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/odas.dir/src/connector/con_categories.o   -c /home/pi/odas/src/connector/con_categories.c
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/odas.dir/src/connector/con_categories.o   -c /home/pi/odas/src/connector/con_categories.c
 
 CMakeFiles/odas.dir/src/connector/con_categories.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/odas.dir/src/connector/con_categories.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/odas/src/connector/con_categories.c > CMakeFiles/odas.dir/src/connector/con_categories.i
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/odas/src/connector/con_categories.c > CMakeFiles/odas.dir/src/connector/con_categories.i
 
 CMakeFiles/odas.dir/src/connector/con_categories.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/odas.dir/src/connector/con_categories.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/odas/src/connector/con_categories.c -o CMakeFiles/odas.dir/src/connector/con_categories.s
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/odas/src/connector/con_categories.c -o CMakeFiles/odas.dir/src/connector/con_categories.s
 
 CMakeFiles/odas.dir/src/connector/con_hops.o: CMakeFiles/odas.dir/flags.make
 CMakeFiles/odas.dir/src/connector/con_hops.o: ../src/connector/con_hops.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/odas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_122) "Building C object CMakeFiles/odas.dir/src/connector/con_hops.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/odas.dir/src/connector/con_hops.o   -c /home/pi/odas/src/connector/con_hops.c
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/odas.dir/src/connector/con_hops.o   -c /home/pi/odas/src/connector/con_hops.c
 
 CMakeFiles/odas.dir/src/connector/con_hops.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/odas.dir/src/connector/con_hops.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/odas/src/connector/con_hops.c > CMakeFiles/odas.dir/src/connector/con_hops.i
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/odas/src/connector/con_hops.c > CMakeFiles/odas.dir/src/connector/con_hops.i
 
 CMakeFiles/odas.dir/src/connector/con_hops.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/odas.dir/src/connector/con_hops.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/odas/src/connector/con_hops.c -o CMakeFiles/odas.dir/src/connector/con_hops.s
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/odas/src/connector/con_hops.c -o CMakeFiles/odas.dir/src/connector/con_hops.s
 
 CMakeFiles/odas.dir/src/connector/con_pots.o: CMakeFiles/odas.dir/flags.make
 CMakeFiles/odas.dir/src/connector/con_pots.o: ../src/connector/con_pots.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/odas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_123) "Building C object CMakeFiles/odas.dir/src/connector/con_pots.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/odas.dir/src/connector/con_pots.o   -c /home/pi/odas/src/connector/con_pots.c
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/odas.dir/src/connector/con_pots.o   -c /home/pi/odas/src/connector/con_pots.c
 
 CMakeFiles/odas.dir/src/connector/con_pots.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/odas.dir/src/connector/con_pots.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/odas/src/connector/con_pots.c > CMakeFiles/odas.dir/src/connector/con_pots.i
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/odas/src/connector/con_pots.c > CMakeFiles/odas.dir/src/connector/con_pots.i
 
 CMakeFiles/odas.dir/src/connector/con_pots.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/odas.dir/src/connector/con_pots.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/odas/src/connector/con_pots.c -o CMakeFiles/odas.dir/src/connector/con_pots.s
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/odas/src/connector/con_pots.c -o CMakeFiles/odas.dir/src/connector/con_pots.s
 
 CMakeFiles/odas.dir/src/connector/con_powers.o: CMakeFiles/odas.dir/flags.make
 CMakeFiles/odas.dir/src/connector/con_powers.o: ../src/connector/con_powers.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/odas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_124) "Building C object CMakeFiles/odas.dir/src/connector/con_powers.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/odas.dir/src/connector/con_powers.o   -c /home/pi/odas/src/connector/con_powers.c
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/odas.dir/src/connector/con_powers.o   -c /home/pi/odas/src/connector/con_powers.c
 
 CMakeFiles/odas.dir/src/connector/con_powers.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/odas.dir/src/connector/con_powers.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/odas/src/connector/con_powers.c > CMakeFiles/odas.dir/src/connector/con_powers.i
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/odas/src/connector/con_powers.c > CMakeFiles/odas.dir/src/connector/con_powers.i
 
 CMakeFiles/odas.dir/src/connector/con_powers.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/odas.dir/src/connector/con_powers.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/odas/src/connector/con_powers.c -o CMakeFiles/odas.dir/src/connector/con_powers.s
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/odas/src/connector/con_powers.c -o CMakeFiles/odas.dir/src/connector/con_powers.s
 
 CMakeFiles/odas.dir/src/connector/con_spectra.o: CMakeFiles/odas.dir/flags.make
 CMakeFiles/odas.dir/src/connector/con_spectra.o: ../src/connector/con_spectra.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/odas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_125) "Building C object CMakeFiles/odas.dir/src/connector/con_spectra.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/odas.dir/src/connector/con_spectra.o   -c /home/pi/odas/src/connector/con_spectra.c
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/odas.dir/src/connector/con_spectra.o   -c /home/pi/odas/src/connector/con_spectra.c
 
 CMakeFiles/odas.dir/src/connector/con_spectra.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/odas.dir/src/connector/con_spectra.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/odas/src/connector/con_spectra.c > CMakeFiles/odas.dir/src/connector/con_spectra.i
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/odas/src/connector/con_spectra.c > CMakeFiles/odas.dir/src/connector/con_spectra.i
 
 CMakeFiles/odas.dir/src/connector/con_spectra.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/odas.dir/src/connector/con_spectra.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/odas/src/connector/con_spectra.c -o CMakeFiles/odas.dir/src/connector/con_spectra.s
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/odas/src/connector/con_spectra.c -o CMakeFiles/odas.dir/src/connector/con_spectra.s
 
 CMakeFiles/odas.dir/src/connector/con_targets.o: CMakeFiles/odas.dir/flags.make
 CMakeFiles/odas.dir/src/connector/con_targets.o: ../src/connector/con_targets.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/odas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_126) "Building C object CMakeFiles/odas.dir/src/connector/con_targets.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/odas.dir/src/connector/con_targets.o   -c /home/pi/odas/src/connector/con_targets.c
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/odas.dir/src/connector/con_targets.o   -c /home/pi/odas/src/connector/con_targets.c
 
 CMakeFiles/odas.dir/src/connector/con_targets.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/odas.dir/src/connector/con_targets.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/odas/src/connector/con_targets.c > CMakeFiles/odas.dir/src/connector/con_targets.i
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/odas/src/connector/con_targets.c > CMakeFiles/odas.dir/src/connector/con_targets.i
 
 CMakeFiles/odas.dir/src/connector/con_targets.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/odas.dir/src/connector/con_targets.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/odas/src/connector/con_targets.c -o CMakeFiles/odas.dir/src/connector/con_targets.s
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/odas/src/connector/con_targets.c -o CMakeFiles/odas.dir/src/connector/con_targets.s
 
 CMakeFiles/odas.dir/src/connector/con_tracks.o: CMakeFiles/odas.dir/flags.make
 CMakeFiles/odas.dir/src/connector/con_tracks.o: ../src/connector/con_tracks.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/odas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_127) "Building C object CMakeFiles/odas.dir/src/connector/con_tracks.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/odas.dir/src/connector/con_tracks.o   -c /home/pi/odas/src/connector/con_tracks.c
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/odas.dir/src/connector/con_tracks.o   -c /home/pi/odas/src/connector/con_tracks.c
 
 CMakeFiles/odas.dir/src/connector/con_tracks.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/odas.dir/src/connector/con_tracks.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/odas/src/connector/con_tracks.c > CMakeFiles/odas.dir/src/connector/con_tracks.i
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/odas/src/connector/con_tracks.c > CMakeFiles/odas.dir/src/connector/con_tracks.i
 
 CMakeFiles/odas.dir/src/connector/con_tracks.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/odas.dir/src/connector/con_tracks.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/odas/src/connector/con_tracks.c -o CMakeFiles/odas.dir/src/connector/con_tracks.s
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/odas/src/connector/con_tracks.c -o CMakeFiles/odas.dir/src/connector/con_tracks.s
 
 CMakeFiles/odas.dir/src/injector/inj_targets.o: CMakeFiles/odas.dir/flags.make
 CMakeFiles/odas.dir/src/injector/inj_targets.o: ../src/injector/inj_targets.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/odas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_128) "Building C object CMakeFiles/odas.dir/src/injector/inj_targets.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/odas.dir/src/injector/inj_targets.o   -c /home/pi/odas/src/injector/inj_targets.c
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/odas.dir/src/injector/inj_targets.o   -c /home/pi/odas/src/injector/inj_targets.c
 
 CMakeFiles/odas.dir/src/injector/inj_targets.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/odas.dir/src/injector/inj_targets.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/odas/src/injector/inj_targets.c > CMakeFiles/odas.dir/src/injector/inj_targets.i
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/odas/src/injector/inj_targets.c > CMakeFiles/odas.dir/src/injector/inj_targets.i
 
 CMakeFiles/odas.dir/src/injector/inj_targets.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/odas.dir/src/injector/inj_targets.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/odas/src/injector/inj_targets.c -o CMakeFiles/odas.dir/src/injector/inj_targets.s
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/odas/src/injector/inj_targets.c -o CMakeFiles/odas.dir/src/injector/inj_targets.s
 
 CMakeFiles/odas.dir/src/message/msg_categories.o: CMakeFiles/odas.dir/flags.make
 CMakeFiles/odas.dir/src/message/msg_categories.o: ../src/message/msg_categories.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/odas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_129) "Building C object CMakeFiles/odas.dir/src/message/msg_categories.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/odas.dir/src/message/msg_categories.o   -c /home/pi/odas/src/message/msg_categories.c
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/odas.dir/src/message/msg_categories.o   -c /home/pi/odas/src/message/msg_categories.c
 
 CMakeFiles/odas.dir/src/message/msg_categories.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/odas.dir/src/message/msg_categories.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/odas/src/message/msg_categories.c > CMakeFiles/odas.dir/src/message/msg_categories.i
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/odas/src/message/msg_categories.c > CMakeFiles/odas.dir/src/message/msg_categories.i
 
 CMakeFiles/odas.dir/src/message/msg_categories.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/odas.dir/src/message/msg_categories.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/odas/src/message/msg_categories.c -o CMakeFiles/odas.dir/src/message/msg_categories.s
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/odas/src/message/msg_categories.c -o CMakeFiles/odas.dir/src/message/msg_categories.s
 
 CMakeFiles/odas.dir/src/message/msg_hops.o: CMakeFiles/odas.dir/flags.make
 CMakeFiles/odas.dir/src/message/msg_hops.o: ../src/message/msg_hops.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/odas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_130) "Building C object CMakeFiles/odas.dir/src/message/msg_hops.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/odas.dir/src/message/msg_hops.o   -c /home/pi/odas/src/message/msg_hops.c
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/odas.dir/src/message/msg_hops.o   -c /home/pi/odas/src/message/msg_hops.c
 
 CMakeFiles/odas.dir/src/message/msg_hops.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/odas.dir/src/message/msg_hops.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/odas/src/message/msg_hops.c > CMakeFiles/odas.dir/src/message/msg_hops.i
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/odas/src/message/msg_hops.c > CMakeFiles/odas.dir/src/message/msg_hops.i
 
 CMakeFiles/odas.dir/src/message/msg_hops.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/odas.dir/src/message/msg_hops.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/odas/src/message/msg_hops.c -o CMakeFiles/odas.dir/src/message/msg_hops.s
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/odas/src/message/msg_hops.c -o CMakeFiles/odas.dir/src/message/msg_hops.s
 
 CMakeFiles/odas.dir/src/message/msg_pots.o: CMakeFiles/odas.dir/flags.make
 CMakeFiles/odas.dir/src/message/msg_pots.o: ../src/message/msg_pots.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/odas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_131) "Building C object CMakeFiles/odas.dir/src/message/msg_pots.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/odas.dir/src/message/msg_pots.o   -c /home/pi/odas/src/message/msg_pots.c
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/odas.dir/src/message/msg_pots.o   -c /home/pi/odas/src/message/msg_pots.c
 
 CMakeFiles/odas.dir/src/message/msg_pots.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/odas.dir/src/message/msg_pots.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/odas/src/message/msg_pots.c > CMakeFiles/odas.dir/src/message/msg_pots.i
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/odas/src/message/msg_pots.c > CMakeFiles/odas.dir/src/message/msg_pots.i
 
 CMakeFiles/odas.dir/src/message/msg_pots.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/odas.dir/src/message/msg_pots.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/odas/src/message/msg_pots.c -o CMakeFiles/odas.dir/src/message/msg_pots.s
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/odas/src/message/msg_pots.c -o CMakeFiles/odas.dir/src/message/msg_pots.s
 
 CMakeFiles/odas.dir/src/message/msg_powers.o: CMakeFiles/odas.dir/flags.make
 CMakeFiles/odas.dir/src/message/msg_powers.o: ../src/message/msg_powers.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/odas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_132) "Building C object CMakeFiles/odas.dir/src/message/msg_powers.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/odas.dir/src/message/msg_powers.o   -c /home/pi/odas/src/message/msg_powers.c
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/odas.dir/src/message/msg_powers.o   -c /home/pi/odas/src/message/msg_powers.c
 
 CMakeFiles/odas.dir/src/message/msg_powers.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/odas.dir/src/message/msg_powers.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/odas/src/message/msg_powers.c > CMakeFiles/odas.dir/src/message/msg_powers.i
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/odas/src/message/msg_powers.c > CMakeFiles/odas.dir/src/message/msg_powers.i
 
 CMakeFiles/odas.dir/src/message/msg_powers.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/odas.dir/src/message/msg_powers.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/odas/src/message/msg_powers.c -o CMakeFiles/odas.dir/src/message/msg_powers.s
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/odas/src/message/msg_powers.c -o CMakeFiles/odas.dir/src/message/msg_powers.s
 
 CMakeFiles/odas.dir/src/message/msg_spectra.o: CMakeFiles/odas.dir/flags.make
 CMakeFiles/odas.dir/src/message/msg_spectra.o: ../src/message/msg_spectra.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/odas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_133) "Building C object CMakeFiles/odas.dir/src/message/msg_spectra.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/odas.dir/src/message/msg_spectra.o   -c /home/pi/odas/src/message/msg_spectra.c
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/odas.dir/src/message/msg_spectra.o   -c /home/pi/odas/src/message/msg_spectra.c
 
 CMakeFiles/odas.dir/src/message/msg_spectra.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/odas.dir/src/message/msg_spectra.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/odas/src/message/msg_spectra.c > CMakeFiles/odas.dir/src/message/msg_spectra.i
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/odas/src/message/msg_spectra.c > CMakeFiles/odas.dir/src/message/msg_spectra.i
 
 CMakeFiles/odas.dir/src/message/msg_spectra.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/odas.dir/src/message/msg_spectra.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/odas/src/message/msg_spectra.c -o CMakeFiles/odas.dir/src/message/msg_spectra.s
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/odas/src/message/msg_spectra.c -o CMakeFiles/odas.dir/src/message/msg_spectra.s
 
 CMakeFiles/odas.dir/src/message/msg_targets.o: CMakeFiles/odas.dir/flags.make
 CMakeFiles/odas.dir/src/message/msg_targets.o: ../src/message/msg_targets.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/odas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_134) "Building C object CMakeFiles/odas.dir/src/message/msg_targets.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/odas.dir/src/message/msg_targets.o   -c /home/pi/odas/src/message/msg_targets.c
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/odas.dir/src/message/msg_targets.o   -c /home/pi/odas/src/message/msg_targets.c
 
 CMakeFiles/odas.dir/src/message/msg_targets.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/odas.dir/src/message/msg_targets.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/odas/src/message/msg_targets.c > CMakeFiles/odas.dir/src/message/msg_targets.i
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/odas/src/message/msg_targets.c > CMakeFiles/odas.dir/src/message/msg_targets.i
 
 CMakeFiles/odas.dir/src/message/msg_targets.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/odas.dir/src/message/msg_targets.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/odas/src/message/msg_targets.c -o CMakeFiles/odas.dir/src/message/msg_targets.s
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/odas/src/message/msg_targets.c -o CMakeFiles/odas.dir/src/message/msg_targets.s
 
 CMakeFiles/odas.dir/src/message/msg_tracks.o: CMakeFiles/odas.dir/flags.make
 CMakeFiles/odas.dir/src/message/msg_tracks.o: ../src/message/msg_tracks.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/odas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_135) "Building C object CMakeFiles/odas.dir/src/message/msg_tracks.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/odas.dir/src/message/msg_tracks.o   -c /home/pi/odas/src/message/msg_tracks.c
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/odas.dir/src/message/msg_tracks.o   -c /home/pi/odas/src/message/msg_tracks.c
 
 CMakeFiles/odas.dir/src/message/msg_tracks.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/odas.dir/src/message/msg_tracks.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/odas/src/message/msg_tracks.c > CMakeFiles/odas.dir/src/message/msg_tracks.i
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/odas/src/message/msg_tracks.c > CMakeFiles/odas.dir/src/message/msg_tracks.i
 
 CMakeFiles/odas.dir/src/message/msg_tracks.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/odas.dir/src/message/msg_tracks.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/odas/src/message/msg_tracks.c -o CMakeFiles/odas.dir/src/message/msg_tracks.s
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/odas/src/message/msg_tracks.c -o CMakeFiles/odas.dir/src/message/msg_tracks.s
 
 CMakeFiles/odas.dir/src/module/mod_classify.o: CMakeFiles/odas.dir/flags.make
 CMakeFiles/odas.dir/src/module/mod_classify.o: ../src/module/mod_classify.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/odas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_136) "Building C object CMakeFiles/odas.dir/src/module/mod_classify.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/odas.dir/src/module/mod_classify.o   -c /home/pi/odas/src/module/mod_classify.c
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/odas.dir/src/module/mod_classify.o   -c /home/pi/odas/src/module/mod_classify.c
 
 CMakeFiles/odas.dir/src/module/mod_classify.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/odas.dir/src/module/mod_classify.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/odas/src/module/mod_classify.c > CMakeFiles/odas.dir/src/module/mod_classify.i
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/odas/src/module/mod_classify.c > CMakeFiles/odas.dir/src/module/mod_classify.i
 
 CMakeFiles/odas.dir/src/module/mod_classify.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/odas.dir/src/module/mod_classify.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/odas/src/module/mod_classify.c -o CMakeFiles/odas.dir/src/module/mod_classify.s
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/odas/src/module/mod_classify.c -o CMakeFiles/odas.dir/src/module/mod_classify.s
 
 CMakeFiles/odas.dir/src/module/update_led.o: CMakeFiles/odas.dir/flags.make
 CMakeFiles/odas.dir/src/module/update_led.o: ../src/module/update_led.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/odas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_137) "Building CXX object CMakeFiles/odas.dir/src/module/update_led.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/odas.dir/src/module/update_led.o -c /home/pi/odas/src/module/update_led.cpp
+	/usr/bin/arm-linux-gnueabihf-g++-8  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/odas.dir/src/module/update_led.o -c /home/pi/odas/src/module/update_led.cpp
 
 CMakeFiles/odas.dir/src/module/update_led.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/odas.dir/src/module/update_led.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/odas/src/module/update_led.cpp > CMakeFiles/odas.dir/src/module/update_led.i
+	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/odas/src/module/update_led.cpp > CMakeFiles/odas.dir/src/module/update_led.i
 
 CMakeFiles/odas.dir/src/module/update_led.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/odas.dir/src/module/update_led.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/odas/src/module/update_led.cpp -o CMakeFiles/odas.dir/src/module/update_led.s
+	/usr/bin/arm-linux-gnueabihf-g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/odas/src/module/update_led.cpp -o CMakeFiles/odas.dir/src/module/update_led.s
 
 CMakeFiles/odas.dir/src/module/mod_istft.o: CMakeFiles/odas.dir/flags.make
 CMakeFiles/odas.dir/src/module/mod_istft.o: ../src/module/mod_istft.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/odas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_138) "Building C object CMakeFiles/odas.dir/src/module/mod_istft.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/odas.dir/src/module/mod_istft.o   -c /home/pi/odas/src/module/mod_istft.c
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/odas.dir/src/module/mod_istft.o   -c /home/pi/odas/src/module/mod_istft.c
 
 CMakeFiles/odas.dir/src/module/mod_istft.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/odas.dir/src/module/mod_istft.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/odas/src/module/mod_istft.c > CMakeFiles/odas.dir/src/module/mod_istft.i
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/odas/src/module/mod_istft.c > CMakeFiles/odas.dir/src/module/mod_istft.i
 
 CMakeFiles/odas.dir/src/module/mod_istft.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/odas.dir/src/module/mod_istft.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/odas/src/module/mod_istft.c -o CMakeFiles/odas.dir/src/module/mod_istft.s
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/odas/src/module/mod_istft.c -o CMakeFiles/odas.dir/src/module/mod_istft.s
 
 CMakeFiles/odas.dir/src/module/mod_mapping.o: CMakeFiles/odas.dir/flags.make
 CMakeFiles/odas.dir/src/module/mod_mapping.o: ../src/module/mod_mapping.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/odas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_139) "Building C object CMakeFiles/odas.dir/src/module/mod_mapping.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/odas.dir/src/module/mod_mapping.o   -c /home/pi/odas/src/module/mod_mapping.c
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/odas.dir/src/module/mod_mapping.o   -c /home/pi/odas/src/module/mod_mapping.c
 
 CMakeFiles/odas.dir/src/module/mod_mapping.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/odas.dir/src/module/mod_mapping.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/odas/src/module/mod_mapping.c > CMakeFiles/odas.dir/src/module/mod_mapping.i
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/odas/src/module/mod_mapping.c > CMakeFiles/odas.dir/src/module/mod_mapping.i
 
 CMakeFiles/odas.dir/src/module/mod_mapping.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/odas.dir/src/module/mod_mapping.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/odas/src/module/mod_mapping.c -o CMakeFiles/odas.dir/src/module/mod_mapping.s
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/odas/src/module/mod_mapping.c -o CMakeFiles/odas.dir/src/module/mod_mapping.s
 
 CMakeFiles/odas.dir/src/module/mod_noise.o: CMakeFiles/odas.dir/flags.make
 CMakeFiles/odas.dir/src/module/mod_noise.o: ../src/module/mod_noise.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/odas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_140) "Building C object CMakeFiles/odas.dir/src/module/mod_noise.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/odas.dir/src/module/mod_noise.o   -c /home/pi/odas/src/module/mod_noise.c
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/odas.dir/src/module/mod_noise.o   -c /home/pi/odas/src/module/mod_noise.c
 
 CMakeFiles/odas.dir/src/module/mod_noise.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/odas.dir/src/module/mod_noise.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/odas/src/module/mod_noise.c > CMakeFiles/odas.dir/src/module/mod_noise.i
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/odas/src/module/mod_noise.c > CMakeFiles/odas.dir/src/module/mod_noise.i
 
 CMakeFiles/odas.dir/src/module/mod_noise.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/odas.dir/src/module/mod_noise.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/odas/src/module/mod_noise.c -o CMakeFiles/odas.dir/src/module/mod_noise.s
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/odas/src/module/mod_noise.c -o CMakeFiles/odas.dir/src/module/mod_noise.s
 
 CMakeFiles/odas.dir/src/module/mod_resample.o: CMakeFiles/odas.dir/flags.make
 CMakeFiles/odas.dir/src/module/mod_resample.o: ../src/module/mod_resample.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/odas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_141) "Building C object CMakeFiles/odas.dir/src/module/mod_resample.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/odas.dir/src/module/mod_resample.o   -c /home/pi/odas/src/module/mod_resample.c
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/odas.dir/src/module/mod_resample.o   -c /home/pi/odas/src/module/mod_resample.c
 
 CMakeFiles/odas.dir/src/module/mod_resample.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/odas.dir/src/module/mod_resample.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/odas/src/module/mod_resample.c > CMakeFiles/odas.dir/src/module/mod_resample.i
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/odas/src/module/mod_resample.c > CMakeFiles/odas.dir/src/module/mod_resample.i
 
 CMakeFiles/odas.dir/src/module/mod_resample.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/odas.dir/src/module/mod_resample.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/odas/src/module/mod_resample.c -o CMakeFiles/odas.dir/src/module/mod_resample.s
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/odas/src/module/mod_resample.c -o CMakeFiles/odas.dir/src/module/mod_resample.s
 
 CMakeFiles/odas.dir/src/module/mod_ssl.o: CMakeFiles/odas.dir/flags.make
 CMakeFiles/odas.dir/src/module/mod_ssl.o: ../src/module/mod_ssl.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/odas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_142) "Building C object CMakeFiles/odas.dir/src/module/mod_ssl.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/odas.dir/src/module/mod_ssl.o   -c /home/pi/odas/src/module/mod_ssl.c
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/odas.dir/src/module/mod_ssl.o   -c /home/pi/odas/src/module/mod_ssl.c
 
 CMakeFiles/odas.dir/src/module/mod_ssl.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/odas.dir/src/module/mod_ssl.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/odas/src/module/mod_ssl.c > CMakeFiles/odas.dir/src/module/mod_ssl.i
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/odas/src/module/mod_ssl.c > CMakeFiles/odas.dir/src/module/mod_ssl.i
 
 CMakeFiles/odas.dir/src/module/mod_ssl.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/odas.dir/src/module/mod_ssl.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/odas/src/module/mod_ssl.c -o CMakeFiles/odas.dir/src/module/mod_ssl.s
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/odas/src/module/mod_ssl.c -o CMakeFiles/odas.dir/src/module/mod_ssl.s
 
 CMakeFiles/odas.dir/src/module/mod_sss.o: CMakeFiles/odas.dir/flags.make
 CMakeFiles/odas.dir/src/module/mod_sss.o: ../src/module/mod_sss.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/odas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_143) "Building C object CMakeFiles/odas.dir/src/module/mod_sss.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/odas.dir/src/module/mod_sss.o   -c /home/pi/odas/src/module/mod_sss.c
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/odas.dir/src/module/mod_sss.o   -c /home/pi/odas/src/module/mod_sss.c
 
 CMakeFiles/odas.dir/src/module/mod_sss.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/odas.dir/src/module/mod_sss.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/odas/src/module/mod_sss.c > CMakeFiles/odas.dir/src/module/mod_sss.i
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/odas/src/module/mod_sss.c > CMakeFiles/odas.dir/src/module/mod_sss.i
 
 CMakeFiles/odas.dir/src/module/mod_sss.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/odas.dir/src/module/mod_sss.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/odas/src/module/mod_sss.c -o CMakeFiles/odas.dir/src/module/mod_sss.s
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/odas/src/module/mod_sss.c -o CMakeFiles/odas.dir/src/module/mod_sss.s
 
 CMakeFiles/odas.dir/src/module/mod_sst.o: CMakeFiles/odas.dir/flags.make
 CMakeFiles/odas.dir/src/module/mod_sst.o: ../src/module/mod_sst.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/odas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_144) "Building C object CMakeFiles/odas.dir/src/module/mod_sst.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/odas.dir/src/module/mod_sst.o   -c /home/pi/odas/src/module/mod_sst.c
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/odas.dir/src/module/mod_sst.o   -c /home/pi/odas/src/module/mod_sst.c
 
 CMakeFiles/odas.dir/src/module/mod_sst.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/odas.dir/src/module/mod_sst.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/odas/src/module/mod_sst.c > CMakeFiles/odas.dir/src/module/mod_sst.i
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/odas/src/module/mod_sst.c > CMakeFiles/odas.dir/src/module/mod_sst.i
 
 CMakeFiles/odas.dir/src/module/mod_sst.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/odas.dir/src/module/mod_sst.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/odas/src/module/mod_sst.c -o CMakeFiles/odas.dir/src/module/mod_sst.s
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/odas/src/module/mod_sst.c -o CMakeFiles/odas.dir/src/module/mod_sst.s
 
 CMakeFiles/odas.dir/src/module/mod_stft.o: CMakeFiles/odas.dir/flags.make
 CMakeFiles/odas.dir/src/module/mod_stft.o: ../src/module/mod_stft.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/odas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_145) "Building C object CMakeFiles/odas.dir/src/module/mod_stft.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/odas.dir/src/module/mod_stft.o   -c /home/pi/odas/src/module/mod_stft.c
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/odas.dir/src/module/mod_stft.o   -c /home/pi/odas/src/module/mod_stft.c
 
 CMakeFiles/odas.dir/src/module/mod_stft.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/odas.dir/src/module/mod_stft.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/odas/src/module/mod_stft.c > CMakeFiles/odas.dir/src/module/mod_stft.i
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/odas/src/module/mod_stft.c > CMakeFiles/odas.dir/src/module/mod_stft.i
 
 CMakeFiles/odas.dir/src/module/mod_stft.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/odas.dir/src/module/mod_stft.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/odas/src/module/mod_stft.c -o CMakeFiles/odas.dir/src/module/mod_stft.s
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/odas/src/module/mod_stft.c -o CMakeFiles/odas.dir/src/module/mod_stft.s
 
 CMakeFiles/odas.dir/src/module/mod_volume.o: CMakeFiles/odas.dir/flags.make
 CMakeFiles/odas.dir/src/module/mod_volume.o: ../src/module/mod_volume.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/odas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_146) "Building C object CMakeFiles/odas.dir/src/module/mod_volume.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/odas.dir/src/module/mod_volume.o   -c /home/pi/odas/src/module/mod_volume.c
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/odas.dir/src/module/mod_volume.o   -c /home/pi/odas/src/module/mod_volume.c
 
 CMakeFiles/odas.dir/src/module/mod_volume.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/odas.dir/src/module/mod_volume.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/odas/src/module/mod_volume.c > CMakeFiles/odas.dir/src/module/mod_volume.i
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/odas/src/module/mod_volume.c > CMakeFiles/odas.dir/src/module/mod_volume.i
 
 CMakeFiles/odas.dir/src/module/mod_volume.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/odas.dir/src/module/mod_volume.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/odas/src/module/mod_volume.c -o CMakeFiles/odas.dir/src/module/mod_volume.s
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/odas/src/module/mod_volume.c -o CMakeFiles/odas.dir/src/module/mod_volume.s
 
 CMakeFiles/odas.dir/src/sink/snk_categories.o: CMakeFiles/odas.dir/flags.make
 CMakeFiles/odas.dir/src/sink/snk_categories.o: ../src/sink/snk_categories.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/odas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_147) "Building C object CMakeFiles/odas.dir/src/sink/snk_categories.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/odas.dir/src/sink/snk_categories.o   -c /home/pi/odas/src/sink/snk_categories.c
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/odas.dir/src/sink/snk_categories.o   -c /home/pi/odas/src/sink/snk_categories.c
 
 CMakeFiles/odas.dir/src/sink/snk_categories.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/odas.dir/src/sink/snk_categories.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/odas/src/sink/snk_categories.c > CMakeFiles/odas.dir/src/sink/snk_categories.i
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/odas/src/sink/snk_categories.c > CMakeFiles/odas.dir/src/sink/snk_categories.i
 
 CMakeFiles/odas.dir/src/sink/snk_categories.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/odas.dir/src/sink/snk_categories.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/odas/src/sink/snk_categories.c -o CMakeFiles/odas.dir/src/sink/snk_categories.s
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/odas/src/sink/snk_categories.c -o CMakeFiles/odas.dir/src/sink/snk_categories.s
 
 CMakeFiles/odas.dir/src/sink/snk_hops.o: CMakeFiles/odas.dir/flags.make
 CMakeFiles/odas.dir/src/sink/snk_hops.o: ../src/sink/snk_hops.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/odas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_148) "Building C object CMakeFiles/odas.dir/src/sink/snk_hops.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/odas.dir/src/sink/snk_hops.o   -c /home/pi/odas/src/sink/snk_hops.c
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/odas.dir/src/sink/snk_hops.o   -c /home/pi/odas/src/sink/snk_hops.c
 
 CMakeFiles/odas.dir/src/sink/snk_hops.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/odas.dir/src/sink/snk_hops.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/odas/src/sink/snk_hops.c > CMakeFiles/odas.dir/src/sink/snk_hops.i
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/odas/src/sink/snk_hops.c > CMakeFiles/odas.dir/src/sink/snk_hops.i
 
 CMakeFiles/odas.dir/src/sink/snk_hops.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/odas.dir/src/sink/snk_hops.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/odas/src/sink/snk_hops.c -o CMakeFiles/odas.dir/src/sink/snk_hops.s
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/odas/src/sink/snk_hops.c -o CMakeFiles/odas.dir/src/sink/snk_hops.s
 
 CMakeFiles/odas.dir/src/sink/snk_pots.o: CMakeFiles/odas.dir/flags.make
 CMakeFiles/odas.dir/src/sink/snk_pots.o: ../src/sink/snk_pots.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/odas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_149) "Building C object CMakeFiles/odas.dir/src/sink/snk_pots.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/odas.dir/src/sink/snk_pots.o   -c /home/pi/odas/src/sink/snk_pots.c
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/odas.dir/src/sink/snk_pots.o   -c /home/pi/odas/src/sink/snk_pots.c
 
 CMakeFiles/odas.dir/src/sink/snk_pots.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/odas.dir/src/sink/snk_pots.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/odas/src/sink/snk_pots.c > CMakeFiles/odas.dir/src/sink/snk_pots.i
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/odas/src/sink/snk_pots.c > CMakeFiles/odas.dir/src/sink/snk_pots.i
 
 CMakeFiles/odas.dir/src/sink/snk_pots.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/odas.dir/src/sink/snk_pots.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/odas/src/sink/snk_pots.c -o CMakeFiles/odas.dir/src/sink/snk_pots.s
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/odas/src/sink/snk_pots.c -o CMakeFiles/odas.dir/src/sink/snk_pots.s
 
 CMakeFiles/odas.dir/src/sink/snk_powers.o: CMakeFiles/odas.dir/flags.make
 CMakeFiles/odas.dir/src/sink/snk_powers.o: ../src/sink/snk_powers.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/odas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_150) "Building C object CMakeFiles/odas.dir/src/sink/snk_powers.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/odas.dir/src/sink/snk_powers.o   -c /home/pi/odas/src/sink/snk_powers.c
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/odas.dir/src/sink/snk_powers.o   -c /home/pi/odas/src/sink/snk_powers.c
 
 CMakeFiles/odas.dir/src/sink/snk_powers.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/odas.dir/src/sink/snk_powers.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/odas/src/sink/snk_powers.c > CMakeFiles/odas.dir/src/sink/snk_powers.i
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/odas/src/sink/snk_powers.c > CMakeFiles/odas.dir/src/sink/snk_powers.i
 
 CMakeFiles/odas.dir/src/sink/snk_powers.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/odas.dir/src/sink/snk_powers.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/odas/src/sink/snk_powers.c -o CMakeFiles/odas.dir/src/sink/snk_powers.s
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/odas/src/sink/snk_powers.c -o CMakeFiles/odas.dir/src/sink/snk_powers.s
 
 CMakeFiles/odas.dir/src/sink/snk_spectra.o: CMakeFiles/odas.dir/flags.make
 CMakeFiles/odas.dir/src/sink/snk_spectra.o: ../src/sink/snk_spectra.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/odas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_151) "Building C object CMakeFiles/odas.dir/src/sink/snk_spectra.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/odas.dir/src/sink/snk_spectra.o   -c /home/pi/odas/src/sink/snk_spectra.c
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/odas.dir/src/sink/snk_spectra.o   -c /home/pi/odas/src/sink/snk_spectra.c
 
 CMakeFiles/odas.dir/src/sink/snk_spectra.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/odas.dir/src/sink/snk_spectra.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/odas/src/sink/snk_spectra.c > CMakeFiles/odas.dir/src/sink/snk_spectra.i
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/odas/src/sink/snk_spectra.c > CMakeFiles/odas.dir/src/sink/snk_spectra.i
 
 CMakeFiles/odas.dir/src/sink/snk_spectra.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/odas.dir/src/sink/snk_spectra.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/odas/src/sink/snk_spectra.c -o CMakeFiles/odas.dir/src/sink/snk_spectra.s
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/odas/src/sink/snk_spectra.c -o CMakeFiles/odas.dir/src/sink/snk_spectra.s
 
 CMakeFiles/odas.dir/src/sink/snk_tracks.o: CMakeFiles/odas.dir/flags.make
 CMakeFiles/odas.dir/src/sink/snk_tracks.o: ../src/sink/snk_tracks.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/odas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_152) "Building C object CMakeFiles/odas.dir/src/sink/snk_tracks.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/odas.dir/src/sink/snk_tracks.o   -c /home/pi/odas/src/sink/snk_tracks.c
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/odas.dir/src/sink/snk_tracks.o   -c /home/pi/odas/src/sink/snk_tracks.c
 
 CMakeFiles/odas.dir/src/sink/snk_tracks.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/odas.dir/src/sink/snk_tracks.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/odas/src/sink/snk_tracks.c > CMakeFiles/odas.dir/src/sink/snk_tracks.i
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/odas/src/sink/snk_tracks.c > CMakeFiles/odas.dir/src/sink/snk_tracks.i
 
 CMakeFiles/odas.dir/src/sink/snk_tracks.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/odas.dir/src/sink/snk_tracks.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/odas/src/sink/snk_tracks.c -o CMakeFiles/odas.dir/src/sink/snk_tracks.s
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/odas/src/sink/snk_tracks.c -o CMakeFiles/odas.dir/src/sink/snk_tracks.s
 
 CMakeFiles/odas.dir/src/source/src_hops.o: CMakeFiles/odas.dir/flags.make
 CMakeFiles/odas.dir/src/source/src_hops.o: ../src/source/src_hops.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/odas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_153) "Building C object CMakeFiles/odas.dir/src/source/src_hops.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/odas.dir/src/source/src_hops.o   -c /home/pi/odas/src/source/src_hops.c
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/odas.dir/src/source/src_hops.o   -c /home/pi/odas/src/source/src_hops.c
 
 CMakeFiles/odas.dir/src/source/src_hops.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/odas.dir/src/source/src_hops.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/odas/src/source/src_hops.c > CMakeFiles/odas.dir/src/source/src_hops.i
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pi/odas/src/source/src_hops.c > CMakeFiles/odas.dir/src/source/src_hops.i
 
 CMakeFiles/odas.dir/src/source/src_hops.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/odas.dir/src/source/src_hops.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/odas/src/source/src_hops.c -o CMakeFiles/odas.dir/src/source/src_hops.s
+	/usr/bin/arm-linux-gnueabihf-gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pi/odas/src/source/src_hops.c -o CMakeFiles/odas.dir/src/source/src_hops.s
 
 # Object files for target odas
 odas_OBJECTS = \

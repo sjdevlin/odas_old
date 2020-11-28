@@ -35,6 +35,7 @@
         interface_socket = 3,
         interface_soundcard = 4,
         interface_terminal = 5,
+        interface_led = 6
 
     } interface_type;
 
@@ -43,10 +44,9 @@
         interface_type type;
 
         char * fileName;
-
         char * ip;
         unsigned int port;
-
+        unsigned int num_leds;
         char * deviceName;
 
     } interface_obj;
@@ -54,6 +54,8 @@
     interface_obj * interface_construct();
 
     interface_obj * interface_construct_blackhole();
+
+    interface_obj * interface_construct_led(const int num_leds);
 
     interface_obj * interface_construct_file(const char * fileName);
 

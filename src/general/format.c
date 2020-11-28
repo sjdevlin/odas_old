@@ -116,6 +116,19 @@
 
     }
 
+// meet pie 
+    format_obj * format_construct_meetpie() {
+
+        format_obj * obj;
+
+        obj = (format_obj *) malloc(sizeof(format_obj));
+
+        obj->type = format_meetpie;
+
+        return obj;
+
+    }
+//
     format_obj * format_clone(const format_obj * obj) {
 
         format_obj * clone;

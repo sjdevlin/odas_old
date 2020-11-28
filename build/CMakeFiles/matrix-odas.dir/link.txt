@@ -1,1 +1,0 @@
-/usr/bin/c++  -O3 -DNDEBUG  -rdynamic CMakeFiles/matrix-odas.dir/demo/matrix-demos/matrix-odas.o  -o ../bin/matrix-odas -Wl,-rpath,/home/pi/odas/lib: ../lib/libodas.so -ljson-c -lmatrix_creator_hal -lfftw3f -lasound -lconfig -lm -lpthread 

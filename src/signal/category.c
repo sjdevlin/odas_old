@@ -30,6 +30,14 @@
         obj = (categories_obj *) malloc(sizeof(categories_obj));
 
         obj->nSignals = nSignals;
+// For meet pie
+        obj->angle_xy_array = (unsigned int *) malloc(sizeof(unsigned int) * nSignals);
+        memset(obj->angle_xy_array, 0x00, sizeof(unsigned int) * nSignals);
+        obj->frequency_array = (float *) malloc(sizeof(float) * nSignals);
+        memset(obj->frequency_array, 0x00, sizeof(float) * nSignals);
+        obj->energy_array = (float *) malloc(sizeof(float) * nSignals);
+        memset(obj->energy_array, 0x00, sizeof(float) * nSignals);
+//
         obj->array = (char *) malloc(sizeof(char) * nSignals);
         memset(obj->array, 0x00, sizeof(char) * nSignals);
 
@@ -39,6 +47,11 @@
 
     void categories_destroy(categories_obj * obj) {
 
+//For meet pie
+        free((void *) obj->angle_xy_array);
+        free((void *) obj->frequency_array);
+        free((void *) obj->energy_array);
+        //
         free((void *) obj->array);
         free((void *) obj);
 
@@ -46,12 +59,22 @@
 
     void categories_copy(categories_obj * dest, const categories_obj * src) {
 
+// For meet pie
+        memcpy(dest->angle_xy_array, src->angle_xy_array, sizeof(unsigned int) * src->nSignals);
+        memcpy(dest->frequency_array, src->frequency_array, sizeof(float) * src->nSignals);
+        memcpy(dest->energy_array, src->energy_array, sizeof(float) * src->nSignals);
+//
         memcpy(dest->array, src->array, sizeof(char) * src->nSignals);
 
     }
 
     void categories_zero(categories_obj * obj) {
 
+// For meet pie
+        memset(obj->angle_xy_array, 0x00, sizeof(unsigned int) * obj->nSignals);
+        memset(obj->frequency_array, 0x00, sizeof(float) * obj->nSignals);
+        memset(obj->energy_array, 0x00, sizeof(float) * obj->nSignals);
+//
         memset(obj->array, 0x00, sizeof(char) * obj->nSignals);
 
     }

@@ -22,6 +22,8 @@
     */
     
     #include <sink/snk_categories.h>
+    #include <module/update_led.h>
+    
 
     snk_categories_obj * snk_categories_construct(const snk_categories_cfg * snk_categories_config, const msg_categories_cfg * msg_categories_config) {
 
@@ -33,13 +35,21 @@
 
         obj->nChannels = msg_categories_config->nChannels;
         obj->fS = snk_categories_config->fS;
-        
+// meet pie
+        obj->max_num_participants = snk_categories_config->max_num_participants;
+        obj->num_participants = 0;
+        obj->last_talker = 0;
+        obj->meeting_duration = 0;
+        obj->angle_spread = snk_categories_config->angle_spread;
+        obj->energy_min = snk_categories_config->energy_min;
+//
         obj->format = format_clone(snk_categories_config->format);
         obj->interface = interface_clone(snk_categories_config->interface);
 
         if (!(((obj->interface->type == interface_blackhole)  && (obj->format->type == format_undefined)) ||
               ((obj->interface->type == interface_file)  && (obj->format->type == format_text_json)) ||
               ((obj->interface->type == interface_socket) && (obj->format->type == format_text_json)) ||
+              ((obj->interface->type == interface_led)  && (obj->format->type == format_meetpie)) ||
               ((obj->interface->type == interface_terminal) && (obj->format->type == format_text_json)))) {
             
             printf("Sink categories: Invalid interface and/or format.\n");
@@ -50,6 +60,19 @@
         obj->buffer = (char *) malloc(sizeof(char) * 1024);
         memset(obj->buffer, 0x00, sizeof(char) * 1024);
         obj->bufferSize = 0;
+
+// meet pie - set everything to 0 for participants
+        obj->angle_array = (unsigned int *) malloc(sizeof(unsigned int) * 360);
+        memset(obj->angle_array, 0x00, sizeof(unsigned int) * 360);
+        obj->participant_is_talking = (unsigned int *) malloc(sizeof(unsigned int) * snk_categories_config->max_num_participants);
+        memset(obj->participant_is_talking, 0x00, sizeof(unsigned int) * snk_categories_config->max_num_participants);
+        obj->participant_total_talk_time = (unsigned int *) malloc(sizeof(unsigned int) * snk_categories_config->max_num_participants);
+        memset(obj->participant_total_talk_time, 0x00, sizeof(unsigned int) * snk_categories_config->max_num_participants);
+        obj->participant_angle = (unsigned int *) malloc(sizeof(unsigned int) * snk_categories_config->max_num_participants);
+        memset(obj->participant_angle, 0x00, sizeof(unsigned int) * snk_categories_config->max_num_participants);
+
+
+//
 
         obj->in = (msg_categories_obj *) NULL;
 
@@ -63,6 +86,10 @@
         interface_destroy(obj->interface);
 
         free((void *) obj->buffer);
+        free((void *) obj->angle_array);
+        free((void *) obj->participant_angle);
+        free((void *) obj->participant_is_talking);
+        free((void *) obj->participant_total_talk_time);
 
         free((void *) obj);
 
@@ -93,6 +120,12 @@
             case interface_file:
 
                 snk_categories_open_interface_file(obj);
+
+            break;
+
+            case interface_led:
+
+                snk_categories_open_interface_led(obj);
 
             break;
 
@@ -136,6 +169,16 @@
 
     }
 
+    void snk_categories_open_interface_led(snk_categories_obj * obj) {
+
+// meet pie will need reworking
+// this calls led module for first time just to initialize it 
+        update_led('i', obj); 
+//
+    }
+
+
+
     void snk_categories_open_interface_socket(snk_categories_obj * obj) {
 
         memset(&(obj->sserver), 0x00, sizeof(struct sockaddr_in));
@@ -170,6 +213,14 @@
 
             break;
 
+// meet pie
+
+            case interface_led:
+
+                snk_categories_close_interface_led(obj);
+
+            break;
+//
             case interface_file:
 
                 snk_categories_close_interface_file(obj);
@@ -205,6 +256,11 @@
 
     }
 
+    void snk_categories_close_interface_led(snk_categories_obj * obj) {
+
+        // Not sure what to do here.  Could free up Update LED mem ?
+
+    }
     void snk_categories_close_interface_file(snk_categories_obj * obj) {
 
         fclose(obj->fp);
@@ -243,6 +299,13 @@
 
                 break;
 
+                case format_meetpie:                
+
+                    snk_categories_process_format_meetpie(obj);
+
+                break;
+
+
                 default:
 
                     printf("Sink categories: Invalid format type.\n");
@@ -259,7 +322,13 @@
                     snk_categories_process_interface_blackhole(obj);
 
                 break;  
+// meet pie
+                case interface_led:
 
+                    snk_categories_process_interface_led(obj);
+
+                break;  
+//
                 case interface_file:
 
                     snk_categories_process_interface_file(obj);
@@ -311,6 +380,13 @@
         fwrite(obj->buffer, sizeof(char), obj->bufferSize, obj->fp);
 
     }
+
+    void snk_categories_process_interface_led(snk_categories_obj * obj) {
+        
+        update_led('u', obj); 
+
+    }
+
 
     void snk_categories_process_interface_socket(snk_categories_obj * obj) {
 
@@ -384,6 +460,81 @@
         obj->bufferSize = 0;
 
     }
+
+// meet pie
+
+    void snk_categories_process_format_meetpie(snk_categories_obj * obj) {
+
+        unsigned int iChannel;
+        unsigned int iAngle;
+        unsigned int target_angle;
+        unsigned int i;
+
+        for (i=1;i<=obj->num_participants;i++){
+            obj->participant_is_talking[i] = 0x00;
+        }
+
+
+
+        for (iChannel = 0; iChannel < obj->nChannels; iChannel++) {
+            if (obj->in->categories->energy_array[iChannel] > obj->energy_min && obj->in->categories->array[iChannel]==0x01){
+     
+                target_angle=obj->in->categories->angle_xy_array[iChannel];
+
+                if (obj->angle_array[target_angle] == 0x00 && obj->num_participants<obj->max_num_participants) {
+
+                    obj->num_participants++;
+
+                    obj->angle_array[target_angle]=obj->num_participants;
+                    obj->participant_angle[obj->num_participants] = target_angle;
+                    // write a buffer around them
+                    for (iAngle=1;iAngle<obj->angle_spread;iAngle++){
+                        if (target_angle+iAngle<360){
+                            // could check if already set here - but for now will just overwrite
+                            // 360 is for going round the clock face
+
+                            obj->angle_array[target_angle+iAngle]=obj->num_participants;
+                        } 
+                        else {
+                            obj->angle_array[iAngle-1]=obj->num_participants;
+                        }
+                        if (target_angle-iAngle>=0){
+                            // could check if already set here - but for now will just overwrite
+                            // 360 is for going round the clock face
+                            obj->angle_array[target_angle-iAngle]=obj->num_participants;
+                        } 
+                        else {
+                            obj->angle_array[361-iAngle]=obj->num_participants;
+                        }
+
+                    }
+                    obj->participant_is_talking[obj->num_participants]=0x01;   
+                    obj->last_talker=obj->num_participants;
+                    printf("\nnew entrant %d  Angle:%d\n", obj->num_participants, target_angle);
+//                    for (iAngle=0;iAngle<360;iAngle++){
+//                        printf("%d,%d:", iAngle, obj->angle_array[iAngle]);
+//                    }
+
+
+                }
+                else // its an existing talker we're hearing
+                {
+                    
+                    i=obj->angle_array[target_angle];
+                    obj->last_talker=i;
+//                    this is to start getting an average angle
+//                    obj->participant[obj->buffer[target_angle]].angle = .9 * new_sample + (.1) * ma_old;
+//
+                    obj->participant_is_talking[i]=0x01;
+                    obj->participant_total_talk_time[i]++;
+
+                }
+
+            }
+
+        }
+    }
+//
 
     snk_categories_cfg * snk_categories_cfg_construct(void) {
 
