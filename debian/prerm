@@ -1,9 +1,0 @@
-#!/bin/bash -e
-
-echo "Removing ODAS service"
-#systemctl stop matrixio-odas
-#systemctl disable matrixio-odas
-systemctl daemon-reload
-systemctl reset-failed
-
-

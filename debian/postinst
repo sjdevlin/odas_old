@@ -1,4 +1,0 @@
-#!/bin/bash -e
-
-echo "Enabling ODAS service"
-#systemctl enable matrixio-odas

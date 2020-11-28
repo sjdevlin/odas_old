@@ -1,5 +1,0 @@
-matrixio-odas (0.1.0) unstable; urgency=medium
-
-  * ODAS (Open embeddeD Audition System) support for MATRIX Labs devices
-
- -- Andres CALDERON <andres.calderon@admobilize.com>  Tue, 9 Jul 2019 15:00:00 +0000
