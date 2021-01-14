@@ -117,7 +117,9 @@
 
     }
 
-    interface_obj * interface_construct_led(const int num_leds) {
+    interface_obj * interface_construct_led(const int num_leds,const char * fileName,const char * ip, const unsigned int port ) {
+
+//this interfce object always creates file and socket interfaces.  If you dont want LEDS then we set them to 0
 
         interface_obj * obj;
 
@@ -139,14 +141,16 @@
         // | File                                                     |
         // +----------------------------------------------------------+
 
-            obj->fileName = (char *) NULL;
+            obj->fileName = (char *) malloc(sizeof(char) * (strlen(fileName)+1));
+            strcpy(obj->fileName, fileName);
 
         // +----------------------------------------------------------+
         // | Socket                                                   |
         // +----------------------------------------------------------+
 
-            obj->ip = (char *) NULL;
-            obj->port = 0;
+            obj->ip = (char *) malloc(sizeof(char) * (strlen(ip)+1));
+            strcpy(obj->ip, ip);
+            obj->port = port;
 
         // +----------------------------------------------------------+
         // | Soundcard                                                |

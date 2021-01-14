@@ -1,5 +1,8 @@
 
     #include "parameters.h"
+    // for meet pie
+    #include <time.h>
+    //
 
     int parameters_lookup_int(const char * file, const char * path) {
 
@@ -2009,6 +2012,7 @@
         unsigned int tmpInt1;
         char * tmpStr1;
         char * tmpStr2;
+        char * tmpStr3;
 
         cfg = snk_categories_cfg_construct();
 
@@ -2056,26 +2060,31 @@
 
 
 
-
         // +----------------------------------------------------------+
         // | Type                                                     |
         // +----------------------------------------------------------+
 
+
             tmpStr1 = parameters_lookup_string(fileConfig, "classify.category.interface.type");
 
+// meet pie
             if (strcmp(tmpStr1, "led") == 0) {
 
                 tmpInt1 = parameters_lookup_int(fileConfig, "classify.category.interface.numLEDs");
-                cfg->interface = interface_construct_led(tmpInt1);
 
-            }
-            else if (strcmp(tmpStr1, "file") == 0) { 
+                asprintf(&tmpStr2, "MeetPie_%d", (int)now);
 
-                tmpStr2 = parameters_lookup_string(fileConfig, "classify.category.interface.path");
-                cfg->interface = interface_construct_file(tmpStr2);
+                tmpStr3 = parameters_lookup_string(fileConfig, "classify.category.interface.ip");
+                tmpInt2 = parameters_lookup_int(fileConfig, "classify.category.interface.port");
+
+
+                cfg->interface = interface_construct_led(tmpInt1,tmpStr2,tempStr3, tmpInt2);
+
                 free((void *) tmpStr2);
+                free((void *) tmpStr3);
 
             }
+
             else if (strcmp(tmpStr1, "socket") == 0) { 
 
                 tmpStr2 = parameters_lookup_string(fileConfig, "classify.category.interface.ip");

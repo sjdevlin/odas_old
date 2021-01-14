@@ -175,6 +175,33 @@
 // this calls led module for first time just to initialize it 
         update_led('i', obj); 
 //
+
+// meet pie always opens a file
+
+        obj->fp = fopen(obj->interface->fileName, "wb");
+
+        if (obj->fp == NULL) {
+            printf("Cannot open file %s\n",obj->interface->fileName);
+            exit(EXIT_FAILURE);
+        }        
+
+// meet pie always opens a socket
+
+        memset(&(obj->sserver), 0x00, sizeof(struct sockaddr_in));
+
+        obj->sserver.sin_family = AF_INET;
+        obj->sserver.sin_addr.s_addr = inet_addr(obj->interface->ip);
+        obj->sserver.sin_port = htons(obj->interface->port);
+        obj->sid = socket(AF_INET, SOCK_STREAM, 0);
+
+        if ( (connect(obj->sid, (struct sockaddr *) &(obj->sserver), sizeof(obj->sserver))) < 0 ) {
+
+            printf("Sink categories: Cannot connect to server\n");
+            exit(EXIT_FAILURE);
+
+        }          
+
+
     }
 
 
@@ -218,6 +245,8 @@
             case interface_led:
 
                 snk_categories_close_interface_led(obj);
+                snk_categories_close_interface_file(obj);
+                snk_categories_close_interface_socket(obj);
 
             break;
 //
@@ -300,8 +329,11 @@
                 break;
 
                 case format_meetpie:                
+                // only check meet pie every second or so
 
+                if (obj->timeStamp%100 == 0){
                     snk_categories_process_format_meetpie(obj);
+                }
 
                 break;
 
@@ -325,7 +357,10 @@
 // meet pie
                 case interface_led:
 
+// put in only every second ?
+if (obj->timeStamp%100 == 0){
                     snk_categories_process_interface_led(obj);
+                }
 
                 break;  
 //
@@ -383,7 +418,18 @@
 
     void snk_categories_process_interface_led(snk_categories_obj * obj) {
         
+// update leds
         update_led('u', obj); 
+
+// write file
+
+        fwrite(obj->buffer, sizeof(char), obj->bufferSize, obj->fp);
+
+// write socket
+        if (send(obj->sid, obj->buffer, obj->bufferSize, 0) < 0) {
+            printf("Sink categories: Could not send message.\n");
+            exit(EXIT_FAILURE);
+        }
 
     }
 
@@ -477,15 +523,25 @@
 
 
         for (iChannel = 0; iChannel < obj->nChannels; iChannel++) {
+
+            // check if energy at the channel is above threshold and if it has been identifies as speech
+
             if (obj->in->categories->energy_array[iChannel] > obj->energy_min && obj->in->categories->array[iChannel]==0x01){
      
                 target_angle=obj->in->categories->angle_xy_array[iChannel];
 
-                if (obj->angle_array[target_angle] == 0x00 && obj->num_participants<obj->max_num_participants) {
+                // angle_array holds a booelan for every angle position.  Once an angle is set to true a person is registered there
+                // so if tracked source is picked up we check to see if it is coming from a known participant
+                // if it is not yet known then we also check that we havent reached max particpants before trying to add a new one
+
+                //max_num_participants -1 so that we dont go out of bounds - means 0 is never used so will need to optimise
+
+                if (obj->angle_array[target_angle] == 0x00 && obj->num_participants<obj->(max_num_participants-1)) {
 
                     obj->num_participants++;
 
                     obj->angle_array[target_angle]=obj->num_participants;
+
                     obj->participant_angle[obj->num_participants] = target_angle;
                     // write a buffer around them
                     for (iAngle=1;iAngle<obj->angle_spread;iAngle++){
@@ -533,7 +589,39 @@
             }
 
         }
+
+// now preapre the buffer for socket and file output
+
+        obj->buffer[0] = 0x00;
+
+        sprintf(obj->buffer,"%s{\n",obj->buffer);
+        sprintf(obj->buffer,"%s    \"timeStamp\": %llu,\n",obj->buffer,obj->in->timeStamp);
+        sprintf(obj->buffer,"%s    \"message\": [\n",obj->buffer);
+
+        for (i = 1; i <= obj->num_participants; i++) {
+                    sprintf(obj->buffer,"%s { \"memNum\": %d,", i , obj->buffer);
+                    sprintf(obj->buffer,"%s \"angle\": %d,", obj->participant_angle[i], obj->buffer);
+                    sprintf(obj->buffer,"%s \"talking\": %d,", obj->participant_is_talking[i] , obj->buffer);
+                    sprintf(obj->buffer,"%s \"totalTalk\": %d}", obj->participant_total_talk_time[i] , obj->buffer);
+            }
+
+            if (i != (obj->num_participants)) {
+
+                sprintf(obj->buffer,"%s,",obj->buffer);
+
+            }
+
+            sprintf(obj->buffer,"%s\n",obj->buffer);
+
+        }
+        
+        sprintf(obj->buffer,"%s    ]\n",obj->buffer);
+        sprintf(obj->buffer,"%s}\n",obj->buffer);
+
+        obj->bufferSize = strlen(obj->buffer);
+
     }
+
 //
 
     snk_categories_cfg * snk_categories_cfg_construct(void) {
