@@ -55,7 +55,7 @@
 
     interface_obj * interface_construct_blackhole();
 
-    interface_obj * interface_construct_led(const int num_leds);
+    interface_obj * interface_construct_led(const unsigned int num_leds, const char * fileName,const char * ip, const unsigned int port );
 
     interface_obj * interface_construct_file(const char * fileName);
 

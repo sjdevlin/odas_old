@@ -186,20 +186,32 @@
         }        
 
 // meet pie always opens a socket
+// changed this to be a UDP broadcast
+
 
         memset(&(obj->sserver), 0x00, sizeof(struct sockaddr_in));
 
         obj->sserver.sin_family = AF_INET;
-        obj->sserver.sin_addr.s_addr = inet_addr(obj->interface->ip);
+//        obj->sserver.sin_addr.s_addr = inet_addr(obj->interface->ip);
+        obj->sserver.sin_addr.s_addr = htonl(INADDR_BROADCAST);
+
         obj->sserver.sin_port = htons(obj->interface->port);
-        obj->sid = socket(AF_INET, SOCK_STREAM, 0);
+        obj->sid = socket(AF_INET, SOCK_DGRAM, 0);  // mp changed to UDP
 
-        if ( (connect(obj->sid, (struct sockaddr *) &(obj->sserver), sizeof(obj->sserver))) < 0 ) {
+// make sure broadcast enabled
 
-            printf("Sink categories: Cannot connect to server\n");
-            exit(EXIT_FAILURE);
+        int broadcastEnable = 1;
+        printf("setting port");
+        int ret = setsockopt(obj->sid, SOL_SOCKET, SO_BROADCAST, &broadcastEnable, sizeof(broadcastEnable));
+        printf("enabling broadcast returned %d\n", ret);
 
-        }          
+//          no longer connecting to port
+//        if ( (connect(obj->sid, (struct sockaddr *) &(obj->sserver), sizeof(obj->sserver))) < 0 ) {
+//
+//            printf("Sink categories: Cannot connect to server\n");
+//            exit(EXIT_FAILURE);
+//
+//        }          
 
 
     }
@@ -426,10 +438,18 @@ if (obj->timeStamp%100 == 0){
         fwrite(obj->buffer, sizeof(char), obj->bufferSize, obj->fp);
 
 // write socket
-        if (send(obj->sid, obj->buffer, obj->bufferSize, 0) < 0) {
+        if (sendto(obj->sid, obj->buffer, obj->bufferSize, 
+        0, (const struct sockaddr *) &obj->sserver,  
+            sizeof(obj->sserver))<0) {
             printf("Sink categories: Could not send message.\n");
             exit(EXIT_FAILURE);
-        }
+
+            };
+
+//        if (send(obj->sid, obj->buffer, obj->bufferSize, 0) < 0) {
+//            printf("Sink categories: Could not send message.\n");
+//            exit(EXIT_FAILURE);
+//        }
 
     }
 
@@ -536,7 +556,7 @@ if (obj->timeStamp%100 == 0){
 
                 //max_num_participants -1 so that we dont go out of bounds - means 0 is never used so will need to optimise
 
-                if (obj->angle_array[target_angle] == 0x00 && obj->num_participants<obj->(max_num_participants-1)) {
+                if (obj->angle_array[target_angle] == 0x00 && obj->num_participants<(obj->max_num_participants-1)) {
 
                     obj->num_participants++;
 
@@ -603,7 +623,6 @@ if (obj->timeStamp%100 == 0){
                     sprintf(obj->buffer,"%s \"angle\": %d,", obj->participant_angle[i], obj->buffer);
                     sprintf(obj->buffer,"%s \"talking\": %d,", obj->participant_is_talking[i] , obj->buffer);
                     sprintf(obj->buffer,"%s \"totalTalk\": %d}", obj->participant_total_talk_time[i] , obj->buffer);
-            }
 
             if (i != (obj->num_participants)) {
 

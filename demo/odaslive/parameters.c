@@ -2010,6 +2010,7 @@
 
         snk_categories_cfg * cfg;
         unsigned int tmpInt1;
+        unsigned int tmpInt2;
         char * tmpStr1;
         char * tmpStr2;
         char * tmpStr3;
@@ -2071,14 +2072,21 @@
             if (strcmp(tmpStr1, "led") == 0) {
 
                 tmpInt1 = parameters_lookup_int(fileConfig, "classify.category.interface.numLEDs");
+                tmpStr2 = malloc(sizeof(char)*128);
 
-                asprintf(&tmpStr2, "MeetPie_%d", (int)now);
+// create aunique output file for the date and time
+                struct tm *timenow;
+                time_t now = time(NULL);
+                timenow = gmtime(&now);
+                sprintf(tmpStr2,"MP_%d",(int)now);
+
+                printf("File: %s\n",tmpStr2);
 
                 tmpStr3 = parameters_lookup_string(fileConfig, "classify.category.interface.ip");
                 tmpInt2 = parameters_lookup_int(fileConfig, "classify.category.interface.port");
 
 
-                cfg->interface = interface_construct_led(tmpInt1,tmpStr2,tempStr3, tmpInt2);
+                cfg->interface = interface_construct_led(tmpInt1,tmpStr2,tmpStr3, tmpInt2);
 
                 free((void *) tmpStr2);
                 free((void *) tmpStr3);

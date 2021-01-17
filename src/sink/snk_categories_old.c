@@ -536,6 +536,9 @@
         cfg->fS = 0;
         cfg->format = (format_obj *) NULL;
         cfg->interface = (interface_obj *) NULL;
+        cfg->angle_spread = 0;
+        cfg->max_num_participants = 0;
+        cfg->energy_min = 0.0;
 
         return cfg;
 

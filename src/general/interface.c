@@ -117,7 +117,7 @@
 
     }
 
-    interface_obj * interface_construct_led(const int num_leds,const char * fileName,const char * ip, const unsigned int port ) {
+    interface_obj * interface_construct_led(const unsigned int num_leds,const char * fileName,const char * ip, const unsigned int port ) {
 
 //this interfce object always creates file and socket interfaces.  If you dont want LEDS then we set them to 0
 
@@ -394,6 +394,14 @@
             if (obj->type == interface_led) {
                 
                 clone->num_leds = obj->num_leds;
+                
+                clone->fileName = (char *) malloc(sizeof(char) * (strlen(obj->fileName) + 1));
+                strcpy(clone->fileName, obj->fileName);
+
+                clone->ip = (char *) malloc(sizeof(char) * (strlen(obj->ip) + 1));
+                strcpy(clone->ip, obj->ip);
+                clone->port = obj->port;
+
 
             }
 
